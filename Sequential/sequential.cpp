@@ -12,22 +12,30 @@ void image_convolution(vector<vector<int>> kernel, Mat image, int stride)
         cout << "Error: Could not read the image file!" << endl;
         return;
     }
+    cout << "Original Image Size: " << image.rows << " x " << image.cols << endl;
+    int K = kernel.size(); // Kernel size
     if (image.channels() == 3)
         cvtColor(image, image, COLOR_BGR2GRAY);
-    Mat output_image(image.rows, image.cols, CV_8UC1);
+
+    int out_rows = ((image.rows - K) / stride) + 1;
+    int out_cols = ((image.cols - K) / stride) + 1;
+    Mat output_image(out_rows, out_cols, CV_8UC1);
 
     double start_time = omp_get_wtime();
 
-    for (int x = 1; x < image.rows - 1; x += stride)
+    for (int x = 1; x < out_rows - 1; x++)
     {
-        for (int y = 1; y < image.cols - 1; y += stride)
+        for (int y = 1; y < out_cols - 1; y++)
         {
+            // The offset is +1 because your original 3 X 3  kernel loops started at x = 1 and y = 1 (to avoid accessing pixels outside the image bounds).int x_in = x * stride + 1;
+            int x_in = x * stride + 1;
+            int y_in = y * stride + 1;
             int new_value = 0;
             for (int i = -1; i <= 1; i++)
             {
                 for (int j = -1; j <= 1; j++)
                 {
-                    int pixel = image.at<uchar>(x + i, y + j);
+                    int pixel = image.at<uchar>(x_in + i, y_in + j);
                     new_value += pixel * kernel[i + 1][j + 1];
                 }
             }
@@ -38,8 +46,8 @@ void image_convolution(vector<vector<int>> kernel, Mat image, int stride)
 
     double end_time = omp_get_wtime();
     double elapsed_time = (end_time - start_time) * 1000; // milliseconds
+    cout << "Output Image Size: " << output_image.rows << " x " << output_image.cols << endl;
     cout << "Sequential execution time: " << elapsed_time << " ms" << endl;
-
     imwrite("../img/output_seq.jpg", output_image);
 }
 
