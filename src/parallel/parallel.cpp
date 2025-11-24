@@ -6,18 +6,16 @@ using namespace cv;
 
 void image_convolution(vector<vector<int>> kernel, vector<Mat> images) {
     vector<Mat> output_images(images.size());
+    #pragma omp parallel for
     for (int i = 0; i < images.size(); i++)
     {
         if (images[i].empty()) {
             cout << "Error: Could not read the image file!" << endl;
-            return;
         }
         if (images[i].channels() == 3)
-            cvtColor(images[i], images[i], cv::COLOR_BGR2GRAY);
+            cvtColor(images[i], images[i], COLOR_BGR2GRAY);
         output_images[i] = Mat(images[i].rows, images[i].cols, CV_8UC1);
     }
-
-    double start_time = omp_get_wtime();
     
     for (int images_length = 0; images_length < images.size(); images_length++){
         #pragma omp parallel for collapse(2)
@@ -35,21 +33,21 @@ void image_convolution(vector<vector<int>> kernel, vector<Mat> images) {
         }
     }
 
-    double end_time = omp_get_wtime();
-    double elapsed_time = (end_time - start_time) * 1000; //milliseconds
-    cout << "Parallel execution time: " << elapsed_time << " ms" << endl;
-    
     for (int i=0;i<images.size();i++){
         imwrite("../../output/parallel/"+to_string(i)+".jpg", output_images[i]);
     }
 }
 
 int main() {
+    double start_time = omp_get_wtime();
     vector<Mat> input_images;
     for(int i=1;i<=10;i++){
         input_images.push_back(imread("../../data/img/"+to_string(i)+".jpg"));
     }
     vector<vector<int>> kernel = {{0, 1, 0}, {-1, 5, -1}, {0, -1, 0}};
     image_convolution(kernel, input_images);
+    double end_time = omp_get_wtime();
+    double elapsed_time = (end_time - start_time) * 1000; 
+    cout << "Parallel execution time: " << elapsed_time << " ms" << endl;
     return 0;
 }
