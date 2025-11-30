@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
     int rank, size;
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     MPI_Comm_size(MPI_COMM_WORLD, &size);
-
+    // cout << "MPI Rank " << rank << " of " << size << " is running." << endl;
     Mat image;
     if (rank == 0)
     {
@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
         if (image.empty())
         {
             cout << "Error: Could not read the image file!" << endl;
-            MPI_Abort(MPI_COMM_WORLD, 1);
+            return 1;
         }
         if (image.channels() == 3)
             cvtColor(image, image, COLOR_BGR2GRAY);
@@ -70,10 +70,13 @@ int main(int argc, char *argv[])
 
     int num_requests = 4;
     if (argc > 1)
+    {
         num_requests = atoi(argv[1]);
-    cout << "Using " << num_requests << " MPI requests for halo exchange." << endl;
+        cout << "Using " << num_requests << " MPI requests for halo exchange." << endl;
+    }
     MPI_Request reqs[num_requests];
     int r = 0;
+    double start = MPI_Wtime();
 
     // Receive top halo from previous rank
     if (rank > 0)
@@ -116,8 +119,10 @@ int main(int argc, char *argv[])
                send_count, MPI_UNSIGNED_CHAR,
                0, MPI_COMM_WORLD);
 
+    double end = MPI_Wtime();
     if (rank == 0)
     {
+        cout << " execution time: " << end - start << " seconds." << endl;
         Mat final_output(rows, cols, CV_8UC1, output_buffer.data());
         imwrite("output.jpg", final_output);
         cout << "Image saved.\n";
