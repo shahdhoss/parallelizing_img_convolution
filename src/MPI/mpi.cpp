@@ -23,6 +23,7 @@ Mat image_convolution(const vector<vector<int>> &kernel, const Mat &input)
 
 int main(int argc, char *argv[])
 {
+    double start = MPI_Wtime();
     MPI_Init(&argc, &argv);
 
     int rank, size;
@@ -88,14 +89,11 @@ int main(int argc, char *argv[])
 
     // Send first interior row to previous rank
     if (rank > 0)
-        MPI_Isend(local_buffer.data() + halo * cols, cols, MPI_UNSIGNED_CHAR,
-                  rank - 1, 1, MPI_COMM_WORLD, &reqs[r++]);
+        MPI_Isend(local_buffer.data() + halo * cols, cols, MPI_UNSIGNED_CHAR, rank - 1, 1, MPI_COMM_WORLD, &reqs[r++]);
 
     // Send last interior row to next rank
     if (rank < size - 1)
-        MPI_Isend(local_buffer.data() + (rows_per_rank - 1 + halo) * cols,
-                  cols, MPI_UNSIGNED_CHAR,
-                  rank + 1, 0, MPI_COMM_WORLD, &reqs[r++]);
+        MPI_Isend(local_buffer.data() + (rows_per_rank - 1 + halo) * cols, cols, MPI_UNSIGNED_CHAR, rank + 1, 0, MPI_COMM_WORLD, &reqs[r++]);
     MPI_Waitall(r, reqs, MPI_STATUS_IGNORE);
 
     Mat local_input(rows_per_rank + 2 * halo, cols, CV_8UC1, local_buffer.data());
@@ -103,24 +101,21 @@ int main(int argc, char *argv[])
 
     // Prepare data to send back (exclude halos) so bright or dark stripes near boundaries doesn't appear
     vector<uchar> send_back(send_count);
-    memcpy(send_back.data(),
-           local_output.data + halo * cols,
-           send_count);
+    memcpy(send_back.data(), local_output.data + halo * cols, send_count);
 
     vector<uchar> output_buffer;
     if (rank == 0)
         output_buffer.resize(rows * cols);
 
-    MPI_Gather(send_back.data(), send_count, MPI_UNSIGNED_CHAR,
-               (rank == 0 ? output_buffer.data() : nullptr),
-               send_count, MPI_UNSIGNED_CHAR,
-               0, MPI_COMM_WORLD);
+    MPI_Gather(send_back.data(), send_count, MPI_UNSIGNED_CHAR, (rank == 0 ? output_buffer.data() : nullptr), send_count, MPI_UNSIGNED_CHAR, 0, MPI_COMM_WORLD);
 
     if (rank == 0)
     {
         Mat final_output(rows, cols, CV_8UC1, output_buffer.data());
         imwrite("output.jpg", final_output);
         cout << "Image saved.\n";
+        double end = MPI_Wtime();
+        cout<< "Elapsed time = "<< end - start << " seconds"<<endl;
     }
 
     MPI_Finalize();

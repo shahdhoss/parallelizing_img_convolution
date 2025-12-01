@@ -32,6 +32,7 @@ int main(int argc, char *argv[])
     if (image.channels() == 3)
         cvtColor(image, image, cv::COLOR_BGR2GRAY);
     vector<vector<int>> kernel = {{0, 1, 0}, {-1, 5, -1}, {0, -1, 0}};
+    double start = MPI_Wtime();
 
     MPI_Init(&argc, &argv);
     int size, rank;
@@ -56,6 +57,8 @@ int main(int argc, char *argv[])
         Mat final_output(image.rows, image.cols, CV_8UC1, output_buffer.data());
         imwrite("output.jpg", final_output);
         cout << "Image saved.\n";
+        double end = MPI_Wtime();
+        cout<< "Elapsed time = "<< end - start << " seconds"<<endl;
     }
 
     MPI_Finalize();
