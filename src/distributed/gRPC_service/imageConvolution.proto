@@ -1,0 +1,26 @@
+syntax = "proto3";
+package imageconv;
+
+service ImageConvolution{
+    rpc StreamConvolution(stream ImageChunk) returns (stream ConvolutionResult){}
+}
+
+message ImageChunk{
+    bytes chunk_data = 1;
+    int32 chunk_index = 2;
+    int32 total_chunks = 3;
+    int32 start_row = 4;
+    int32 num_rows = 5;
+    int32 img_width = 6;
+    int32 img_height = 7;
+    repeated int32 kernel = 8;
+    bool has_halo_top = 9;
+    bool has_halo_bottom = 10;
+}
+
+message ConvolutionResult{
+    bytes result_data = 1;
+    int32 chunk_index = 2;
+    bool success = 3;
+    string error_message = 4;
+}
