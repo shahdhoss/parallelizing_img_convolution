@@ -14,82 +14,93 @@
 #include <google/protobuf/wire_format.h>
 // @@protoc_insertion_point(includes)
 #include <google/protobuf/port_def.inc>
+
+PROTOBUF_PRAGMA_INIT_SEG
+
+namespace _pb = ::PROTOBUF_NAMESPACE_ID;
+namespace _pbi = _pb::internal;
+
 namespace imageconv {
-class ImageChunkDefaultTypeInternal {
- public:
-  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<ImageChunk> _instance;
-} _ImageChunk_default_instance_;
-class ConvolutionResultDefaultTypeInternal {
- public:
-  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<ConvolutionResult> _instance;
-} _ConvolutionResult_default_instance_;
+PROTOBUF_CONSTEXPR ImageChunk::ImageChunk(
+    ::_pbi::ConstantInitialized): _impl_{
+    /*decltype(_impl_.kernel_)*/{}
+  , /*decltype(_impl_._kernel_cached_byte_size_)*/{0}
+  , /*decltype(_impl_.chunk_data_)*/{&::_pbi::fixed_address_empty_string, ::_pbi::ConstantInitialized{}}
+  , /*decltype(_impl_.chunk_index_)*/0
+  , /*decltype(_impl_.total_chunks_)*/0
+  , /*decltype(_impl_.start_row_)*/0
+  , /*decltype(_impl_.num_rows_)*/0
+  , /*decltype(_impl_.img_width_)*/0
+  , /*decltype(_impl_.img_height_)*/0
+  , /*decltype(_impl_.has_halo_top_)*/false
+  , /*decltype(_impl_.has_halo_bottom_)*/false
+  , /*decltype(_impl_._cached_size_)*/{}} {}
+struct ImageChunkDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR ImageChunkDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~ImageChunkDefaultTypeInternal() {}
+  union {
+    ImageChunk _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 ImageChunkDefaultTypeInternal _ImageChunk_default_instance_;
+PROTOBUF_CONSTEXPR ConvolutionResult::ConvolutionResult(
+    ::_pbi::ConstantInitialized): _impl_{
+    /*decltype(_impl_.result_data_)*/{&::_pbi::fixed_address_empty_string, ::_pbi::ConstantInitialized{}}
+  , /*decltype(_impl_.error_message_)*/{&::_pbi::fixed_address_empty_string, ::_pbi::ConstantInitialized{}}
+  , /*decltype(_impl_.chunk_index_)*/0
+  , /*decltype(_impl_.success_)*/false
+  , /*decltype(_impl_._cached_size_)*/{}} {}
+struct ConvolutionResultDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR ConvolutionResultDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~ConvolutionResultDefaultTypeInternal() {}
+  union {
+    ConvolutionResult _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 ConvolutionResultDefaultTypeInternal _ConvolutionResult_default_instance_;
 }  // namespace imageconv
-static void InitDefaultsscc_info_ConvolutionResult_imageConvolution_2eproto() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
+static ::_pb::Metadata file_level_metadata_imageConvolution_2eproto[2];
+static constexpr ::_pb::EnumDescriptor const** file_level_enum_descriptors_imageConvolution_2eproto = nullptr;
+static constexpr ::_pb::ServiceDescriptor const** file_level_service_descriptors_imageConvolution_2eproto = nullptr;
 
-  {
-    void* ptr = &::imageconv::_ConvolutionResult_default_instance_;
-    new (ptr) ::imageconv::ConvolutionResult();
-    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
-  }
-  ::imageconv::ConvolutionResult::InitAsDefaultInstance();
-}
-
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_ConvolutionResult_imageConvolution_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_ConvolutionResult_imageConvolution_2eproto}, {}};
-
-static void InitDefaultsscc_info_ImageChunk_imageConvolution_2eproto() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  {
-    void* ptr = &::imageconv::_ImageChunk_default_instance_;
-    new (ptr) ::imageconv::ImageChunk();
-    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
-  }
-  ::imageconv::ImageChunk::InitAsDefaultInstance();
-}
-
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_ImageChunk_imageConvolution_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_ImageChunk_imageConvolution_2eproto}, {}};
-
-static ::PROTOBUF_NAMESPACE_ID::Metadata file_level_metadata_imageConvolution_2eproto[2];
-static constexpr ::PROTOBUF_NAMESPACE_ID::EnumDescriptor const** file_level_enum_descriptors_imageConvolution_2eproto = nullptr;
-static constexpr ::PROTOBUF_NAMESPACE_ID::ServiceDescriptor const** file_level_service_descriptors_imageConvolution_2eproto = nullptr;
-
-const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_imageConvolution_2eproto::offsets[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
+const uint32_t TableStruct_imageConvolution_2eproto::offsets[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::imageconv::ImageChunk, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::imageconv::ImageChunk, chunk_data_),
-  PROTOBUF_FIELD_OFFSET(::imageconv::ImageChunk, chunk_index_),
-  PROTOBUF_FIELD_OFFSET(::imageconv::ImageChunk, total_chunks_),
-  PROTOBUF_FIELD_OFFSET(::imageconv::ImageChunk, start_row_),
-  PROTOBUF_FIELD_OFFSET(::imageconv::ImageChunk, num_rows_),
-  PROTOBUF_FIELD_OFFSET(::imageconv::ImageChunk, img_width_),
-  PROTOBUF_FIELD_OFFSET(::imageconv::ImageChunk, img_height_),
-  PROTOBUF_FIELD_OFFSET(::imageconv::ImageChunk, kernel_),
-  PROTOBUF_FIELD_OFFSET(::imageconv::ImageChunk, has_halo_top_),
-  PROTOBUF_FIELD_OFFSET(::imageconv::ImageChunk, has_halo_bottom_),
+  ~0u,  // no _inlined_string_donated_
+  PROTOBUF_FIELD_OFFSET(::imageconv::ImageChunk, _impl_.chunk_data_),
+  PROTOBUF_FIELD_OFFSET(::imageconv::ImageChunk, _impl_.chunk_index_),
+  PROTOBUF_FIELD_OFFSET(::imageconv::ImageChunk, _impl_.total_chunks_),
+  PROTOBUF_FIELD_OFFSET(::imageconv::ImageChunk, _impl_.start_row_),
+  PROTOBUF_FIELD_OFFSET(::imageconv::ImageChunk, _impl_.num_rows_),
+  PROTOBUF_FIELD_OFFSET(::imageconv::ImageChunk, _impl_.img_width_),
+  PROTOBUF_FIELD_OFFSET(::imageconv::ImageChunk, _impl_.img_height_),
+  PROTOBUF_FIELD_OFFSET(::imageconv::ImageChunk, _impl_.kernel_),
+  PROTOBUF_FIELD_OFFSET(::imageconv::ImageChunk, _impl_.has_halo_top_),
+  PROTOBUF_FIELD_OFFSET(::imageconv::ImageChunk, _impl_.has_halo_bottom_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::imageconv::ConvolutionResult, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::imageconv::ConvolutionResult, result_data_),
-  PROTOBUF_FIELD_OFFSET(::imageconv::ConvolutionResult, chunk_index_),
-  PROTOBUF_FIELD_OFFSET(::imageconv::ConvolutionResult, success_),
-  PROTOBUF_FIELD_OFFSET(::imageconv::ConvolutionResult, error_message_),
+  ~0u,  // no _inlined_string_donated_
+  PROTOBUF_FIELD_OFFSET(::imageconv::ConvolutionResult, _impl_.result_data_),
+  PROTOBUF_FIELD_OFFSET(::imageconv::ConvolutionResult, _impl_.chunk_index_),
+  PROTOBUF_FIELD_OFFSET(::imageconv::ConvolutionResult, _impl_.success_),
+  PROTOBUF_FIELD_OFFSET(::imageconv::ConvolutionResult, _impl_.error_message_),
 };
-static const ::PROTOBUF_NAMESPACE_ID::internal::MigrationSchema schemas[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, -1, sizeof(::imageconv::ImageChunk)},
-  { 15, -1, sizeof(::imageconv::ConvolutionResult)},
+static const ::_pbi::MigrationSchema schemas[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
+  { 0, -1, -1, sizeof(::imageconv::ImageChunk)},
+  { 16, -1, -1, sizeof(::imageconv::ConvolutionResult)},
 };
 
-static ::PROTOBUF_NAMESPACE_ID::Message const * const file_default_instances[] = {
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::imageconv::_ImageChunk_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::imageconv::_ConvolutionResult_default_instance_),
+static const ::_pb::Message* const file_default_instances[] = {
+  &::imageconv::_ImageChunk_default_instance_._instance,
+  &::imageconv::_ConvolutionResult_default_instance_._instance,
 };
 
 const char descriptor_table_protodef_imageConvolution_2eproto[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) =
@@ -106,257 +117,288 @@ const char descriptor_table_protodef_imageConvolution_2eproto[] PROTOBUF_SECTION
   "mageconv.ImageChunk\032\034.imageconv.Convolut"
   "ionResult\"\000(\0010\001b\006proto3"
   ;
-static const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable*const descriptor_table_imageConvolution_2eproto_deps[1] = {
+static ::_pbi::once_flag descriptor_table_imageConvolution_2eproto_once;
+const ::_pbi::DescriptorTable descriptor_table_imageConvolution_2eproto = {
+    false, false, 463, descriptor_table_protodef_imageConvolution_2eproto,
+    "imageConvolution.proto",
+    &descriptor_table_imageConvolution_2eproto_once, nullptr, 0, 2,
+    schemas, file_default_instances, TableStruct_imageConvolution_2eproto::offsets,
+    file_level_metadata_imageConvolution_2eproto, file_level_enum_descriptors_imageConvolution_2eproto,
+    file_level_service_descriptors_imageConvolution_2eproto,
 };
-static ::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase*const descriptor_table_imageConvolution_2eproto_sccs[2] = {
-  &scc_info_ConvolutionResult_imageConvolution_2eproto.base,
-  &scc_info_ImageChunk_imageConvolution_2eproto.base,
-};
-static ::PROTOBUF_NAMESPACE_ID::internal::once_flag descriptor_table_imageConvolution_2eproto_once;
-const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable descriptor_table_imageConvolution_2eproto = {
-  false, false, descriptor_table_protodef_imageConvolution_2eproto, "imageConvolution.proto", 463,
-  &descriptor_table_imageConvolution_2eproto_once, descriptor_table_imageConvolution_2eproto_sccs, descriptor_table_imageConvolution_2eproto_deps, 2, 0,
-  schemas, file_default_instances, TableStruct_imageConvolution_2eproto::offsets,
-  file_level_metadata_imageConvolution_2eproto, 2, file_level_enum_descriptors_imageConvolution_2eproto, file_level_service_descriptors_imageConvolution_2eproto,
-};
+PROTOBUF_ATTRIBUTE_WEAK const ::_pbi::DescriptorTable* descriptor_table_imageConvolution_2eproto_getter() {
+  return &descriptor_table_imageConvolution_2eproto;
+}
 
 // Force running AddDescriptors() at dynamic initialization time.
-static bool dynamic_init_dummy_imageConvolution_2eproto = (static_cast<void>(::PROTOBUF_NAMESPACE_ID::internal::AddDescriptors(&descriptor_table_imageConvolution_2eproto)), true);
+PROTOBUF_ATTRIBUTE_INIT_PRIORITY2 static ::_pbi::AddDescriptorsRunner dynamic_init_dummy_imageConvolution_2eproto(&descriptor_table_imageConvolution_2eproto);
 namespace imageconv {
 
 // ===================================================================
 
-void ImageChunk::InitAsDefaultInstance() {
-}
 class ImageChunk::_Internal {
  public:
 };
 
-ImageChunk::ImageChunk(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena),
-  kernel_(arena) {
-  SharedCtor();
-  RegisterArenaDtor(arena);
+ImageChunk::ImageChunk(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  SharedCtor(arena, is_message_owned);
   // @@protoc_insertion_point(arena_constructor:imageconv.ImageChunk)
 }
 ImageChunk::ImageChunk(const ImageChunk& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message(),
-      kernel_(from.kernel_) {
+  : ::PROTOBUF_NAMESPACE_ID::Message() {
+  ImageChunk* const _this = this; (void)_this;
+  new (&_impl_) Impl_{
+      decltype(_impl_.kernel_){from._impl_.kernel_}
+    , /*decltype(_impl_._kernel_cached_byte_size_)*/{0}
+    , decltype(_impl_.chunk_data_){}
+    , decltype(_impl_.chunk_index_){}
+    , decltype(_impl_.total_chunks_){}
+    , decltype(_impl_.start_row_){}
+    , decltype(_impl_.num_rows_){}
+    , decltype(_impl_.img_width_){}
+    , decltype(_impl_.img_height_){}
+    , decltype(_impl_.has_halo_top_){}
+    , decltype(_impl_.has_halo_bottom_){}
+    , /*decltype(_impl_._cached_size_)*/{}};
+
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  chunk_data_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _impl_.chunk_data_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.chunk_data_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
   if (!from._internal_chunk_data().empty()) {
-    chunk_data_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from._internal_chunk_data(),
-      GetArena());
+    _this->_impl_.chunk_data_.Set(from._internal_chunk_data(), 
+      _this->GetArenaForAllocation());
   }
-  ::memcpy(&chunk_index_, &from.chunk_index_,
-    static_cast<size_t>(reinterpret_cast<char*>(&has_halo_bottom_) -
-    reinterpret_cast<char*>(&chunk_index_)) + sizeof(has_halo_bottom_));
+  ::memcpy(&_impl_.chunk_index_, &from._impl_.chunk_index_,
+    static_cast<size_t>(reinterpret_cast<char*>(&_impl_.has_halo_bottom_) -
+    reinterpret_cast<char*>(&_impl_.chunk_index_)) + sizeof(_impl_.has_halo_bottom_));
   // @@protoc_insertion_point(copy_constructor:imageconv.ImageChunk)
 }
 
-void ImageChunk::SharedCtor() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_ImageChunk_imageConvolution_2eproto.base);
-  chunk_data_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  ::memset(&chunk_index_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&has_halo_bottom_) -
-      reinterpret_cast<char*>(&chunk_index_)) + sizeof(has_halo_bottom_));
+inline void ImageChunk::SharedCtor(
+    ::_pb::Arena* arena, bool is_message_owned) {
+  (void)arena;
+  (void)is_message_owned;
+  new (&_impl_) Impl_{
+      decltype(_impl_.kernel_){arena}
+    , /*decltype(_impl_._kernel_cached_byte_size_)*/{0}
+    , decltype(_impl_.chunk_data_){}
+    , decltype(_impl_.chunk_index_){0}
+    , decltype(_impl_.total_chunks_){0}
+    , decltype(_impl_.start_row_){0}
+    , decltype(_impl_.num_rows_){0}
+    , decltype(_impl_.img_width_){0}
+    , decltype(_impl_.img_height_){0}
+    , decltype(_impl_.has_halo_top_){false}
+    , decltype(_impl_.has_halo_bottom_){false}
+    , /*decltype(_impl_._cached_size_)*/{}
+  };
+  _impl_.chunk_data_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.chunk_data_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
 }
 
 ImageChunk::~ImageChunk() {
   // @@protoc_insertion_point(destructor:imageconv.ImageChunk)
+  if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
+  (void)arena;
+    return;
+  }
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-void ImageChunk::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
-  chunk_data_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+inline void ImageChunk::SharedDtor() {
+  GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
+  _impl_.kernel_.~RepeatedField();
+  _impl_.chunk_data_.Destroy();
 }
 
-void ImageChunk::ArenaDtor(void* object) {
-  ImageChunk* _this = reinterpret_cast< ImageChunk* >(object);
-  (void)_this;
-}
-void ImageChunk::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void ImageChunk::SetCachedSize(int size) const {
-  _cached_size_.Set(size);
+  _impl_._cached_size_.Set(size);
 }
-const ImageChunk& ImageChunk::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_ImageChunk_imageConvolution_2eproto.base);
-  return *internal_default_instance();
-}
-
 
 void ImageChunk::Clear() {
 // @@protoc_insertion_point(message_clear_start:imageconv.ImageChunk)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  kernel_.Clear();
-  chunk_data_.ClearToEmpty(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  ::memset(&chunk_index_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&has_halo_bottom_) -
-      reinterpret_cast<char*>(&chunk_index_)) + sizeof(has_halo_bottom_));
+  _impl_.kernel_.Clear();
+  _impl_.chunk_data_.ClearToEmpty();
+  ::memset(&_impl_.chunk_index_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&_impl_.has_halo_bottom_) -
+      reinterpret_cast<char*>(&_impl_.chunk_index_)) + sizeof(_impl_.has_halo_bottom_));
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* ImageChunk::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* ImageChunk::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
-    CHK_(ptr);
+    uint32_t tag;
+    ptr = ::_pbi::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // bytes chunk_data = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 10)) {
           auto str = _internal_mutable_chunk_data();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
+          ptr = ::_pbi::InlineGreedyStringParser(str, ptr, ctx);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // int32 chunk_index = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 16)) {
-          chunk_index_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 16)) {
+          _impl_.chunk_index_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // int32 total_chunks = 3;
       case 3:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 24)) {
-          total_chunks_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 24)) {
+          _impl_.total_chunks_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // int32 start_row = 4;
       case 4:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 32)) {
-          start_row_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 32)) {
+          _impl_.start_row_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // int32 num_rows = 5;
       case 5:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 40)) {
-          num_rows_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 40)) {
+          _impl_.num_rows_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // int32 img_width = 6;
       case 6:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 48)) {
-          img_width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 48)) {
+          _impl_.img_width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // int32 img_height = 7;
       case 7:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 56)) {
-          img_height_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 56)) {
+          _impl_.img_height_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // repeated int32 kernel = 8;
       case 8:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 66)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 66)) {
           ptr = ::PROTOBUF_NAMESPACE_ID::internal::PackedInt32Parser(_internal_mutable_kernel(), ptr, ctx);
           CHK_(ptr);
-        } else if (static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 64) {
-          _internal_add_kernel(::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr));
+        } else if (static_cast<uint8_t>(tag) == 64) {
+          _internal_add_kernel(::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr));
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // bool has_halo_top = 9;
       case 9:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 72)) {
-          has_halo_top_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 72)) {
+          _impl_.has_halo_top_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // bool has_halo_bottom = 10;
       case 10:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 80)) {
-          has_halo_bottom_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 80)) {
+          _impl_.has_halo_bottom_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag & 7) == 4 || tag == 0) {
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
+message_done:
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* ImageChunk::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* ImageChunk::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:imageconv.ImageChunk)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   // bytes chunk_data = 1;
-  if (this->chunk_data().size() > 0) {
+  if (!this->_internal_chunk_data().empty()) {
     target = stream->WriteBytesMaybeAliased(
         1, this->_internal_chunk_data(), target);
   }
 
   // int32 chunk_index = 2;
-  if (this->chunk_index() != 0) {
+  if (this->_internal_chunk_index() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(2, this->_internal_chunk_index(), target);
+    target = ::_pbi::WireFormatLite::WriteInt32ToArray(2, this->_internal_chunk_index(), target);
   }
 
   // int32 total_chunks = 3;
-  if (this->total_chunks() != 0) {
+  if (this->_internal_total_chunks() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(3, this->_internal_total_chunks(), target);
+    target = ::_pbi::WireFormatLite::WriteInt32ToArray(3, this->_internal_total_chunks(), target);
   }
 
   // int32 start_row = 4;
-  if (this->start_row() != 0) {
+  if (this->_internal_start_row() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(4, this->_internal_start_row(), target);
+    target = ::_pbi::WireFormatLite::WriteInt32ToArray(4, this->_internal_start_row(), target);
   }
 
   // int32 num_rows = 5;
-  if (this->num_rows() != 0) {
+  if (this->_internal_num_rows() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(5, this->_internal_num_rows(), target);
+    target = ::_pbi::WireFormatLite::WriteInt32ToArray(5, this->_internal_num_rows(), target);
   }
 
   // int32 img_width = 6;
-  if (this->img_width() != 0) {
+  if (this->_internal_img_width() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(6, this->_internal_img_width(), target);
+    target = ::_pbi::WireFormatLite::WriteInt32ToArray(6, this->_internal_img_width(), target);
   }
 
   // int32 img_height = 7;
-  if (this->img_height() != 0) {
+  if (this->_internal_img_height() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(7, this->_internal_img_height(), target);
+    target = ::_pbi::WireFormatLite::WriteInt32ToArray(7, this->_internal_img_height(), target);
   }
 
   // repeated int32 kernel = 8;
   {
-    int byte_size = _kernel_cached_byte_size_.load(std::memory_order_relaxed);
+    int byte_size = _impl_._kernel_cached_byte_size_.load(std::memory_order_relaxed);
     if (byte_size > 0) {
       target = stream->WriteInt32Packed(
           8, _internal_kernel(), byte_size, target);
@@ -364,19 +406,19 @@ failure:
   }
 
   // bool has_halo_top = 9;
-  if (this->has_halo_top() != 0) {
+  if (this->_internal_has_halo_top() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteBoolToArray(9, this->_internal_has_halo_top(), target);
+    target = ::_pbi::WireFormatLite::WriteBoolToArray(9, this->_internal_has_halo_top(), target);
   }
 
   // bool has_halo_bottom = 10;
-  if (this->has_halo_bottom() != 0) {
+  if (this->_internal_has_halo_bottom() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteBoolToArray(10, this->_internal_has_halo_bottom(), target);
+    target = ::_pbi::WireFormatLite::WriteBoolToArray(10, this->_internal_has_halo_bottom(), target);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+    target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
   // @@protoc_insertion_point(serialize_to_array_end:imageconv.ImageChunk)
@@ -387,150 +429,118 @@ size_t ImageChunk::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:imageconv.ImageChunk)
   size_t total_size = 0;
 
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
   // repeated int32 kernel = 8;
   {
-    size_t data_size = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      Int32Size(this->kernel_);
+    size_t data_size = ::_pbi::WireFormatLite::
+      Int32Size(this->_impl_.kernel_);
     if (data_size > 0) {
       total_size += 1 +
-        ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-            static_cast<::PROTOBUF_NAMESPACE_ID::int32>(data_size));
+        ::_pbi::WireFormatLite::Int32Size(static_cast<int32_t>(data_size));
     }
-    int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(data_size);
-    _kernel_cached_byte_size_.store(cached_size,
+    int cached_size = ::_pbi::ToCachedSize(data_size);
+    _impl_._kernel_cached_byte_size_.store(cached_size,
                                     std::memory_order_relaxed);
     total_size += data_size;
   }
 
   // bytes chunk_data = 1;
-  if (this->chunk_data().size() > 0) {
+  if (!this->_internal_chunk_data().empty()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::BytesSize(
         this->_internal_chunk_data());
   }
 
   // int32 chunk_index = 2;
-  if (this->chunk_index() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_chunk_index());
+  if (this->_internal_chunk_index() != 0) {
+    total_size += ::_pbi::WireFormatLite::Int32SizePlusOne(this->_internal_chunk_index());
   }
 
   // int32 total_chunks = 3;
-  if (this->total_chunks() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_total_chunks());
+  if (this->_internal_total_chunks() != 0) {
+    total_size += ::_pbi::WireFormatLite::Int32SizePlusOne(this->_internal_total_chunks());
   }
 
   // int32 start_row = 4;
-  if (this->start_row() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_start_row());
+  if (this->_internal_start_row() != 0) {
+    total_size += ::_pbi::WireFormatLite::Int32SizePlusOne(this->_internal_start_row());
   }
 
   // int32 num_rows = 5;
-  if (this->num_rows() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_num_rows());
+  if (this->_internal_num_rows() != 0) {
+    total_size += ::_pbi::WireFormatLite::Int32SizePlusOne(this->_internal_num_rows());
   }
 
   // int32 img_width = 6;
-  if (this->img_width() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_img_width());
+  if (this->_internal_img_width() != 0) {
+    total_size += ::_pbi::WireFormatLite::Int32SizePlusOne(this->_internal_img_width());
   }
 
   // int32 img_height = 7;
-  if (this->img_height() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_img_height());
+  if (this->_internal_img_height() != 0) {
+    total_size += ::_pbi::WireFormatLite::Int32SizePlusOne(this->_internal_img_height());
   }
 
   // bool has_halo_top = 9;
-  if (this->has_halo_top() != 0) {
+  if (this->_internal_has_halo_top() != 0) {
     total_size += 1 + 1;
   }
 
   // bool has_halo_bottom = 10;
-  if (this->has_halo_bottom() != 0) {
+  if (this->_internal_has_halo_bottom() != 0) {
     total_size += 1 + 1;
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_impl_._cached_size_);
 }
 
-void ImageChunk::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:imageconv.ImageChunk)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ImageChunk* source =
-      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<ImageChunk>(
-          &from);
-  if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:imageconv.ImageChunk)
-    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:imageconv.ImageChunk)
-    MergeFrom(*source);
-  }
-}
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData ImageChunk::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSourceCheck,
+    ImageChunk::MergeImpl
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*ImageChunk::GetClassData() const { return &_class_data_; }
 
-void ImageChunk::MergeFrom(const ImageChunk& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:imageconv.ImageChunk)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+
+void ImageChunk::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
+  auto* const _this = static_cast<ImageChunk*>(&to_msg);
+  auto& from = static_cast<const ImageChunk&>(from_msg);
+  // @@protoc_insertion_point(class_specific_merge_from_start:imageconv.ImageChunk)
+  GOOGLE_DCHECK_NE(&from, _this);
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  kernel_.MergeFrom(from.kernel_);
-  if (from.chunk_data().size() > 0) {
-    _internal_set_chunk_data(from._internal_chunk_data());
+  _this->_impl_.kernel_.MergeFrom(from._impl_.kernel_);
+  if (!from._internal_chunk_data().empty()) {
+    _this->_internal_set_chunk_data(from._internal_chunk_data());
   }
-  if (from.chunk_index() != 0) {
-    _internal_set_chunk_index(from._internal_chunk_index());
+  if (from._internal_chunk_index() != 0) {
+    _this->_internal_set_chunk_index(from._internal_chunk_index());
   }
-  if (from.total_chunks() != 0) {
-    _internal_set_total_chunks(from._internal_total_chunks());
+  if (from._internal_total_chunks() != 0) {
+    _this->_internal_set_total_chunks(from._internal_total_chunks());
   }
-  if (from.start_row() != 0) {
-    _internal_set_start_row(from._internal_start_row());
+  if (from._internal_start_row() != 0) {
+    _this->_internal_set_start_row(from._internal_start_row());
   }
-  if (from.num_rows() != 0) {
-    _internal_set_num_rows(from._internal_num_rows());
+  if (from._internal_num_rows() != 0) {
+    _this->_internal_set_num_rows(from._internal_num_rows());
   }
-  if (from.img_width() != 0) {
-    _internal_set_img_width(from._internal_img_width());
+  if (from._internal_img_width() != 0) {
+    _this->_internal_set_img_width(from._internal_img_width());
   }
-  if (from.img_height() != 0) {
-    _internal_set_img_height(from._internal_img_height());
+  if (from._internal_img_height() != 0) {
+    _this->_internal_set_img_height(from._internal_img_height());
   }
-  if (from.has_halo_top() != 0) {
-    _internal_set_has_halo_top(from._internal_has_halo_top());
+  if (from._internal_has_halo_top() != 0) {
+    _this->_internal_set_has_halo_top(from._internal_has_halo_top());
   }
-  if (from.has_halo_bottom() != 0) {
-    _internal_set_has_halo_bottom(from._internal_has_halo_bottom());
+  if (from._internal_has_halo_bottom() != 0) {
+    _this->_internal_set_has_halo_bottom(from._internal_has_halo_bottom());
   }
-}
-
-void ImageChunk::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:imageconv.ImageChunk)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
+  _this->_internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
 void ImageChunk::CopyFrom(const ImageChunk& from) {
@@ -546,192 +556,217 @@ bool ImageChunk::IsInitialized() const {
 
 void ImageChunk::InternalSwap(ImageChunk* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  kernel_.InternalSwap(&other->kernel_);
-  chunk_data_.Swap(&other->chunk_data_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
+  auto* lhs_arena = GetArenaForAllocation();
+  auto* rhs_arena = other->GetArenaForAllocation();
+  _internal_metadata_.InternalSwap(&other->_internal_metadata_);
+  _impl_.kernel_.InternalSwap(&other->_impl_.kernel_);
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::InternalSwap(
+      &_impl_.chunk_data_, lhs_arena,
+      &other->_impl_.chunk_data_, rhs_arena
+  );
   ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(ImageChunk, has_halo_bottom_)
-      + sizeof(ImageChunk::has_halo_bottom_)
-      - PROTOBUF_FIELD_OFFSET(ImageChunk, chunk_index_)>(
-          reinterpret_cast<char*>(&chunk_index_),
-          reinterpret_cast<char*>(&other->chunk_index_));
+      PROTOBUF_FIELD_OFFSET(ImageChunk, _impl_.has_halo_bottom_)
+      + sizeof(ImageChunk::_impl_.has_halo_bottom_)
+      - PROTOBUF_FIELD_OFFSET(ImageChunk, _impl_.chunk_index_)>(
+          reinterpret_cast<char*>(&_impl_.chunk_index_),
+          reinterpret_cast<char*>(&other->_impl_.chunk_index_));
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata ImageChunk::GetMetadata() const {
-  return GetMetadataStatic();
+  return ::_pbi::AssignDescriptors(
+      &descriptor_table_imageConvolution_2eproto_getter, &descriptor_table_imageConvolution_2eproto_once,
+      file_level_metadata_imageConvolution_2eproto[0]);
 }
-
 
 // ===================================================================
 
-void ConvolutionResult::InitAsDefaultInstance() {
-}
 class ConvolutionResult::_Internal {
  public:
 };
 
-ConvolutionResult::ConvolutionResult(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
-  SharedCtor();
-  RegisterArenaDtor(arena);
+ConvolutionResult::ConvolutionResult(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  SharedCtor(arena, is_message_owned);
   // @@protoc_insertion_point(arena_constructor:imageconv.ConvolutionResult)
 }
 ConvolutionResult::ConvolutionResult(const ConvolutionResult& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
+  ConvolutionResult* const _this = this; (void)_this;
+  new (&_impl_) Impl_{
+      decltype(_impl_.result_data_){}
+    , decltype(_impl_.error_message_){}
+    , decltype(_impl_.chunk_index_){}
+    , decltype(_impl_.success_){}
+    , /*decltype(_impl_._cached_size_)*/{}};
+
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  result_data_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _impl_.result_data_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.result_data_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
   if (!from._internal_result_data().empty()) {
-    result_data_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from._internal_result_data(),
-      GetArena());
+    _this->_impl_.result_data_.Set(from._internal_result_data(), 
+      _this->GetArenaForAllocation());
   }
-  error_message_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _impl_.error_message_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.error_message_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
   if (!from._internal_error_message().empty()) {
-    error_message_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from._internal_error_message(),
-      GetArena());
+    _this->_impl_.error_message_.Set(from._internal_error_message(), 
+      _this->GetArenaForAllocation());
   }
-  ::memcpy(&chunk_index_, &from.chunk_index_,
-    static_cast<size_t>(reinterpret_cast<char*>(&success_) -
-    reinterpret_cast<char*>(&chunk_index_)) + sizeof(success_));
+  ::memcpy(&_impl_.chunk_index_, &from._impl_.chunk_index_,
+    static_cast<size_t>(reinterpret_cast<char*>(&_impl_.success_) -
+    reinterpret_cast<char*>(&_impl_.chunk_index_)) + sizeof(_impl_.success_));
   // @@protoc_insertion_point(copy_constructor:imageconv.ConvolutionResult)
 }
 
-void ConvolutionResult::SharedCtor() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_ConvolutionResult_imageConvolution_2eproto.base);
-  result_data_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  error_message_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  ::memset(&chunk_index_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&success_) -
-      reinterpret_cast<char*>(&chunk_index_)) + sizeof(success_));
+inline void ConvolutionResult::SharedCtor(
+    ::_pb::Arena* arena, bool is_message_owned) {
+  (void)arena;
+  (void)is_message_owned;
+  new (&_impl_) Impl_{
+      decltype(_impl_.result_data_){}
+    , decltype(_impl_.error_message_){}
+    , decltype(_impl_.chunk_index_){0}
+    , decltype(_impl_.success_){false}
+    , /*decltype(_impl_._cached_size_)*/{}
+  };
+  _impl_.result_data_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.result_data_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
+  _impl_.error_message_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.error_message_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
 }
 
 ConvolutionResult::~ConvolutionResult() {
   // @@protoc_insertion_point(destructor:imageconv.ConvolutionResult)
+  if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
+  (void)arena;
+    return;
+  }
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-void ConvolutionResult::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
-  result_data_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  error_message_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+inline void ConvolutionResult::SharedDtor() {
+  GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
+  _impl_.result_data_.Destroy();
+  _impl_.error_message_.Destroy();
 }
 
-void ConvolutionResult::ArenaDtor(void* object) {
-  ConvolutionResult* _this = reinterpret_cast< ConvolutionResult* >(object);
-  (void)_this;
-}
-void ConvolutionResult::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void ConvolutionResult::SetCachedSize(int size) const {
-  _cached_size_.Set(size);
+  _impl_._cached_size_.Set(size);
 }
-const ConvolutionResult& ConvolutionResult::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_ConvolutionResult_imageConvolution_2eproto.base);
-  return *internal_default_instance();
-}
-
 
 void ConvolutionResult::Clear() {
 // @@protoc_insertion_point(message_clear_start:imageconv.ConvolutionResult)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  result_data_.ClearToEmpty(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  error_message_.ClearToEmpty(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  ::memset(&chunk_index_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&success_) -
-      reinterpret_cast<char*>(&chunk_index_)) + sizeof(success_));
+  _impl_.result_data_.ClearToEmpty();
+  _impl_.error_message_.ClearToEmpty();
+  ::memset(&_impl_.chunk_index_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&_impl_.success_) -
+      reinterpret_cast<char*>(&_impl_.chunk_index_)) + sizeof(_impl_.success_));
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* ConvolutionResult::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* ConvolutionResult::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
-    CHK_(ptr);
+    uint32_t tag;
+    ptr = ::_pbi::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // bytes result_data = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 10)) {
           auto str = _internal_mutable_result_data();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
+          ptr = ::_pbi::InlineGreedyStringParser(str, ptr, ctx);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // int32 chunk_index = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 16)) {
-          chunk_index_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 16)) {
+          _impl_.chunk_index_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // bool success = 3;
       case 3:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 24)) {
-          success_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 24)) {
+          _impl_.success_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // string error_message = 4;
       case 4:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 34)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 34)) {
           auto str = _internal_mutable_error_message();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "imageconv.ConvolutionResult.error_message"));
+          ptr = ::_pbi::InlineGreedyStringParser(str, ptr, ctx);
           CHK_(ptr);
-        } else goto handle_unusual;
+          CHK_(::_pbi::VerifyUTF8(str, "imageconv.ConvolutionResult.error_message"));
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag & 7) == 4 || tag == 0) {
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
+message_done:
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* ConvolutionResult::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* ConvolutionResult::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:imageconv.ConvolutionResult)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   // bytes result_data = 1;
-  if (this->result_data().size() > 0) {
+  if (!this->_internal_result_data().empty()) {
     target = stream->WriteBytesMaybeAliased(
         1, this->_internal_result_data(), target);
   }
 
   // int32 chunk_index = 2;
-  if (this->chunk_index() != 0) {
+  if (this->_internal_chunk_index() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(2, this->_internal_chunk_index(), target);
+    target = ::_pbi::WireFormatLite::WriteInt32ToArray(2, this->_internal_chunk_index(), target);
   }
 
   // bool success = 3;
-  if (this->success() != 0) {
+  if (this->_internal_success() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteBoolToArray(3, this->_internal_success(), target);
+    target = ::_pbi::WireFormatLite::WriteBoolToArray(3, this->_internal_success(), target);
   }
 
   // string error_message = 4;
-  if (this->error_message().size() > 0) {
+  if (!this->_internal_error_message().empty()) {
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->_internal_error_message().data(), static_cast<int>(this->_internal_error_message().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
@@ -741,7 +776,7 @@ failure:
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+    target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
   // @@protoc_insertion_point(serialize_to_array_end:imageconv.ConvolutionResult)
@@ -752,86 +787,65 @@ size_t ConvolutionResult::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:imageconv.ConvolutionResult)
   size_t total_size = 0;
 
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
   // bytes result_data = 1;
-  if (this->result_data().size() > 0) {
+  if (!this->_internal_result_data().empty()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::BytesSize(
         this->_internal_result_data());
   }
 
   // string error_message = 4;
-  if (this->error_message().size() > 0) {
+  if (!this->_internal_error_message().empty()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
         this->_internal_error_message());
   }
 
   // int32 chunk_index = 2;
-  if (this->chunk_index() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_chunk_index());
+  if (this->_internal_chunk_index() != 0) {
+    total_size += ::_pbi::WireFormatLite::Int32SizePlusOne(this->_internal_chunk_index());
   }
 
   // bool success = 3;
-  if (this->success() != 0) {
+  if (this->_internal_success() != 0) {
     total_size += 1 + 1;
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_impl_._cached_size_);
 }
 
-void ConvolutionResult::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:imageconv.ConvolutionResult)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ConvolutionResult* source =
-      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<ConvolutionResult>(
-          &from);
-  if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:imageconv.ConvolutionResult)
-    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:imageconv.ConvolutionResult)
-    MergeFrom(*source);
-  }
-}
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData ConvolutionResult::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSourceCheck,
+    ConvolutionResult::MergeImpl
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*ConvolutionResult::GetClassData() const { return &_class_data_; }
 
-void ConvolutionResult::MergeFrom(const ConvolutionResult& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:imageconv.ConvolutionResult)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+
+void ConvolutionResult::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
+  auto* const _this = static_cast<ConvolutionResult*>(&to_msg);
+  auto& from = static_cast<const ConvolutionResult&>(from_msg);
+  // @@protoc_insertion_point(class_specific_merge_from_start:imageconv.ConvolutionResult)
+  GOOGLE_DCHECK_NE(&from, _this);
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if (from.result_data().size() > 0) {
-    _internal_set_result_data(from._internal_result_data());
+  if (!from._internal_result_data().empty()) {
+    _this->_internal_set_result_data(from._internal_result_data());
   }
-  if (from.error_message().size() > 0) {
-    _internal_set_error_message(from._internal_error_message());
+  if (!from._internal_error_message().empty()) {
+    _this->_internal_set_error_message(from._internal_error_message());
   }
-  if (from.chunk_index() != 0) {
-    _internal_set_chunk_index(from._internal_chunk_index());
+  if (from._internal_chunk_index() != 0) {
+    _this->_internal_set_chunk_index(from._internal_chunk_index());
   }
-  if (from.success() != 0) {
-    _internal_set_success(from._internal_success());
+  if (from._internal_success() != 0) {
+    _this->_internal_set_success(from._internal_success());
   }
-}
-
-void ConvolutionResult::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:imageconv.ConvolutionResult)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
+  _this->_internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
 void ConvolutionResult::CopyFrom(const ConvolutionResult& from) {
@@ -847,29 +861,40 @@ bool ConvolutionResult::IsInitialized() const {
 
 void ConvolutionResult::InternalSwap(ConvolutionResult* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  result_data_.Swap(&other->result_data_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  error_message_.Swap(&other->error_message_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
+  auto* lhs_arena = GetArenaForAllocation();
+  auto* rhs_arena = other->GetArenaForAllocation();
+  _internal_metadata_.InternalSwap(&other->_internal_metadata_);
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::InternalSwap(
+      &_impl_.result_data_, lhs_arena,
+      &other->_impl_.result_data_, rhs_arena
+  );
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::InternalSwap(
+      &_impl_.error_message_, lhs_arena,
+      &other->_impl_.error_message_, rhs_arena
+  );
   ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(ConvolutionResult, success_)
-      + sizeof(ConvolutionResult::success_)
-      - PROTOBUF_FIELD_OFFSET(ConvolutionResult, chunk_index_)>(
-          reinterpret_cast<char*>(&chunk_index_),
-          reinterpret_cast<char*>(&other->chunk_index_));
+      PROTOBUF_FIELD_OFFSET(ConvolutionResult, _impl_.success_)
+      + sizeof(ConvolutionResult::_impl_.success_)
+      - PROTOBUF_FIELD_OFFSET(ConvolutionResult, _impl_.chunk_index_)>(
+          reinterpret_cast<char*>(&_impl_.chunk_index_),
+          reinterpret_cast<char*>(&other->_impl_.chunk_index_));
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata ConvolutionResult::GetMetadata() const {
-  return GetMetadataStatic();
+  return ::_pbi::AssignDescriptors(
+      &descriptor_table_imageConvolution_2eproto_getter, &descriptor_table_imageConvolution_2eproto_once,
+      file_level_metadata_imageConvolution_2eproto[1]);
 }
-
 
 // @@protoc_insertion_point(namespace_scope)
 }  // namespace imageconv
 PROTOBUF_NAMESPACE_OPEN
-template<> PROTOBUF_NOINLINE ::imageconv::ImageChunk* Arena::CreateMaybeMessage< ::imageconv::ImageChunk >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::imageconv::ImageChunk*
+Arena::CreateMaybeMessage< ::imageconv::ImageChunk >(Arena* arena) {
   return Arena::CreateMessageInternal< ::imageconv::ImageChunk >(arena);
 }
-template<> PROTOBUF_NOINLINE ::imageconv::ConvolutionResult* Arena::CreateMaybeMessage< ::imageconv::ConvolutionResult >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::imageconv::ConvolutionResult*
+Arena::CreateMaybeMessage< ::imageconv::ConvolutionResult >(Arena* arena) {
   return Arena::CreateMessageInternal< ::imageconv::ConvolutionResult >(arena);
 }
 PROTOBUF_NAMESPACE_CLOSE

@@ -6,19 +6,19 @@
 #include "imageConvolution.grpc.pb.h"
 
 #include <functional>
-#include <grpcpp/impl/codegen/async_stream.h>
-#include <grpcpp/impl/codegen/async_unary_call.h>
-#include <grpcpp/impl/codegen/channel_interface.h>
-#include <grpcpp/impl/codegen/client_unary_call.h>
-#include <grpcpp/impl/codegen/client_callback.h>
-#include <grpcpp/impl/codegen/message_allocator.h>
-#include <grpcpp/impl/codegen/method_handler.h>
-#include <grpcpp/impl/codegen/rpc_service_method.h>
-#include <grpcpp/impl/codegen/server_callback.h>
+#include <grpcpp/support/async_stream.h>
+#include <grpcpp/support/async_unary_call.h>
+#include <grpcpp/impl/channel_interface.h>
+#include <grpcpp/impl/client_unary_call.h>
+#include <grpcpp/support/client_callback.h>
+#include <grpcpp/support/message_allocator.h>
+#include <grpcpp/support/method_handler.h>
+#include <grpcpp/impl/rpc_service_method.h>
+#include <grpcpp/support/server_callback.h>
 #include <grpcpp/impl/codegen/server_callback_handlers.h>
-#include <grpcpp/impl/codegen/server_context.h>
-#include <grpcpp/impl/codegen/service_type.h>
-#include <grpcpp/impl/codegen/sync_stream.h>
+#include <grpcpp/server_context.h>
+#include <grpcpp/impl/service_type.h>
+#include <grpcpp/support/sync_stream.h>
 namespace imageconv {
 
 static const char* ImageConvolution_method_names[] = {
@@ -27,28 +27,28 @@ static const char* ImageConvolution_method_names[] = {
 
 std::unique_ptr< ImageConvolution::Stub> ImageConvolution::NewStub(const std::shared_ptr< ::grpc::ChannelInterface>& channel, const ::grpc::StubOptions& options) {
   (void)options;
-  std::unique_ptr< ImageConvolution::Stub> stub(new ImageConvolution::Stub(channel));
+  std::unique_ptr< ImageConvolution::Stub> stub(new ImageConvolution::Stub(channel, options));
   return stub;
 }
 
-ImageConvolution::Stub::Stub(const std::shared_ptr< ::grpc::ChannelInterface>& channel)
-  : channel_(channel), rpcmethod_StreamConvolution_(ImageConvolution_method_names[0], ::grpc::internal::RpcMethod::BIDI_STREAMING, channel)
+ImageConvolution::Stub::Stub(const std::shared_ptr< ::grpc::ChannelInterface>& channel, const ::grpc::StubOptions& options)
+  : channel_(channel), rpcmethod_StreamConvolution_(ImageConvolution_method_names[0], options.suffix_for_stats(),::grpc::internal::RpcMethod::BIDI_STREAMING, channel)
   {}
 
 ::grpc::ClientReaderWriter< ::imageconv::ImageChunk, ::imageconv::ConvolutionResult>* ImageConvolution::Stub::StreamConvolutionRaw(::grpc::ClientContext* context) {
-  return ::grpc_impl::internal::ClientReaderWriterFactory< ::imageconv::ImageChunk, ::imageconv::ConvolutionResult>::Create(channel_.get(), rpcmethod_StreamConvolution_, context);
+  return ::grpc::internal::ClientReaderWriterFactory< ::imageconv::ImageChunk, ::imageconv::ConvolutionResult>::Create(channel_.get(), rpcmethod_StreamConvolution_, context);
 }
 
-void ImageConvolution::Stub::experimental_async::StreamConvolution(::grpc::ClientContext* context, ::grpc::experimental::ClientBidiReactor< ::imageconv::ImageChunk,::imageconv::ConvolutionResult>* reactor) {
-  ::grpc_impl::internal::ClientCallbackReaderWriterFactory< ::imageconv::ImageChunk,::imageconv::ConvolutionResult>::Create(stub_->channel_.get(), stub_->rpcmethod_StreamConvolution_, context, reactor);
+void ImageConvolution::Stub::async::StreamConvolution(::grpc::ClientContext* context, ::grpc::ClientBidiReactor< ::imageconv::ImageChunk,::imageconv::ConvolutionResult>* reactor) {
+  ::grpc::internal::ClientCallbackReaderWriterFactory< ::imageconv::ImageChunk,::imageconv::ConvolutionResult>::Create(stub_->channel_.get(), stub_->rpcmethod_StreamConvolution_, context, reactor);
 }
 
 ::grpc::ClientAsyncReaderWriter< ::imageconv::ImageChunk, ::imageconv::ConvolutionResult>* ImageConvolution::Stub::AsyncStreamConvolutionRaw(::grpc::ClientContext* context, ::grpc::CompletionQueue* cq, void* tag) {
-  return ::grpc_impl::internal::ClientAsyncReaderWriterFactory< ::imageconv::ImageChunk, ::imageconv::ConvolutionResult>::Create(channel_.get(), cq, rpcmethod_StreamConvolution_, context, true, tag);
+  return ::grpc::internal::ClientAsyncReaderWriterFactory< ::imageconv::ImageChunk, ::imageconv::ConvolutionResult>::Create(channel_.get(), cq, rpcmethod_StreamConvolution_, context, true, tag);
 }
 
 ::grpc::ClientAsyncReaderWriter< ::imageconv::ImageChunk, ::imageconv::ConvolutionResult>* ImageConvolution::Stub::PrepareAsyncStreamConvolutionRaw(::grpc::ClientContext* context, ::grpc::CompletionQueue* cq) {
-  return ::grpc_impl::internal::ClientAsyncReaderWriterFactory< ::imageconv::ImageChunk, ::imageconv::ConvolutionResult>::Create(channel_.get(), cq, rpcmethod_StreamConvolution_, context, false, nullptr);
+  return ::grpc::internal::ClientAsyncReaderWriterFactory< ::imageconv::ImageChunk, ::imageconv::ConvolutionResult>::Create(channel_.get(), cq, rpcmethod_StreamConvolution_, context, false, nullptr);
 }
 
 ImageConvolution::Service::Service() {
@@ -57,8 +57,8 @@ ImageConvolution::Service::Service() {
       ::grpc::internal::RpcMethod::BIDI_STREAMING,
       new ::grpc::internal::BidiStreamingHandler< ImageConvolution::Service, ::imageconv::ImageChunk, ::imageconv::ConvolutionResult>(
           [](ImageConvolution::Service* service,
-             ::grpc_impl::ServerContext* ctx,
-             ::grpc_impl::ServerReaderWriter<::imageconv::ConvolutionResult,
+             ::grpc::ServerContext* ctx,
+             ::grpc::ServerReaderWriter<::imageconv::ConvolutionResult,
              ::imageconv::ImageChunk>* stream) {
                return service->StreamConvolution(ctx, stream);
              }, this)));

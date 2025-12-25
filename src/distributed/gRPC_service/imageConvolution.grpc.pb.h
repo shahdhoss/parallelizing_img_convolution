@@ -7,24 +7,23 @@
 #include "imageConvolution.pb.h"
 
 #include <functional>
-#include <grpc/impl/codegen/port_platform.h>
-#include <grpcpp/impl/codegen/async_generic_service.h>
-#include <grpcpp/impl/codegen/async_stream.h>
-#include <grpcpp/impl/codegen/async_unary_call.h>
-#include <grpcpp/impl/codegen/client_callback.h>
-#include <grpcpp/impl/codegen/client_context.h>
-#include <grpcpp/impl/codegen/completion_queue.h>
-#include <grpcpp/impl/codegen/message_allocator.h>
-#include <grpcpp/impl/codegen/method_handler.h>
+#include <grpcpp/generic/async_generic_service.h>
+#include <grpcpp/support/async_stream.h>
+#include <grpcpp/support/async_unary_call.h>
+#include <grpcpp/support/client_callback.h>
+#include <grpcpp/client_context.h>
+#include <grpcpp/completion_queue.h>
+#include <grpcpp/support/message_allocator.h>
+#include <grpcpp/support/method_handler.h>
 #include <grpcpp/impl/codegen/proto_utils.h>
-#include <grpcpp/impl/codegen/rpc_method.h>
-#include <grpcpp/impl/codegen/server_callback.h>
+#include <grpcpp/impl/rpc_method.h>
+#include <grpcpp/support/server_callback.h>
 #include <grpcpp/impl/codegen/server_callback_handlers.h>
-#include <grpcpp/impl/codegen/server_context.h>
-#include <grpcpp/impl/codegen/service_type.h>
+#include <grpcpp/server_context.h>
+#include <grpcpp/impl/service_type.h>
 #include <grpcpp/impl/codegen/status.h>
-#include <grpcpp/impl/codegen/stub_options.h>
-#include <grpcpp/impl/codegen/sync_stream.h>
+#include <grpcpp/support/stub_options.h>
+#include <grpcpp/support/sync_stream.h>
 
 namespace imageconv {
 
@@ -45,30 +44,22 @@ class ImageConvolution final {
     std::unique_ptr< ::grpc::ClientAsyncReaderWriterInterface< ::imageconv::ImageChunk, ::imageconv::ConvolutionResult>> PrepareAsyncStreamConvolution(::grpc::ClientContext* context, ::grpc::CompletionQueue* cq) {
       return std::unique_ptr< ::grpc::ClientAsyncReaderWriterInterface< ::imageconv::ImageChunk, ::imageconv::ConvolutionResult>>(PrepareAsyncStreamConvolutionRaw(context, cq));
     }
-    class experimental_async_interface {
+    class async_interface {
      public:
-      virtual ~experimental_async_interface() {}
-      #ifdef GRPC_CALLBACK_API_NONEXPERIMENTAL
+      virtual ~async_interface() {}
       virtual void StreamConvolution(::grpc::ClientContext* context, ::grpc::ClientBidiReactor< ::imageconv::ImageChunk,::imageconv::ConvolutionResult>* reactor) = 0;
-      #else
-      virtual void StreamConvolution(::grpc::ClientContext* context, ::grpc::experimental::ClientBidiReactor< ::imageconv::ImageChunk,::imageconv::ConvolutionResult>* reactor) = 0;
-      #endif
     };
-    #ifdef GRPC_CALLBACK_API_NONEXPERIMENTAL
-    typedef class experimental_async_interface async_interface;
-    #endif
-    #ifdef GRPC_CALLBACK_API_NONEXPERIMENTAL
-    async_interface* async() { return experimental_async(); }
-    #endif
-    virtual class experimental_async_interface* experimental_async() { return nullptr; }
-  private:
+    typedef class async_interface experimental_async_interface;
+    virtual class async_interface* async() { return nullptr; }
+    class async_interface* experimental_async() { return async(); }
+   private:
     virtual ::grpc::ClientReaderWriterInterface< ::imageconv::ImageChunk, ::imageconv::ConvolutionResult>* StreamConvolutionRaw(::grpc::ClientContext* context) = 0;
     virtual ::grpc::ClientAsyncReaderWriterInterface< ::imageconv::ImageChunk, ::imageconv::ConvolutionResult>* AsyncStreamConvolutionRaw(::grpc::ClientContext* context, ::grpc::CompletionQueue* cq, void* tag) = 0;
     virtual ::grpc::ClientAsyncReaderWriterInterface< ::imageconv::ImageChunk, ::imageconv::ConvolutionResult>* PrepareAsyncStreamConvolutionRaw(::grpc::ClientContext* context, ::grpc::CompletionQueue* cq) = 0;
   };
   class Stub final : public StubInterface {
    public:
-    Stub(const std::shared_ptr< ::grpc::ChannelInterface>& channel);
+    Stub(const std::shared_ptr< ::grpc::ChannelInterface>& channel, const ::grpc::StubOptions& options = ::grpc::StubOptions());
     std::unique_ptr< ::grpc::ClientReaderWriter< ::imageconv::ImageChunk, ::imageconv::ConvolutionResult>> StreamConvolution(::grpc::ClientContext* context) {
       return std::unique_ptr< ::grpc::ClientReaderWriter< ::imageconv::ImageChunk, ::imageconv::ConvolutionResult>>(StreamConvolutionRaw(context));
     }
@@ -78,25 +69,21 @@ class ImageConvolution final {
     std::unique_ptr<  ::grpc::ClientAsyncReaderWriter< ::imageconv::ImageChunk, ::imageconv::ConvolutionResult>> PrepareAsyncStreamConvolution(::grpc::ClientContext* context, ::grpc::CompletionQueue* cq) {
       return std::unique_ptr< ::grpc::ClientAsyncReaderWriter< ::imageconv::ImageChunk, ::imageconv::ConvolutionResult>>(PrepareAsyncStreamConvolutionRaw(context, cq));
     }
-    class experimental_async final :
-      public StubInterface::experimental_async_interface {
+    class async final :
+      public StubInterface::async_interface {
      public:
-      #ifdef GRPC_CALLBACK_API_NONEXPERIMENTAL
       void StreamConvolution(::grpc::ClientContext* context, ::grpc::ClientBidiReactor< ::imageconv::ImageChunk,::imageconv::ConvolutionResult>* reactor) override;
-      #else
-      void StreamConvolution(::grpc::ClientContext* context, ::grpc::experimental::ClientBidiReactor< ::imageconv::ImageChunk,::imageconv::ConvolutionResult>* reactor) override;
-      #endif
      private:
       friend class Stub;
-      explicit experimental_async(Stub* stub): stub_(stub) { }
+      explicit async(Stub* stub): stub_(stub) { }
       Stub* stub() { return stub_; }
       Stub* stub_;
     };
-    class experimental_async_interface* experimental_async() override { return &async_stub_; }
+    class async* async() override { return &async_stub_; }
 
    private:
     std::shared_ptr< ::grpc::ChannelInterface> channel_;
-    class experimental_async async_stub_{this};
+    class async async_stub_{this};
     ::grpc::ClientReaderWriter< ::imageconv::ImageChunk, ::imageconv::ConvolutionResult>* StreamConvolutionRaw(::grpc::ClientContext* context) override;
     ::grpc::ClientAsyncReaderWriter< ::imageconv::ImageChunk, ::imageconv::ConvolutionResult>* AsyncStreamConvolutionRaw(::grpc::ClientContext* context, ::grpc::CompletionQueue* cq, void* tag) override;
     ::grpc::ClientAsyncReaderWriter< ::imageconv::ImageChunk, ::imageconv::ConvolutionResult>* PrepareAsyncStreamConvolutionRaw(::grpc::ClientContext* context, ::grpc::CompletionQueue* cq) override;
@@ -132,27 +119,17 @@ class ImageConvolution final {
   };
   typedef WithAsyncMethod_StreamConvolution<Service > AsyncService;
   template <class BaseClass>
-  class ExperimentalWithCallbackMethod_StreamConvolution : public BaseClass {
+  class WithCallbackMethod_StreamConvolution : public BaseClass {
    private:
     void BaseClassMustBeDerivedFromService(const Service* /*service*/) {}
    public:
-    ExperimentalWithCallbackMethod_StreamConvolution() {
-    #ifdef GRPC_CALLBACK_API_NONEXPERIMENTAL
-      ::grpc::Service::
-    #else
-      ::grpc::Service::experimental().
-    #endif
-        MarkMethodCallback(0,
-          new ::grpc_impl::internal::CallbackBidiHandler< ::imageconv::ImageChunk, ::imageconv::ConvolutionResult>(
+    WithCallbackMethod_StreamConvolution() {
+      ::grpc::Service::MarkMethodCallback(0,
+          new ::grpc::internal::CallbackBidiHandler< ::imageconv::ImageChunk, ::imageconv::ConvolutionResult>(
             [this](
-    #ifdef GRPC_CALLBACK_API_NONEXPERIMENTAL
-                   ::grpc::CallbackServerContext*
-    #else
-                   ::grpc::experimental::CallbackServerContext*
-    #endif
-                     context) { return this->StreamConvolution(context); }));
+                   ::grpc::CallbackServerContext* context) { return this->StreamConvolution(context); }));
     }
-    ~ExperimentalWithCallbackMethod_StreamConvolution() override {
+    ~WithCallbackMethod_StreamConvolution() override {
       BaseClassMustBeDerivedFromService(this);
     }
     // disable synchronous version of this method
@@ -160,20 +137,12 @@ class ImageConvolution final {
       abort();
       return ::grpc::Status(::grpc::StatusCode::UNIMPLEMENTED, "");
     }
-    #ifdef GRPC_CALLBACK_API_NONEXPERIMENTAL
     virtual ::grpc::ServerBidiReactor< ::imageconv::ImageChunk, ::imageconv::ConvolutionResult>* StreamConvolution(
       ::grpc::CallbackServerContext* /*context*/)
-    #else
-    virtual ::grpc::experimental::ServerBidiReactor< ::imageconv::ImageChunk, ::imageconv::ConvolutionResult>* StreamConvolution(
-      ::grpc::experimental::CallbackServerContext* /*context*/)
-    #endif
       { return nullptr; }
   };
-  #ifdef GRPC_CALLBACK_API_NONEXPERIMENTAL
-  typedef ExperimentalWithCallbackMethod_StreamConvolution<Service > CallbackService;
-  #endif
-
-  typedef ExperimentalWithCallbackMethod_StreamConvolution<Service > ExperimentalCallbackService;
+  typedef WithCallbackMethod_StreamConvolution<Service > CallbackService;
+  typedef CallbackService ExperimentalCallbackService;
   template <class BaseClass>
   class WithGenericMethod_StreamConvolution : public BaseClass {
    private:
@@ -212,27 +181,17 @@ class ImageConvolution final {
     }
   };
   template <class BaseClass>
-  class ExperimentalWithRawCallbackMethod_StreamConvolution : public BaseClass {
+  class WithRawCallbackMethod_StreamConvolution : public BaseClass {
    private:
     void BaseClassMustBeDerivedFromService(const Service* /*service*/) {}
    public:
-    ExperimentalWithRawCallbackMethod_StreamConvolution() {
-    #ifdef GRPC_CALLBACK_API_NONEXPERIMENTAL
-      ::grpc::Service::
-    #else
-      ::grpc::Service::experimental().
-    #endif
-        MarkMethodRawCallback(0,
-          new ::grpc_impl::internal::CallbackBidiHandler< ::grpc::ByteBuffer, ::grpc::ByteBuffer>(
+    WithRawCallbackMethod_StreamConvolution() {
+      ::grpc::Service::MarkMethodRawCallback(0,
+          new ::grpc::internal::CallbackBidiHandler< ::grpc::ByteBuffer, ::grpc::ByteBuffer>(
             [this](
-    #ifdef GRPC_CALLBACK_API_NONEXPERIMENTAL
-                   ::grpc::CallbackServerContext*
-    #else
-                   ::grpc::experimental::CallbackServerContext*
-    #endif
-                     context) { return this->StreamConvolution(context); }));
+                   ::grpc::CallbackServerContext* context) { return this->StreamConvolution(context); }));
     }
-    ~ExperimentalWithRawCallbackMethod_StreamConvolution() override {
+    ~WithRawCallbackMethod_StreamConvolution() override {
       BaseClassMustBeDerivedFromService(this);
     }
     // disable synchronous version of this method
@@ -240,13 +199,8 @@ class ImageConvolution final {
       abort();
       return ::grpc::Status(::grpc::StatusCode::UNIMPLEMENTED, "");
     }
-    #ifdef GRPC_CALLBACK_API_NONEXPERIMENTAL
     virtual ::grpc::ServerBidiReactor< ::grpc::ByteBuffer, ::grpc::ByteBuffer>* StreamConvolution(
       ::grpc::CallbackServerContext* /*context*/)
-    #else
-    virtual ::grpc::experimental::ServerBidiReactor< ::grpc::ByteBuffer, ::grpc::ByteBuffer>* StreamConvolution(
-      ::grpc::experimental::CallbackServerContext* /*context*/)
-    #endif
       { return nullptr; }
   };
   typedef Service StreamedUnaryService;

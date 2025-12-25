@@ -5,6 +5,9 @@
 #include <grpcpp/grpcpp.h>
 #include <opencv2/opencv.hpp>
 #include <thread>
+#include <chrono>
+#include <fstream>
+#include <mutex>
 #include "imageConvolution.grpc.pb.h"
 
 using grpc::Channel;
@@ -13,6 +16,7 @@ using grpc::ClientReaderWriter;
 using grpc::Status;
 using namespace cv;
 using namespace std;
+using namespace std::chrono;
 
 class ConvolutionClient {
 public:

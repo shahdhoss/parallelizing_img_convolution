@@ -1,0 +1,2991 @@
+
+=== Server 1 Started: 2025-12-25 16:06:23.212 ===
+[2025-12-25 16:07:33.249] [1] Received chunk 0
+[2025-12-25 16:07:33.280] [1] Processed chunk 0 in 30ms
+[2025-12-25 16:07:33.287] [1] Received chunk 1
+[2025-12-25 16:07:33.311] [1] Processed chunk 1 in 21ms
+[2025-12-25 16:07:33.313] [1] Received chunk 2
+[2025-12-25 16:07:33.335] [1] Processed chunk 2 in 21ms
+[2025-12-25 16:07:33.339] [1] Received chunk 3
+[2025-12-25 16:07:33.354] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:07:33.886] [1] Received chunk 0
+[2025-12-25 16:07:33.893] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:07:33.902] [1] Received chunk 1
+[2025-12-25 16:07:33.914] [1] Processed chunk 1 in 10ms
+[2025-12-25 16:07:33.923] [1] Received chunk 2
+[2025-12-25 16:07:33.940] [1] Processed chunk 2 in 12ms
+[2025-12-25 16:07:33.941] [1] Received chunk 3
+[2025-12-25 16:07:33.966] [1] Processed chunk 3 in 23ms
+[2025-12-25 16:07:34.509] [1] Received chunk 0
+[2025-12-25 16:07:34.532] [1] Processed chunk 0 in 23ms
+[2025-12-25 16:07:34.536] [1] Received chunk 1
+[2025-12-25 16:07:34.554] [1] Processed chunk 1 in 17ms
+[2025-12-25 16:07:34.558] [1] Received chunk 2
+[2025-12-25 16:07:34.567] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:07:34.577] [1] Received chunk 3
+[2025-12-25 16:07:34.600] [1] Processed chunk 3 in 22ms
+[2025-12-25 16:07:35.146] [1] Received chunk 0
+[2025-12-25 16:07:35.166] [1] Processed chunk 0 in 19ms
+[2025-12-25 16:07:35.171] [1] Received chunk 1
+[2025-12-25 16:07:35.181] [1] Processed chunk 1 in 8ms
+[2025-12-25 16:07:35.182] [1] Received chunk 2
+[2025-12-25 16:07:35.189] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:07:35.190] [1] Received chunk 3
+[2025-12-25 16:07:35.199] [1] Processed chunk 3 in 8ms
+[2025-12-25 16:07:35.740] [1] Received chunk 0
+[2025-12-25 16:07:35.751] [1] Processed chunk 0 in 10ms
+[2025-12-25 16:07:35.753] [1] Received chunk 1
+[2025-12-25 16:07:35.766] [1] Processed chunk 1 in 10ms
+[2025-12-25 16:07:35.769] [1] Received chunk 2
+[2025-12-25 16:07:35.782] [1] Processed chunk 2 in 13ms
+[2025-12-25 16:07:35.782] [1] Received chunk 3
+[2025-12-25 16:07:35.795] [1] Processed chunk 3 in 10ms
+[2025-12-25 16:07:36.343] [1] Received chunk 0
+[2025-12-25 16:07:36.355] [1] Processed chunk 0 in 12ms
+[2025-12-25 16:07:36.358] [1] Received chunk 1
+[2025-12-25 16:07:36.366] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:07:36.368] [1] Received chunk 2
+[2025-12-25 16:07:36.380] [1] Processed chunk 2 in 11ms
+[2025-12-25 16:07:36.383] [1] Received chunk 3
+[2025-12-25 16:07:36.397] [1] Processed chunk 3 in 11ms
+[2025-12-25 16:07:36.933] [1] Received chunk 0
+[2025-12-25 16:07:36.941] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:07:36.942] [1] Received chunk 1
+[2025-12-25 16:07:36.947] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:07:36.948] [1] Received chunk 2
+[2025-12-25 16:07:36.954] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:07:36.955] [1] Received chunk 3
+[2025-12-25 16:07:36.960] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:07:37.496] [1] Received chunk 0
+[2025-12-25 16:07:37.504] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:07:37.504] [1] Received chunk 1
+[2025-12-25 16:07:37.513] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:07:37.514] [1] Received chunk 2
+[2025-12-25 16:07:37.520] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:07:37.521] [1] Received chunk 3
+[2025-12-25 16:07:37.528] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:07:38.70] [1] Received chunk 0
+[2025-12-25 16:07:38.76] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:07:38.77] [1] Received chunk 1
+[2025-12-25 16:07:38.82] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:07:38.83] [1] Received chunk 2
+[2025-12-25 16:07:38.90] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:07:38.90] [1] Received chunk 3
+[2025-12-25 16:07:38.96] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:07:38.640] [1] Received chunk 0
+[2025-12-25 16:07:38.646] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:07:38.647] [1] Received chunk 1
+[2025-12-25 16:07:38.653] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:07:38.653] [1] Received chunk 2
+[2025-12-25 16:07:38.659] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:07:38.660] [1] Received chunk 3
+[2025-12-25 16:07:38.666] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:07:39.201] [1] Received chunk 0
+[2025-12-25 16:07:39.206] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:07:39.206] [1] Received chunk 1
+[2025-12-25 16:07:39.212] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:07:39.213] [1] Received chunk 2
+[2025-12-25 16:07:39.219] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:07:39.219] [1] Received chunk 3
+[2025-12-25 16:07:39.226] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:07:39.757] [1] Received chunk 0
+[2025-12-25 16:07:39.763] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:07:39.763] [1] Received chunk 1
+[2025-12-25 16:07:39.769] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:07:39.770] [1] Received chunk 2
+[2025-12-25 16:07:39.777] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:07:39.777] [1] Received chunk 3
+[2025-12-25 16:07:39.783] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:07:40.322] [1] Received chunk 0
+[2025-12-25 16:07:40.327] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:07:40.328] [1] Received chunk 1
+[2025-12-25 16:07:40.333] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:07:40.333] [1] Received chunk 2
+[2025-12-25 16:07:40.340] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:07:40.341] [1] Received chunk 3
+[2025-12-25 16:07:40.347] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:07:40.884] [1] Received chunk 0
+[2025-12-25 16:07:40.891] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:07:40.891] [1] Received chunk 1
+[2025-12-25 16:07:40.898] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:07:40.898] [1] Received chunk 2
+[2025-12-25 16:07:40.904] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:07:40.905] [1] Received chunk 3
+[2025-12-25 16:07:40.912] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:07:41.449] [1] Received chunk 0
+[2025-12-25 16:07:41.455] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:07:41.456] [1] Received chunk 1
+[2025-12-25 16:07:41.461] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:07:41.462] [1] Received chunk 2
+[2025-12-25 16:07:41.470] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:07:41.470] [1] Received chunk 3
+[2025-12-25 16:07:41.477] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:07:42.13] [1] Received chunk 0
+[2025-12-25 16:07:42.19] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:07:42.19] [1] Received chunk 1
+[2025-12-25 16:07:42.25] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:07:42.25] [1] Received chunk 2
+[2025-12-25 16:07:42.33] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:07:42.33] [1] Received chunk 3
+[2025-12-25 16:07:42.40] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:07:42.577] [1] Received chunk 0
+[2025-12-25 16:07:42.584] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:07:42.584] [1] Received chunk 1
+[2025-12-25 16:07:42.591] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:07:42.591] [1] Received chunk 2
+[2025-12-25 16:07:42.602] [1] Processed chunk 2 in 10ms
+[2025-12-25 16:07:42.602] [1] Received chunk 3
+[2025-12-25 16:07:42.611] [1] Processed chunk 3 in 8ms
+[2025-12-25 16:07:43.148] [1] Received chunk 0
+[2025-12-25 16:07:43.156] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:07:43.156] [1] Received chunk 1
+[2025-12-25 16:07:43.163] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:07:43.164] [1] Received chunk 2
+[2025-12-25 16:07:43.175] [1] Processed chunk 2 in 10ms
+[2025-12-25 16:07:43.175] [1] Received chunk 3
+[2025-12-25 16:07:43.182] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:07:43.721] [1] Received chunk 0
+[2025-12-25 16:07:43.728] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:07:43.730] [1] Received chunk 1
+[2025-12-25 16:07:43.736] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:07:43.736] [1] Received chunk 2
+[2025-12-25 16:07:43.745] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:07:43.745] [1] Received chunk 3
+[2025-12-25 16:07:43.753] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:07:44.286] [1] Received chunk 0
+[2025-12-25 16:07:44.292] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:07:44.292] [1] Received chunk 1
+[2025-12-25 16:07:44.299] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:07:44.299] [1] Received chunk 2
+[2025-12-25 16:07:44.307] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:07:44.307] [1] Received chunk 3
+[2025-12-25 16:07:44.313] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:07:44.846] [1] Received chunk 0
+[2025-12-25 16:07:44.851] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:07:44.851] [1] Received chunk 1
+[2025-12-25 16:07:44.858] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:07:44.858] [1] Received chunk 2
+[2025-12-25 16:07:44.865] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:07:44.865] [1] Received chunk 3
+[2025-12-25 16:07:44.872] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:07:45.405] [1] Received chunk 0
+[2025-12-25 16:07:45.412] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:07:45.413] [1] Received chunk 1
+[2025-12-25 16:07:45.420] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:07:45.421] [1] Received chunk 2
+[2025-12-25 16:07:45.431] [1] Processed chunk 2 in 9ms
+[2025-12-25 16:07:45.433] [1] Received chunk 3
+[2025-12-25 16:07:45.439] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:07:45.983] [1] Received chunk 0
+[2025-12-25 16:07:45.988] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:07:45.989] [1] Received chunk 1
+[2025-12-25 16:07:45.995] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:07:45.996] [1] Received chunk 2
+[2025-12-25 16:07:46.2] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:07:46.3] [1] Received chunk 3
+[2025-12-25 16:07:46.9] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:07:46.552] [1] Received chunk 0
+[2025-12-25 16:07:46.558] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:07:46.558] [1] Received chunk 1
+[2025-12-25 16:07:46.565] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:07:46.566] [1] Received chunk 2
+[2025-12-25 16:07:46.574] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:07:46.575] [1] Received chunk 3
+[2025-12-25 16:07:46.580] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:07:47.116] [1] Received chunk 0
+[2025-12-25 16:07:47.121] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:07:47.122] [1] Received chunk 1
+[2025-12-25 16:07:47.131] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:07:47.132] [1] Received chunk 2
+[2025-12-25 16:07:47.140] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:07:47.141] [1] Received chunk 3
+[2025-12-25 16:07:47.147] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:07:47.686] [1] Received chunk 0
+[2025-12-25 16:07:47.694] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:07:47.695] [1] Received chunk 1
+[2025-12-25 16:07:47.701] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:07:47.702] [1] Received chunk 2
+[2025-12-25 16:07:47.708] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:07:47.709] [1] Received chunk 3
+[2025-12-25 16:07:47.715] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:07:48.245] [1] Received chunk 0
+[2025-12-25 16:07:48.251] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:07:48.251] [1] Received chunk 1
+[2025-12-25 16:07:48.257] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:07:48.257] [1] Received chunk 2
+[2025-12-25 16:07:48.264] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:07:48.265] [1] Received chunk 3
+[2025-12-25 16:07:48.270] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:07:48.811] [1] Received chunk 0
+[2025-12-25 16:07:48.816] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:07:48.816] [1] Received chunk 1
+[2025-12-25 16:07:48.823] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:07:48.823] [1] Received chunk 2
+[2025-12-25 16:07:48.831] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:07:48.832] [1] Received chunk 3
+[2025-12-25 16:07:48.838] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:07:49.375] [1] Received chunk 0
+[2025-12-25 16:07:49.380] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:07:49.380] [1] Received chunk 1
+[2025-12-25 16:07:49.386] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:07:49.386] [1] Received chunk 2
+[2025-12-25 16:07:49.393] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:07:49.394] [1] Received chunk 3
+[2025-12-25 16:07:49.399] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:07:49.932] [1] Received chunk 0
+[2025-12-25 16:07:49.938] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:07:49.938] [1] Received chunk 1
+[2025-12-25 16:07:49.944] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:07:49.945] [1] Received chunk 2
+[2025-12-25 16:07:49.950] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:07:49.951] [1] Received chunk 3
+[2025-12-25 16:07:49.956] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:07:50.488] [1] Received chunk 0
+[2025-12-25 16:07:50.495] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:07:50.495] [1] Received chunk 1
+[2025-12-25 16:07:50.501] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:07:50.502] [1] Received chunk 2
+[2025-12-25 16:07:50.508] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:07:50.509] [1] Received chunk 3
+[2025-12-25 16:07:50.515] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:07:51.51] [1] Received chunk 0
+[2025-12-25 16:07:51.57] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:07:51.58] [1] Received chunk 1
+[2025-12-25 16:07:51.65] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:07:51.66] [1] Received chunk 2
+[2025-12-25 16:07:51.72] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:07:51.73] [1] Received chunk 3
+[2025-12-25 16:07:51.80] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:07:51.618] [1] Received chunk 0
+[2025-12-25 16:07:51.625] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:07:51.626] [1] Received chunk 1
+[2025-12-25 16:07:51.631] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:07:51.631] [1] Received chunk 2
+[2025-12-25 16:07:51.638] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:07:51.638] [1] Received chunk 3
+[2025-12-25 16:07:51.644] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:07:52.183] [1] Received chunk 0
+[2025-12-25 16:07:52.189] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:07:52.190] [1] Received chunk 1
+[2025-12-25 16:07:52.196] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:07:52.197] [1] Received chunk 2
+[2025-12-25 16:07:52.203] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:07:52.205] [1] Received chunk 3
+[2025-12-25 16:07:52.213] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:07:52.750] [1] Received chunk 0
+[2025-12-25 16:07:52.755] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:07:52.756] [1] Received chunk 1
+[2025-12-25 16:07:52.764] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:07:52.764] [1] Received chunk 2
+[2025-12-25 16:07:52.771] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:07:52.771] [1] Received chunk 3
+[2025-12-25 16:07:52.777] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:07:53.309] [1] Received chunk 0
+[2025-12-25 16:07:53.315] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:07:53.316] [1] Received chunk 1
+[2025-12-25 16:07:53.322] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:07:53.323] [1] Received chunk 2
+[2025-12-25 16:07:53.329] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:07:53.330] [1] Received chunk 3
+[2025-12-25 16:07:53.336] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:07:53.872] [1] Received chunk 0
+[2025-12-25 16:07:53.878] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:07:53.879] [1] Received chunk 1
+[2025-12-25 16:07:53.885] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:07:53.886] [1] Received chunk 2
+[2025-12-25 16:07:53.893] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:07:53.893] [1] Received chunk 3
+[2025-12-25 16:07:53.899] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:07:54.432] [1] Received chunk 0
+[2025-12-25 16:07:54.437] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:07:54.437] [1] Received chunk 1
+[2025-12-25 16:07:54.443] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:07:54.444] [1] Received chunk 2
+[2025-12-25 16:07:54.450] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:07:54.451] [1] Received chunk 3
+[2025-12-25 16:07:54.457] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:07:54.990] [1] Received chunk 0
+[2025-12-25 16:07:54.996] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:07:54.996] [1] Received chunk 1
+[2025-12-25 16:07:55.4] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:07:55.4] [1] Received chunk 2
+[2025-12-25 16:07:55.11] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:07:55.12] [1] Received chunk 3
+[2025-12-25 16:07:55.17] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:07:55.554] [1] Received chunk 0
+[2025-12-25 16:07:55.559] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:07:55.560] [1] Received chunk 1
+[2025-12-25 16:07:55.565] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:07:55.566] [1] Received chunk 2
+[2025-12-25 16:07:55.574] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:07:55.574] [1] Received chunk 3
+[2025-12-25 16:07:55.580] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:07:56.122] [1] Received chunk 0
+[2025-12-25 16:07:56.128] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:07:56.128] [1] Received chunk 1
+[2025-12-25 16:07:56.134] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:07:56.134] [1] Received chunk 2
+[2025-12-25 16:07:56.140] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:07:56.142] [1] Received chunk 3
+[2025-12-25 16:07:56.149] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:07:56.683] [1] Received chunk 0
+[2025-12-25 16:07:56.689] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:07:56.690] [1] Received chunk 1
+[2025-12-25 16:07:56.695] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:07:56.696] [1] Received chunk 2
+[2025-12-25 16:07:56.702] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:07:56.702] [1] Received chunk 3
+[2025-12-25 16:07:56.707] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:07:57.239] [1] Received chunk 0
+[2025-12-25 16:07:57.246] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:07:57.247] [1] Received chunk 1
+[2025-12-25 16:07:57.253] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:07:57.254] [1] Received chunk 2
+[2025-12-25 16:07:57.260] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:07:57.261] [1] Received chunk 3
+[2025-12-25 16:07:57.268] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:07:57.796] [1] Received chunk 0
+[2025-12-25 16:07:57.804] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:07:57.806] [1] Received chunk 1
+[2025-12-25 16:07:57.814] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:07:57.816] [1] Received chunk 2
+[2025-12-25 16:07:57.823] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:07:57.824] [1] Received chunk 3
+[2025-12-25 16:07:57.830] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:07:58.358] [1] Received chunk 0
+[2025-12-25 16:07:58.363] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:07:58.364] [1] Received chunk 1
+[2025-12-25 16:07:58.370] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:07:58.371] [1] Received chunk 2
+[2025-12-25 16:07:58.379] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:07:58.379] [1] Received chunk 3
+[2025-12-25 16:07:58.385] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:07:58.924] [1] Received chunk 0
+[2025-12-25 16:07:58.932] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:07:58.932] [1] Received chunk 1
+[2025-12-25 16:07:58.938] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:07:58.938] [1] Received chunk 2
+[2025-12-25 16:07:58.944] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:07:58.945] [1] Received chunk 3
+[2025-12-25 16:07:58.952] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:07:59.489] [1] Received chunk 0
+[2025-12-25 16:07:59.496] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:07:59.497] [1] Received chunk 1
+[2025-12-25 16:07:59.503] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:07:59.504] [1] Received chunk 2
+[2025-12-25 16:07:59.509] [1] Processed chunk 2 in 4ms
+[2025-12-25 16:07:59.509] [1] Received chunk 3
+[2025-12-25 16:07:59.516] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:08:00.45] [1] Received chunk 0
+[2025-12-25 16:08:00.50] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:00.51] [1] Received chunk 1
+[2025-12-25 16:08:00.56] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:08:00.57] [1] Received chunk 2
+[2025-12-25 16:08:00.63] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:08:00.63] [1] Received chunk 3
+[2025-12-25 16:08:00.68] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:08:00.602] [1] Received chunk 0
+[2025-12-25 16:08:00.607] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:00.608] [1] Received chunk 1
+[2025-12-25 16:08:00.620] [1] Processed chunk 1 in 11ms
+[2025-12-25 16:08:00.621] [1] Received chunk 2
+[2025-12-25 16:08:00.627] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:08:00.628] [1] Received chunk 3
+[2025-12-25 16:08:00.635] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:08:01.175] [1] Received chunk 0
+[2025-12-25 16:08:01.183] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:08:01.183] [1] Received chunk 1
+[2025-12-25 16:08:01.190] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:08:01.191] [1] Received chunk 2
+[2025-12-25 16:08:01.198] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:08:01.199] [1] Received chunk 3
+[2025-12-25 16:08:01.206] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:08:01.743] [1] Received chunk 0
+[2025-12-25 16:08:01.749] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:01.750] [1] Received chunk 1
+[2025-12-25 16:08:01.756] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:08:01.757] [1] Received chunk 2
+[2025-12-25 16:08:01.764] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:01.765] [1] Received chunk 3
+[2025-12-25 16:08:01.771] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:08:02.307] [1] Received chunk 0
+[2025-12-25 16:08:02.313] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:02.314] [1] Received chunk 1
+[2025-12-25 16:08:02.323] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:08:02.324] [1] Received chunk 2
+[2025-12-25 16:08:02.331] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:02.332] [1] Received chunk 3
+[2025-12-25 16:08:02.337] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:08:02.869] [1] Received chunk 0
+[2025-12-25 16:08:02.875] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:02.876] [1] Received chunk 1
+[2025-12-25 16:08:02.880] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:08:02.881] [1] Received chunk 2
+[2025-12-25 16:08:02.887] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:02.888] [1] Received chunk 3
+[2025-12-25 16:08:02.894] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:08:03.429] [1] Received chunk 0
+[2025-12-25 16:08:03.435] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:03.436] [1] Received chunk 1
+[2025-12-25 16:08:03.442] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:08:03.442] [1] Received chunk 2
+[2025-12-25 16:08:03.449] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:08:03.450] [1] Received chunk 3
+[2025-12-25 16:08:03.456] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:08:04.1] [1] Received chunk 0
+[2025-12-25 16:08:04.7] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:04.7] [1] Received chunk 1
+[2025-12-25 16:08:04.14] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:08:04.14] [1] Received chunk 2
+[2025-12-25 16:08:04.22] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:04.23] [1] Received chunk 3
+[2025-12-25 16:08:04.31] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:08:04.581] [1] Received chunk 0
+[2025-12-25 16:08:04.587] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:08:04.587] [1] Received chunk 1
+[2025-12-25 16:08:04.593] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:08:04.595] [1] Received chunk 2
+[2025-12-25 16:08:04.604] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:08:04.605] [1] Received chunk 3
+[2025-12-25 16:08:04.614] [1] Processed chunk 3 in 8ms
+[2025-12-25 16:08:05.151] [1] Received chunk 0
+[2025-12-25 16:08:05.157] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:05.157] [1] Received chunk 1
+[2025-12-25 16:08:05.163] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:08:05.164] [1] Received chunk 2
+[2025-12-25 16:08:05.169] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:08:05.170] [1] Received chunk 3
+[2025-12-25 16:08:05.178] [1] Processed chunk 3 in 8ms
+[2025-12-25 16:08:05.715] [1] Received chunk 0
+[2025-12-25 16:08:05.722] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:08:05.722] [1] Received chunk 1
+[2025-12-25 16:08:05.728] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:08:05.729] [1] Received chunk 2
+[2025-12-25 16:08:05.735] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:08:05.736] [1] Received chunk 3
+[2025-12-25 16:08:05.741] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:08:06.287] [1] Received chunk 0
+[2025-12-25 16:08:06.293] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:06.293] [1] Received chunk 1
+[2025-12-25 16:08:06.299] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:08:06.300] [1] Received chunk 2
+[2025-12-25 16:08:06.306] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:08:06.306] [1] Received chunk 3
+[2025-12-25 16:08:06.312] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:08:06.855] [1] Received chunk 0
+[2025-12-25 16:08:06.861] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:06.861] [1] Received chunk 1
+[2025-12-25 16:08:06.867] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:08:06.868] [1] Received chunk 2
+[2025-12-25 16:08:06.875] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:06.875] [1] Received chunk 3
+[2025-12-25 16:08:06.881] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:08:07.424] [1] Received chunk 0
+[2025-12-25 16:08:07.430] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:08:07.431] [1] Received chunk 1
+[2025-12-25 16:08:07.438] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:08:07.440] [1] Received chunk 2
+[2025-12-25 16:08:07.446] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:08:07.446] [1] Received chunk 3
+[2025-12-25 16:08:07.453] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:08:08.2] [1] Received chunk 0
+[2025-12-25 16:08:08.8] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:08.9] [1] Received chunk 1
+[2025-12-25 16:08:08.15] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:08:08.16] [1] Received chunk 2
+[2025-12-25 16:08:08.23] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:08.23] [1] Received chunk 3
+[2025-12-25 16:08:08.29] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:08:08.577] [1] Received chunk 0
+[2025-12-25 16:08:08.582] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:08:08.583] [1] Received chunk 1
+[2025-12-25 16:08:08.588] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:08:08.588] [1] Received chunk 2
+[2025-12-25 16:08:08.595] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:08:08.596] [1] Received chunk 3
+[2025-12-25 16:08:08.603] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:08:09.138] [1] Received chunk 0
+[2025-12-25 16:08:09.145] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:08:09.145] [1] Received chunk 1
+[2025-12-25 16:08:09.151] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:08:09.151] [1] Received chunk 2
+[2025-12-25 16:08:09.158] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:09.159] [1] Received chunk 3
+[2025-12-25 16:08:09.164] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:08:09.704] [1] Received chunk 0
+[2025-12-25 16:08:09.709] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:08:09.710] [1] Received chunk 1
+[2025-12-25 16:08:09.717] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:08:09.718] [1] Received chunk 2
+[2025-12-25 16:08:09.724] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:09.725] [1] Received chunk 3
+[2025-12-25 16:08:09.733] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:08:10.267] [1] Received chunk 0
+[2025-12-25 16:08:10.272] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:08:10.273] [1] Received chunk 1
+[2025-12-25 16:08:10.278] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:08:10.278] [1] Received chunk 2
+[2025-12-25 16:08:10.284] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:08:10.284] [1] Received chunk 3
+[2025-12-25 16:08:10.290] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:08:10.826] [1] Received chunk 0
+[2025-12-25 16:08:10.832] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:10.833] [1] Received chunk 1
+[2025-12-25 16:08:10.838] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:08:10.839] [1] Received chunk 2
+[2025-12-25 16:08:10.846] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:08:10.847] [1] Received chunk 3
+[2025-12-25 16:08:10.854] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:08:11.395] [1] Received chunk 0
+[2025-12-25 16:08:11.401] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:11.401] [1] Received chunk 1
+[2025-12-25 16:08:11.407] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:08:11.408] [1] Received chunk 2
+[2025-12-25 16:08:11.415] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:08:11.417] [1] Received chunk 3
+[2025-12-25 16:08:11.424] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:08:11.964] [1] Received chunk 0
+[2025-12-25 16:08:11.970] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:11.971] [1] Received chunk 1
+[2025-12-25 16:08:11.978] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:08:11.978] [1] Received chunk 2
+[2025-12-25 16:08:11.984] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:11.985] [1] Received chunk 3
+[2025-12-25 16:08:11.992] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:08:12.525] [1] Received chunk 0
+[2025-12-25 16:08:12.532] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:08:12.533] [1] Received chunk 1
+[2025-12-25 16:08:12.541] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:08:12.541] [1] Received chunk 2
+[2025-12-25 16:08:12.547] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:08:12.548] [1] Received chunk 3
+[2025-12-25 16:08:12.553] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:08:13.89] [1] Received chunk 0
+[2025-12-25 16:08:13.95] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:13.96] [1] Received chunk 1
+[2025-12-25 16:08:13.103] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:08:13.103] [1] Received chunk 2
+[2025-12-25 16:08:13.111] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:13.111] [1] Received chunk 3
+[2025-12-25 16:08:13.118] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:08:13.663] [1] Received chunk 0
+[2025-12-25 16:08:13.669] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:13.670] [1] Received chunk 1
+[2025-12-25 16:08:13.675] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:08:13.676] [1] Received chunk 2
+[2025-12-25 16:08:13.685] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:08:13.686] [1] Received chunk 3
+[2025-12-25 16:08:13.694] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:08:14.232] [1] Received chunk 0
+[2025-12-25 16:08:14.238] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:14.239] [1] Received chunk 1
+[2025-12-25 16:08:14.247] [1] Processed chunk 1 in 8ms
+[2025-12-25 16:08:14.248] [1] Received chunk 2
+[2025-12-25 16:08:14.255] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:08:14.255] [1] Received chunk 3
+[2025-12-25 16:08:14.261] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:08:14.804] [1] Received chunk 0
+[2025-12-25 16:08:14.811] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:08:14.812] [1] Received chunk 1
+[2025-12-25 16:08:14.818] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:08:14.822] [1] Received chunk 2
+[2025-12-25 16:08:14.832] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:08:14.833] [1] Received chunk 3
+[2025-12-25 16:08:14.838] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:08:15.373] [1] Received chunk 0
+[2025-12-25 16:08:15.379] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:08:15.380] [1] Received chunk 1
+[2025-12-25 16:08:15.387] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:08:15.387] [1] Received chunk 2
+[2025-12-25 16:08:15.394] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:15.395] [1] Received chunk 3
+[2025-12-25 16:08:15.401] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:08:15.929] [1] Received chunk 0
+[2025-12-25 16:08:15.936] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:15.936] [1] Received chunk 1
+[2025-12-25 16:08:15.943] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:08:15.944] [1] Received chunk 2
+[2025-12-25 16:08:15.949] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:08:15.950] [1] Received chunk 3
+[2025-12-25 16:08:15.956] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:08:16.483] [1] Received chunk 0
+[2025-12-25 16:08:16.488] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:08:16.488] [1] Received chunk 1
+[2025-12-25 16:08:16.494] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:08:16.494] [1] Received chunk 2
+[2025-12-25 16:08:16.500] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:16.501] [1] Received chunk 3
+[2025-12-25 16:08:16.508] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:08:17.44] [1] Received chunk 0
+[2025-12-25 16:08:17.52] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:08:17.52] [1] Received chunk 1
+[2025-12-25 16:08:17.59] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:08:17.60] [1] Received chunk 2
+[2025-12-25 16:08:17.67] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:17.68] [1] Received chunk 3
+[2025-12-25 16:08:17.73] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:08:17.609] [1] Received chunk 0
+[2025-12-25 16:08:17.616] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:08:17.617] [1] Received chunk 1
+[2025-12-25 16:08:17.622] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:08:17.623] [1] Received chunk 2
+[2025-12-25 16:08:17.630] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:17.630] [1] Received chunk 3
+[2025-12-25 16:08:17.636] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:08:18.171] [1] Received chunk 0
+[2025-12-25 16:08:18.178] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:08:18.180] [1] Received chunk 1
+[2025-12-25 16:08:18.185] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:08:18.186] [1] Received chunk 2
+[2025-12-25 16:08:18.192] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:18.193] [1] Received chunk 3
+[2025-12-25 16:08:18.199] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:08:18.739] [1] Received chunk 0
+[2025-12-25 16:08:18.746] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:08:18.747] [1] Received chunk 1
+[2025-12-25 16:08:18.759] [1] Processed chunk 1 in 9ms
+[2025-12-25 16:08:18.760] [1] Received chunk 2
+[2025-12-25 16:08:18.767] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:08:18.771] [1] Received chunk 3
+[2025-12-25 16:08:18.778] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:08:19.335] [1] Received chunk 0
+[2025-12-25 16:08:19.341] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:19.343] [1] Received chunk 1
+[2025-12-25 16:08:19.349] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:08:19.352] [1] Received chunk 2
+[2025-12-25 16:08:19.362] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:08:19.363] [1] Received chunk 3
+[2025-12-25 16:08:19.369] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:08:19.911] [1] Received chunk 0
+[2025-12-25 16:08:19.916] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:19.917] [1] Received chunk 1
+[2025-12-25 16:08:19.924] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:08:19.925] [1] Received chunk 2
+[2025-12-25 16:08:19.934] [1] Processed chunk 2 in 9ms
+[2025-12-25 16:08:19.936] [1] Received chunk 3
+[2025-12-25 16:08:19.942] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:08:20.484] [1] Received chunk 0
+[2025-12-25 16:08:20.492] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:08:20.493] [1] Received chunk 1
+[2025-12-25 16:08:20.498] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:08:20.499] [1] Received chunk 2
+[2025-12-25 16:08:20.506] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:08:20.507] [1] Received chunk 3
+[2025-12-25 16:08:20.513] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:08:21.50] [1] Received chunk 0
+[2025-12-25 16:08:21.56] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:08:21.57] [1] Received chunk 1
+[2025-12-25 16:08:21.63] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:08:21.64] [1] Received chunk 2
+[2025-12-25 16:08:21.70] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:08:21.70] [1] Received chunk 3
+[2025-12-25 16:08:21.78] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:08:21.613] [1] Received chunk 0
+[2025-12-25 16:08:21.620] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:08:21.620] [1] Received chunk 1
+[2025-12-25 16:08:21.626] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:08:21.627] [1] Received chunk 2
+[2025-12-25 16:08:21.633] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:21.634] [1] Received chunk 3
+[2025-12-25 16:08:21.641] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:08:22.178] [1] Received chunk 0
+[2025-12-25 16:08:22.184] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:22.184] [1] Received chunk 1
+[2025-12-25 16:08:22.191] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:08:22.191] [1] Received chunk 2
+[2025-12-25 16:08:22.198] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:22.199] [1] Received chunk 3
+[2025-12-25 16:08:22.204] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:08:22.740] [1] Received chunk 0
+[2025-12-25 16:08:22.746] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:22.746] [1] Received chunk 1
+[2025-12-25 16:08:22.753] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:08:22.754] [1] Received chunk 2
+[2025-12-25 16:08:22.761] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:08:22.762] [1] Received chunk 3
+[2025-12-25 16:08:22.769] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:08:23.309] [1] Received chunk 0
+[2025-12-25 16:08:23.315] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:23.317] [1] Received chunk 1
+[2025-12-25 16:08:23.322] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:08:23.324] [1] Received chunk 2
+[2025-12-25 16:08:23.331] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:23.332] [1] Received chunk 3
+[2025-12-25 16:08:23.340] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:08:23.882] [1] Received chunk 0
+[2025-12-25 16:08:23.889] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:23.889] [1] Received chunk 1
+[2025-12-25 16:08:23.896] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:08:23.897] [1] Received chunk 2
+[2025-12-25 16:08:23.904] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:23.905] [1] Received chunk 3
+[2025-12-25 16:08:23.911] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:08:24.457] [1] Received chunk 0
+[2025-12-25 16:08:24.462] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:24.463] [1] Received chunk 1
+[2025-12-25 16:08:24.470] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:08:24.470] [1] Received chunk 2
+[2025-12-25 16:08:24.479] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:08:24.480] [1] Received chunk 3
+[2025-12-25 16:08:24.488] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:08:25.37] [1] Received chunk 0
+[2025-12-25 16:08:25.44] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:08:25.44] [1] Received chunk 1
+[2025-12-25 16:08:25.51] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:08:25.52] [1] Received chunk 2
+[2025-12-25 16:08:25.58] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:25.60] [1] Received chunk 3
+[2025-12-25 16:08:25.66] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:08:25.600] [1] Received chunk 0
+[2025-12-25 16:08:25.606] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:25.606] [1] Received chunk 1
+[2025-12-25 16:08:25.613] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:08:25.613] [1] Received chunk 2
+[2025-12-25 16:08:25.619] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:25.620] [1] Received chunk 3
+[2025-12-25 16:08:25.626] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:08:26.161] [1] Received chunk 0
+[2025-12-25 16:08:26.168] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:08:26.168] [1] Received chunk 1
+[2025-12-25 16:08:26.173] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:08:26.174] [1] Received chunk 2
+[2025-12-25 16:08:26.180] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:26.181] [1] Received chunk 3
+[2025-12-25 16:08:26.186] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:08:26.721] [1] Received chunk 0
+[2025-12-25 16:08:26.728] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:08:26.728] [1] Received chunk 1
+[2025-12-25 16:08:26.734] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:08:26.735] [1] Received chunk 2
+[2025-12-25 16:08:26.740] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:08:26.741] [1] Received chunk 3
+[2025-12-25 16:08:26.748] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:08:27.288] [1] Received chunk 0
+[2025-12-25 16:08:27.293] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:08:27.293] [1] Received chunk 1
+[2025-12-25 16:08:27.299] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:08:27.299] [1] Received chunk 2
+[2025-12-25 16:08:27.306] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:27.307] [1] Received chunk 3
+[2025-12-25 16:08:27.313] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:08:27.851] [1] Received chunk 0
+[2025-12-25 16:08:27.857] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:08:27.858] [1] Received chunk 1
+[2025-12-25 16:08:27.866] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:08:27.866] [1] Received chunk 2
+[2025-12-25 16:08:27.872] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:08:27.873] [1] Received chunk 3
+[2025-12-25 16:08:27.880] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:08:28.414] [1] Received chunk 0
+[2025-12-25 16:08:28.423] [1] Processed chunk 0 in 9ms
+[2025-12-25 16:08:28.424] [1] Received chunk 1
+[2025-12-25 16:08:28.431] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:08:28.431] [1] Received chunk 2
+[2025-12-25 16:08:28.440] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:08:28.440] [1] Received chunk 3
+[2025-12-25 16:08:28.447] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:08:28.987] [1] Received chunk 0
+[2025-12-25 16:08:28.994] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:08:28.995] [1] Received chunk 1
+[2025-12-25 16:08:29.1] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:08:29.2] [1] Received chunk 2
+[2025-12-25 16:08:29.8] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:29.10] [1] Received chunk 3
+[2025-12-25 16:08:29.17] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:08:29.557] [1] Received chunk 0
+[2025-12-25 16:08:29.563] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:29.564] [1] Received chunk 1
+[2025-12-25 16:08:29.572] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:08:29.573] [1] Received chunk 2
+[2025-12-25 16:08:29.584] [1] Processed chunk 2 in 10ms
+[2025-12-25 16:08:29.584] [1] Received chunk 3
+[2025-12-25 16:08:29.590] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:08:30.126] [1] Received chunk 0
+[2025-12-25 16:08:30.131] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:08:30.132] [1] Received chunk 1
+[2025-12-25 16:08:30.139] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:08:30.140] [1] Received chunk 2
+[2025-12-25 16:08:30.147] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:30.147] [1] Received chunk 3
+[2025-12-25 16:08:30.153] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:08:30.686] [1] Received chunk 0
+[2025-12-25 16:08:30.691] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:30.692] [1] Received chunk 1
+[2025-12-25 16:08:30.699] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:08:30.700] [1] Received chunk 2
+[2025-12-25 16:08:30.706] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:30.707] [1] Received chunk 3
+[2025-12-25 16:08:30.713] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:08:31.250] [1] Received chunk 0
+[2025-12-25 16:08:31.256] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:31.257] [1] Received chunk 1
+[2025-12-25 16:08:31.264] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:08:31.264] [1] Received chunk 2
+[2025-12-25 16:08:31.272] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:08:31.273] [1] Received chunk 3
+[2025-12-25 16:08:31.279] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:08:31.814] [1] Received chunk 0
+[2025-12-25 16:08:31.819] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:31.820] [1] Received chunk 1
+[2025-12-25 16:08:31.826] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:08:31.826] [1] Received chunk 2
+[2025-12-25 16:08:31.833] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:31.833] [1] Received chunk 3
+[2025-12-25 16:08:31.839] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:08:32.378] [1] Received chunk 0
+[2025-12-25 16:08:32.385] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:08:32.386] [1] Received chunk 1
+[2025-12-25 16:08:32.391] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:08:32.392] [1] Received chunk 2
+[2025-12-25 16:08:32.398] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:08:32.399] [1] Received chunk 3
+[2025-12-25 16:08:32.406] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:08:32.955] [1] Received chunk 0
+[2025-12-25 16:08:32.961] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:08:32.962] [1] Received chunk 1
+[2025-12-25 16:08:32.972] [1] Processed chunk 1 in 9ms
+[2025-12-25 16:08:32.973] [1] Received chunk 2
+[2025-12-25 16:08:32.981] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:08:32.983] [1] Received chunk 3
+[2025-12-25 16:08:32.992] [1] Processed chunk 3 in 8ms
+[2025-12-25 16:09:27.914] [1] Received chunk 0
+[2025-12-25 16:09:27.922] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:09:27.922] [1] Received chunk 1
+[2025-12-25 16:09:27.929] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:09:27.931] [1] Received chunk 2
+[2025-12-25 16:09:27.936] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:09:27.937] [1] Received chunk 3
+[2025-12-25 16:09:27.943] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:28.477] [1] Received chunk 0
+[2025-12-25 16:09:28.483] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:28.484] [1] Received chunk 1
+[2025-12-25 16:09:28.489] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:09:28.490] [1] Received chunk 2
+[2025-12-25 16:09:28.496] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:09:28.496] [1] Received chunk 3
+[2025-12-25 16:09:28.503] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:09:29.42] [1] Received chunk 0
+[2025-12-25 16:09:29.49] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:09:29.50] [1] Received chunk 1
+[2025-12-25 16:09:29.55] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:09:29.56] [1] Received chunk 2
+[2025-12-25 16:09:29.62] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:09:29.62] [1] Received chunk 3
+[2025-12-25 16:09:29.69] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:29.603] [1] Received chunk 0
+[2025-12-25 16:09:29.608] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:29.609] [1] Received chunk 1
+[2025-12-25 16:09:29.616] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:09:29.617] [1] Received chunk 2
+[2025-12-25 16:09:29.623] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:29.624] [1] Received chunk 3
+[2025-12-25 16:09:29.631] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:09:30.160] [1] Received chunk 0
+[2025-12-25 16:09:30.165] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:09:30.165] [1] Received chunk 1
+[2025-12-25 16:09:30.171] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:09:30.171] [1] Received chunk 2
+[2025-12-25 16:09:30.178] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:30.179] [1] Received chunk 3
+[2025-12-25 16:09:30.186] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:09:30.718] [1] Received chunk 0
+[2025-12-25 16:09:30.724] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:30.724] [1] Received chunk 1
+[2025-12-25 16:09:30.730] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:09:30.731] [1] Received chunk 2
+[2025-12-25 16:09:30.736] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:09:30.737] [1] Received chunk 3
+[2025-12-25 16:09:30.743] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:09:31.281] [1] Received chunk 0
+[2025-12-25 16:09:31.288] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:09:31.289] [1] Received chunk 1
+[2025-12-25 16:09:31.294] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:09:31.294] [1] Received chunk 2
+[2025-12-25 16:09:31.301] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:31.302] [1] Received chunk 3
+[2025-12-25 16:09:31.307] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:31.846] [1] Received chunk 0
+[2025-12-25 16:09:31.852] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:31.852] [1] Received chunk 1
+[2025-12-25 16:09:31.858] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:09:31.858] [1] Received chunk 2
+[2025-12-25 16:09:31.865] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:31.866] [1] Received chunk 3
+[2025-12-25 16:09:31.872] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:32.405] [1] Received chunk 0
+[2025-12-25 16:09:32.410] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:32.411] [1] Received chunk 1
+[2025-12-25 16:09:32.418] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:09:32.418] [1] Received chunk 2
+[2025-12-25 16:09:32.425] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:32.426] [1] Received chunk 3
+[2025-12-25 16:09:32.433] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:09:32.971] [1] Received chunk 0
+[2025-12-25 16:09:32.977] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:32.977] [1] Received chunk 1
+[2025-12-25 16:09:32.984] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:09:32.984] [1] Received chunk 2
+[2025-12-25 16:09:32.995] [1] Processed chunk 2 in 10ms
+[2025-12-25 16:09:33.3] [1] Received chunk 3
+[2025-12-25 16:09:33.23] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:33.595] [1] Received chunk 0
+[2025-12-25 16:09:33.601] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:33.601] [1] Received chunk 1
+[2025-12-25 16:09:33.608] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:09:33.609] [1] Received chunk 2
+[2025-12-25 16:09:33.614] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:09:33.615] [1] Received chunk 3
+[2025-12-25 16:09:33.621] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:34.156] [1] Received chunk 0
+[2025-12-25 16:09:34.162] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:34.163] [1] Received chunk 1
+[2025-12-25 16:09:34.168] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:09:34.168] [1] Received chunk 2
+[2025-12-25 16:09:34.174] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:09:34.174] [1] Received chunk 3
+[2025-12-25 16:09:34.180] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:34.722] [1] Received chunk 0
+[2025-12-25 16:09:34.728] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:09:34.729] [1] Received chunk 1
+[2025-12-25 16:09:34.734] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:09:34.735] [1] Received chunk 2
+[2025-12-25 16:09:34.740] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:09:34.741] [1] Received chunk 3
+[2025-12-25 16:09:34.748] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:09:35.284] [1] Received chunk 0
+[2025-12-25 16:09:35.290] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:35.290] [1] Received chunk 1
+[2025-12-25 16:09:35.295] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:09:35.295] [1] Received chunk 2
+[2025-12-25 16:09:35.304] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:09:35.304] [1] Received chunk 3
+[2025-12-25 16:09:35.310] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:35.844] [1] Received chunk 0
+[2025-12-25 16:09:35.849] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:09:35.850] [1] Received chunk 1
+[2025-12-25 16:09:35.855] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:09:35.856] [1] Received chunk 2
+[2025-12-25 16:09:35.862] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:35.863] [1] Received chunk 3
+[2025-12-25 16:09:35.868] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:36.400] [1] Received chunk 0
+[2025-12-25 16:09:36.407] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:09:36.408] [1] Received chunk 1
+[2025-12-25 16:09:36.415] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:09:36.415] [1] Received chunk 2
+[2025-12-25 16:09:36.421] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:09:36.422] [1] Received chunk 3
+[2025-12-25 16:09:36.428] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:36.960] [1] Received chunk 0
+[2025-12-25 16:09:36.966] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:36.966] [1] Received chunk 1
+[2025-12-25 16:09:36.973] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:09:36.974] [1] Received chunk 2
+[2025-12-25 16:09:36.980] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:36.981] [1] Received chunk 3
+[2025-12-25 16:09:36.988] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:09:37.528] [1] Received chunk 0
+[2025-12-25 16:09:37.534] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:37.534] [1] Received chunk 1
+[2025-12-25 16:09:37.541] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:09:37.541] [1] Received chunk 2
+[2025-12-25 16:09:37.548] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:37.549] [1] Received chunk 3
+[2025-12-25 16:09:37.556] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:09:38.93] [1] Received chunk 0
+[2025-12-25 16:09:38.99] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:09:38.100] [1] Received chunk 1
+[2025-12-25 16:09:38.105] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:09:38.106] [1] Received chunk 2
+[2025-12-25 16:09:38.112] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:09:38.112] [1] Received chunk 3
+[2025-12-25 16:09:38.117] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:09:38.648] [1] Received chunk 0
+[2025-12-25 16:09:38.655] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:09:38.656] [1] Received chunk 1
+[2025-12-25 16:09:38.661] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:09:38.661] [1] Received chunk 2
+[2025-12-25 16:09:38.669] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:09:38.670] [1] Received chunk 3
+[2025-12-25 16:09:38.675] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:39.208] [1] Received chunk 0
+[2025-12-25 16:09:39.213] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:09:39.214] [1] Received chunk 1
+[2025-12-25 16:09:39.219] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:09:39.220] [1] Received chunk 2
+[2025-12-25 16:09:39.227] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:39.227] [1] Received chunk 3
+[2025-12-25 16:09:39.232] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:39.766] [1] Received chunk 0
+[2025-12-25 16:09:39.772] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:39.772] [1] Received chunk 1
+[2025-12-25 16:09:39.778] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:09:39.779] [1] Received chunk 2
+[2025-12-25 16:09:39.785] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:09:39.785] [1] Received chunk 3
+[2025-12-25 16:09:39.791] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:40.325] [1] Received chunk 0
+[2025-12-25 16:09:40.330] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:40.331] [1] Received chunk 1
+[2025-12-25 16:09:40.336] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:09:40.336] [1] Received chunk 2
+[2025-12-25 16:09:40.342] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:40.343] [1] Received chunk 3
+[2025-12-25 16:09:40.349] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:40.884] [1] Received chunk 0
+[2025-12-25 16:09:40.889] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:09:40.889] [1] Received chunk 1
+[2025-12-25 16:09:40.895] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:09:40.895] [1] Received chunk 2
+[2025-12-25 16:09:40.902] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:40.903] [1] Received chunk 3
+[2025-12-25 16:09:40.911] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:09:41.449] [1] Received chunk 0
+[2025-12-25 16:09:41.455] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:09:41.456] [1] Received chunk 1
+[2025-12-25 16:09:41.461] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:09:41.462] [1] Received chunk 2
+[2025-12-25 16:09:41.468] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:41.469] [1] Received chunk 3
+[2025-12-25 16:09:41.475] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:09:42.12] [1] Received chunk 0
+[2025-12-25 16:09:42.17] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:42.18] [1] Received chunk 1
+[2025-12-25 16:09:42.23] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:09:42.24] [1] Received chunk 2
+[2025-12-25 16:09:42.32] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:09:42.32] [1] Received chunk 3
+[2025-12-25 16:09:42.39] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:09:42.581] [1] Received chunk 0
+[2025-12-25 16:09:42.587] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:42.587] [1] Received chunk 1
+[2025-12-25 16:09:42.593] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:09:42.593] [1] Received chunk 2
+[2025-12-25 16:09:42.601] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:09:42.602] [1] Received chunk 3
+[2025-12-25 16:09:42.608] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:43.143] [1] Received chunk 0
+[2025-12-25 16:09:43.149] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:09:43.149] [1] Received chunk 1
+[2025-12-25 16:09:43.155] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:09:43.155] [1] Received chunk 2
+[2025-12-25 16:09:43.163] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:43.163] [1] Received chunk 3
+[2025-12-25 16:09:43.169] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:43.719] [1] Received chunk 0
+[2025-12-25 16:09:43.725] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:43.725] [1] Received chunk 1
+[2025-12-25 16:09:43.732] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:09:43.733] [1] Received chunk 2
+[2025-12-25 16:09:43.740] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:43.740] [1] Received chunk 3
+[2025-12-25 16:09:43.747] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:09:44.282] [1] Received chunk 0
+[2025-12-25 16:09:44.289] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:09:44.289] [1] Received chunk 1
+[2025-12-25 16:09:44.294] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:09:44.295] [1] Received chunk 2
+[2025-12-25 16:09:44.301] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:44.302] [1] Received chunk 3
+[2025-12-25 16:09:44.308] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:44.851] [1] Received chunk 0
+[2025-12-25 16:09:44.857] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:44.858] [1] Received chunk 1
+[2025-12-25 16:09:44.863] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:09:44.863] [1] Received chunk 2
+[2025-12-25 16:09:44.870] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:44.870] [1] Received chunk 3
+[2025-12-25 16:09:44.876] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:45.415] [1] Received chunk 0
+[2025-12-25 16:09:45.420] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:45.420] [1] Received chunk 1
+[2025-12-25 16:09:45.427] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:09:45.428] [1] Received chunk 2
+[2025-12-25 16:09:45.434] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:45.435] [1] Received chunk 3
+[2025-12-25 16:09:45.441] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:45.980] [1] Received chunk 0
+[2025-12-25 16:09:45.985] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:45.986] [1] Received chunk 1
+[2025-12-25 16:09:45.992] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:09:45.993] [1] Received chunk 2
+[2025-12-25 16:09:46.0] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:09:46.1] [1] Received chunk 3
+[2025-12-25 16:09:46.8] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:09:46.548] [1] Received chunk 0
+[2025-12-25 16:09:46.553] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:46.553] [1] Received chunk 1
+[2025-12-25 16:09:46.559] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:09:46.560] [1] Received chunk 2
+[2025-12-25 16:09:46.566] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:46.567] [1] Received chunk 3
+[2025-12-25 16:09:46.572] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:47.112] [1] Received chunk 0
+[2025-12-25 16:09:47.117] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:47.118] [1] Received chunk 1
+[2025-12-25 16:09:47.123] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:09:47.123] [1] Received chunk 2
+[2025-12-25 16:09:47.130] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:47.131] [1] Received chunk 3
+[2025-12-25 16:09:47.137] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:47.676] [1] Received chunk 0
+[2025-12-25 16:09:47.683] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:09:47.683] [1] Received chunk 1
+[2025-12-25 16:09:47.690] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:09:47.690] [1] Received chunk 2
+[2025-12-25 16:09:47.699] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:09:47.699] [1] Received chunk 3
+[2025-12-25 16:09:47.706] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:09:48.243] [1] Received chunk 0
+[2025-12-25 16:09:48.250] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:09:48.250] [1] Received chunk 1
+[2025-12-25 16:09:48.256] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:09:48.257] [1] Received chunk 2
+[2025-12-25 16:09:48.266] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:09:48.266] [1] Received chunk 3
+[2025-12-25 16:09:48.273] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:09:48.812] [1] Received chunk 0
+[2025-12-25 16:09:48.820] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:09:48.821] [1] Received chunk 1
+[2025-12-25 16:09:48.826] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:09:48.826] [1] Received chunk 2
+[2025-12-25 16:09:48.833] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:48.834] [1] Received chunk 3
+[2025-12-25 16:09:48.840] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:09:49.381] [1] Received chunk 0
+[2025-12-25 16:09:49.387] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:49.387] [1] Received chunk 1
+[2025-12-25 16:09:49.393] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:09:49.393] [1] Received chunk 2
+[2025-12-25 16:09:49.401] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:09:49.401] [1] Received chunk 3
+[2025-12-25 16:09:49.407] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:49.943] [1] Received chunk 0
+[2025-12-25 16:09:49.950] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:09:49.950] [1] Received chunk 1
+[2025-12-25 16:09:49.957] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:09:49.957] [1] Received chunk 2
+[2025-12-25 16:09:49.964] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:49.965] [1] Received chunk 3
+[2025-12-25 16:09:49.970] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:09:50.506] [1] Received chunk 0
+[2025-12-25 16:09:50.513] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:09:50.536] [1] Received chunk 1
+[2025-12-25 16:09:50.555] [1] Processed chunk 1 in 18ms
+[2025-12-25 16:09:50.571] [1] Received chunk 2
+[2025-12-25 16:09:50.587] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:50.588] [1] Received chunk 3
+[2025-12-25 16:09:50.594] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:09:51.133] [1] Received chunk 0
+[2025-12-25 16:09:51.140] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:09:51.140] [1] Received chunk 1
+[2025-12-25 16:09:51.146] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:09:51.147] [1] Received chunk 2
+[2025-12-25 16:09:51.153] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:51.153] [1] Received chunk 3
+[2025-12-25 16:09:51.161] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:09:51.697] [1] Received chunk 0
+[2025-12-25 16:09:51.703] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:09:51.704] [1] Received chunk 1
+[2025-12-25 16:09:51.710] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:09:51.711] [1] Received chunk 2
+[2025-12-25 16:09:51.719] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:09:51.719] [1] Received chunk 3
+[2025-12-25 16:09:51.725] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:52.259] [1] Received chunk 0
+[2025-12-25 16:09:52.264] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:09:52.264] [1] Received chunk 1
+[2025-12-25 16:09:52.270] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:09:52.271] [1] Received chunk 2
+[2025-12-25 16:09:52.278] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:09:52.279] [1] Received chunk 3
+[2025-12-25 16:09:52.285] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:52.820] [1] Received chunk 0
+[2025-12-25 16:09:52.826] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:09:52.827] [1] Received chunk 1
+[2025-12-25 16:09:52.833] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:09:52.834] [1] Received chunk 2
+[2025-12-25 16:09:52.841] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:52.841] [1] Received chunk 3
+[2025-12-25 16:09:52.847] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:53.381] [1] Received chunk 0
+[2025-12-25 16:09:53.386] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:09:53.387] [1] Received chunk 1
+[2025-12-25 16:09:53.393] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:09:53.393] [1] Received chunk 2
+[2025-12-25 16:09:53.400] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:53.401] [1] Received chunk 3
+[2025-12-25 16:09:53.408] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:09:53.944] [1] Received chunk 0
+[2025-12-25 16:09:53.949] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:09:53.950] [1] Received chunk 1
+[2025-12-25 16:09:53.955] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:09:53.956] [1] Received chunk 2
+[2025-12-25 16:09:53.964] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:09:53.965] [1] Received chunk 3
+[2025-12-25 16:09:53.970] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:09:54.507] [1] Received chunk 0
+[2025-12-25 16:09:54.512] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:54.513] [1] Received chunk 1
+[2025-12-25 16:09:54.518] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:09:54.519] [1] Received chunk 2
+[2025-12-25 16:09:54.526] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:54.527] [1] Received chunk 3
+[2025-12-25 16:09:54.534] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:55.68] [1] Received chunk 0
+[2025-12-25 16:09:55.72] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:09:55.73] [1] Received chunk 1
+[2025-12-25 16:09:55.79] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:09:55.79] [1] Received chunk 2
+[2025-12-25 16:09:55.86] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:55.87] [1] Received chunk 3
+[2025-12-25 16:09:55.93] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:09:55.627] [1] Received chunk 0
+[2025-12-25 16:09:55.632] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:09:55.632] [1] Received chunk 1
+[2025-12-25 16:09:55.638] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:09:55.639] [1] Received chunk 2
+[2025-12-25 16:09:55.645] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:55.646] [1] Received chunk 3
+[2025-12-25 16:09:55.652] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:56.187] [1] Received chunk 0
+[2025-12-25 16:09:56.192] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:09:56.193] [1] Received chunk 1
+[2025-12-25 16:09:56.198] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:09:56.199] [1] Received chunk 2
+[2025-12-25 16:09:56.206] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:56.207] [1] Received chunk 3
+[2025-12-25 16:09:56.213] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:56.741] [1] Received chunk 0
+[2025-12-25 16:09:56.748] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:56.748] [1] Received chunk 1
+[2025-12-25 16:09:56.755] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:09:56.756] [1] Received chunk 2
+[2025-12-25 16:09:56.763] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:56.763] [1] Received chunk 3
+[2025-12-25 16:09:56.770] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:09:57.303] [1] Received chunk 0
+[2025-12-25 16:09:57.308] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:57.309] [1] Received chunk 1
+[2025-12-25 16:09:57.316] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:09:57.317] [1] Received chunk 2
+[2025-12-25 16:09:57.323] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:57.325] [1] Received chunk 3
+[2025-12-25 16:09:57.332] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:09:57.865] [1] Received chunk 0
+[2025-12-25 16:09:57.871] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:57.872] [1] Received chunk 1
+[2025-12-25 16:09:57.879] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:09:57.880] [1] Received chunk 2
+[2025-12-25 16:09:57.887] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:09:57.887] [1] Received chunk 3
+[2025-12-25 16:09:57.894] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:09:58.431] [1] Received chunk 0
+[2025-12-25 16:09:58.436] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:58.437] [1] Received chunk 1
+[2025-12-25 16:09:58.442] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:09:58.443] [1] Received chunk 2
+[2025-12-25 16:09:58.449] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:58.450] [1] Received chunk 3
+[2025-12-25 16:09:58.455] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:09:58.991] [1] Received chunk 0
+[2025-12-25 16:09:58.999] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:09:58.999] [1] Received chunk 1
+[2025-12-25 16:09:59.4] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:09:59.5] [1] Received chunk 2
+[2025-12-25 16:09:59.12] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:09:59.12] [1] Received chunk 3
+[2025-12-25 16:09:59.19] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:09:59.558] [1] Received chunk 0
+[2025-12-25 16:09:59.564] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:09:59.565] [1] Received chunk 1
+[2025-12-25 16:09:59.570] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:09:59.571] [1] Received chunk 2
+[2025-12-25 16:09:59.579] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:09:59.580] [1] Received chunk 3
+[2025-12-25 16:09:59.586] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:10:00.117] [1] Received chunk 0
+[2025-12-25 16:10:00.123] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:10:00.124] [1] Received chunk 1
+[2025-12-25 16:10:00.131] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:10:00.133] [1] Received chunk 2
+[2025-12-25 16:10:00.140] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:10:00.141] [1] Received chunk 3
+[2025-12-25 16:10:00.146] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:10:00.679] [1] Received chunk 0
+[2025-12-25 16:10:00.686] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:10:00.686] [1] Received chunk 1
+[2025-12-25 16:10:00.692] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:10:00.692] [1] Received chunk 2
+[2025-12-25 16:10:00.700] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:10:00.700] [1] Received chunk 3
+[2025-12-25 16:10:00.707] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:10:01.234] [1] Received chunk 0
+[2025-12-25 16:10:01.241] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:10:01.241] [1] Received chunk 1
+[2025-12-25 16:10:01.247] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:10:01.248] [1] Received chunk 2
+[2025-12-25 16:10:01.254] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:10:01.254] [1] Received chunk 3
+[2025-12-25 16:10:01.262] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:10:01.795] [1] Received chunk 0
+[2025-12-25 16:10:01.800] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:10:01.801] [1] Received chunk 1
+[2025-12-25 16:10:01.806] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:10:01.806] [1] Received chunk 2
+[2025-12-25 16:10:01.813] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:10:01.813] [1] Received chunk 3
+[2025-12-25 16:10:01.819] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:10:02.365] [1] Received chunk 0
+[2025-12-25 16:10:02.370] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:10:02.370] [1] Received chunk 1
+[2025-12-25 16:10:02.376] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:10:02.377] [1] Received chunk 2
+[2025-12-25 16:10:02.385] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:10:02.385] [1] Received chunk 3
+[2025-12-25 16:10:02.391] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:10:02.925] [1] Received chunk 0
+[2025-12-25 16:10:02.931] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:10:02.932] [1] Received chunk 1
+[2025-12-25 16:10:02.938] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:10:02.939] [1] Received chunk 2
+[2025-12-25 16:10:02.946] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:10:02.947] [1] Received chunk 3
+[2025-12-25 16:10:02.953] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:10:03.486] [1] Received chunk 0
+[2025-12-25 16:10:03.491] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:10:03.492] [1] Received chunk 1
+[2025-12-25 16:10:03.497] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:10:03.498] [1] Received chunk 2
+[2025-12-25 16:10:03.504] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:10:03.504] [1] Received chunk 3
+[2025-12-25 16:10:03.511] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:10:04.50] [1] Received chunk 0
+[2025-12-25 16:10:04.55] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:10:04.56] [1] Received chunk 1
+[2025-12-25 16:10:04.62] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:10:04.62] [1] Received chunk 2
+[2025-12-25 16:10:04.68] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:10:04.69] [1] Received chunk 3
+[2025-12-25 16:10:04.75] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:10:04.606] [1] Received chunk 0
+[2025-12-25 16:10:04.614] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:10:04.615] [1] Received chunk 1
+[2025-12-25 16:10:04.623] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:10:04.624] [1] Received chunk 2
+[2025-12-25 16:10:04.630] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:10:04.631] [1] Received chunk 3
+[2025-12-25 16:10:04.638] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:10:05.169] [1] Received chunk 0
+[2025-12-25 16:10:05.173] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:10:05.174] [1] Received chunk 1
+[2025-12-25 16:10:05.179] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:10:05.180] [1] Received chunk 2
+[2025-12-25 16:10:05.185] [1] Processed chunk 2 in 4ms
+[2025-12-25 16:10:05.186] [1] Received chunk 3
+[2025-12-25 16:10:05.193] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:10:05.730] [1] Received chunk 0
+[2025-12-25 16:10:05.736] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:10:05.737] [1] Received chunk 1
+[2025-12-25 16:10:05.743] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:10:05.744] [1] Received chunk 2
+[2025-12-25 16:10:05.750] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:10:05.751] [1] Received chunk 3
+[2025-12-25 16:10:05.757] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:10:06.289] [1] Received chunk 0
+[2025-12-25 16:10:06.295] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:10:06.295] [1] Received chunk 1
+[2025-12-25 16:10:06.301] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:10:06.302] [1] Received chunk 2
+[2025-12-25 16:10:06.307] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:10:06.308] [1] Received chunk 3
+[2025-12-25 16:10:06.315] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:10:06.848] [1] Received chunk 0
+[2025-12-25 16:10:06.854] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:10:06.854] [1] Received chunk 1
+[2025-12-25 16:10:06.860] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:10:06.860] [1] Received chunk 2
+[2025-12-25 16:10:06.866] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:10:06.867] [1] Received chunk 3
+[2025-12-25 16:10:06.873] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:10:07.407] [1] Received chunk 0
+[2025-12-25 16:10:07.413] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:10:07.413] [1] Received chunk 1
+[2025-12-25 16:10:07.419] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:10:07.419] [1] Received chunk 2
+[2025-12-25 16:10:07.425] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:10:07.426] [1] Received chunk 3
+[2025-12-25 16:10:07.433] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:10:07.966] [1] Received chunk 0
+[2025-12-25 16:10:07.972] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:10:07.973] [1] Received chunk 1
+[2025-12-25 16:10:07.978] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:10:07.978] [1] Received chunk 2
+[2025-12-25 16:10:07.985] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:10:07.986] [1] Received chunk 3
+[2025-12-25 16:10:07.992] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:10:08.528] [1] Received chunk 0
+[2025-12-25 16:10:08.534] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:10:08.535] [1] Received chunk 1
+[2025-12-25 16:10:08.540] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:10:08.541] [1] Received chunk 2
+[2025-12-25 16:10:08.548] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:10:08.548] [1] Received chunk 3
+[2025-12-25 16:10:08.555] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:10:09.89] [1] Received chunk 0
+[2025-12-25 16:10:09.93] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:10:09.94] [1] Received chunk 1
+[2025-12-25 16:10:09.100] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:10:09.101] [1] Received chunk 2
+[2025-12-25 16:10:09.107] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:10:09.107] [1] Received chunk 3
+[2025-12-25 16:10:09.114] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:10:09.650] [1] Received chunk 0
+[2025-12-25 16:10:09.655] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:10:09.656] [1] Received chunk 1
+[2025-12-25 16:10:09.662] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:10:09.662] [1] Received chunk 2
+[2025-12-25 16:10:09.669] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:10:09.669] [1] Received chunk 3
+[2025-12-25 16:10:09.674] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:10:10.208] [1] Received chunk 0
+[2025-12-25 16:10:10.213] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:10:10.213] [1] Received chunk 1
+[2025-12-25 16:10:10.219] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:10:10.219] [1] Received chunk 2
+[2025-12-25 16:10:10.225] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:10:10.226] [1] Received chunk 3
+[2025-12-25 16:10:10.232] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:10:10.767] [1] Received chunk 0
+[2025-12-25 16:10:10.774] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:10:10.775] [1] Received chunk 1
+[2025-12-25 16:10:10.781] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:10:10.781] [1] Received chunk 2
+[2025-12-25 16:10:10.787] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:10:10.787] [1] Received chunk 3
+[2025-12-25 16:10:10.793] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:10:11.326] [1] Received chunk 0
+[2025-12-25 16:10:11.332] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:10:11.333] [1] Received chunk 1
+[2025-12-25 16:10:11.338] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:10:11.339] [1] Received chunk 2
+[2025-12-25 16:10:11.345] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:10:11.345] [1] Received chunk 3
+[2025-12-25 16:10:11.351] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:10:11.888] [1] Received chunk 0
+[2025-12-25 16:10:11.893] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:10:11.894] [1] Received chunk 1
+[2025-12-25 16:10:11.899] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:10:11.899] [1] Received chunk 2
+[2025-12-25 16:10:11.906] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:10:11.907] [1] Received chunk 3
+[2025-12-25 16:10:11.913] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:10:12.447] [1] Received chunk 0
+[2025-12-25 16:10:12.453] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:10:12.453] [1] Received chunk 1
+[2025-12-25 16:10:12.458] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:10:12.459] [1] Received chunk 2
+[2025-12-25 16:10:12.466] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:10:12.466] [1] Received chunk 3
+[2025-12-25 16:10:12.474] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:10:13.7] [1] Received chunk 0
+[2025-12-25 16:10:13.12] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:10:13.13] [1] Received chunk 1
+[2025-12-25 16:10:13.18] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:10:13.19] [1] Received chunk 2
+[2025-12-25 16:10:13.25] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:10:13.25] [1] Received chunk 3
+[2025-12-25 16:10:13.32] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:10:13.580] [1] Received chunk 0
+[2025-12-25 16:10:13.585] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:10:13.586] [1] Received chunk 1
+[2025-12-25 16:10:13.592] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:10:13.592] [1] Received chunk 2
+[2025-12-25 16:10:13.598] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:10:13.599] [1] Received chunk 3
+[2025-12-25 16:10:13.606] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:10:14.146] [1] Received chunk 0
+[2025-12-25 16:10:14.151] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:10:14.151] [1] Received chunk 1
+[2025-12-25 16:10:14.157] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:10:14.157] [1] Received chunk 2
+[2025-12-25 16:10:14.164] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:10:14.164] [1] Received chunk 3
+[2025-12-25 16:10:14.172] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:10:14.715] [1] Received chunk 0
+[2025-12-25 16:10:14.720] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:10:14.721] [1] Received chunk 1
+[2025-12-25 16:10:14.728] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:10:14.729] [1] Received chunk 2
+[2025-12-25 16:10:14.736] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:10:14.737] [1] Received chunk 3
+[2025-12-25 16:10:14.744] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:10:15.313] [1] Received chunk 0
+[2025-12-25 16:10:15.323] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:10:15.324] [1] Received chunk 1
+[2025-12-25 16:10:15.331] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:10:15.331] [1] Received chunk 2
+[2025-12-25 16:10:15.338] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:10:15.339] [1] Received chunk 3
+[2025-12-25 16:10:15.346] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:10:15.881] [1] Received chunk 0
+[2025-12-25 16:10:15.887] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:10:15.888] [1] Received chunk 1
+[2025-12-25 16:10:15.895] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:10:15.895] [1] Received chunk 2
+[2025-12-25 16:10:15.905] [1] Processed chunk 2 in 9ms
+[2025-12-25 16:10:15.906] [1] Received chunk 3
+[2025-12-25 16:10:15.912] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:10:16.458] [1] Received chunk 0
+[2025-12-25 16:10:16.464] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:10:16.466] [1] Received chunk 1
+[2025-12-25 16:10:16.475] [1] Processed chunk 1 in 8ms
+[2025-12-25 16:10:16.476] [1] Received chunk 2
+[2025-12-25 16:10:16.482] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:10:16.484] [1] Received chunk 3
+[2025-12-25 16:10:16.491] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:10:17.32] [1] Received chunk 0
+[2025-12-25 16:10:17.40] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:10:17.42] [1] Received chunk 1
+[2025-12-25 16:10:17.50] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:10:17.58] [1] Received chunk 2
+[2025-12-25 16:10:17.64] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:10:17.65] [1] Received chunk 3
+[2025-12-25 16:10:17.75] [1] Processed chunk 3 in 9ms
+[2025-12-25 16:10:17.642] [1] Received chunk 0
+[2025-12-25 16:10:17.650] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:10:17.650] [1] Received chunk 1
+[2025-12-25 16:10:17.657] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:10:17.658] [1] Received chunk 2
+[2025-12-25 16:10:17.669] [1] Processed chunk 2 in 10ms
+[2025-12-25 16:10:17.678] [1] Received chunk 3
+[2025-12-25 16:10:17.688] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:10:18.346] [1] Received chunk 0
+[2025-12-25 16:10:18.354] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:10:18.354] [1] Received chunk 1
+[2025-12-25 16:10:18.362] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:10:18.363] [1] Received chunk 2
+[2025-12-25 16:10:18.371] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:10:18.371] [1] Received chunk 3
+[2025-12-25 16:10:18.377] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:10:18.959] [1] Received chunk 0
+[2025-12-25 16:10:18.970] [1] Processed chunk 0 in 9ms
+[2025-12-25 16:10:18.970] [1] Received chunk 1
+[2025-12-25 16:10:18.979] [1] Processed chunk 1 in 8ms
+[2025-12-25 16:10:18.995] [1] Received chunk 2
+[2025-12-25 16:10:19.2] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:10:19.3] [1] Received chunk 3
+[2025-12-25 16:10:19.13] [1] Processed chunk 3 in 8ms
+[2025-12-25 16:10:19.660] [1] Received chunk 0
+[2025-12-25 16:10:19.668] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:10:19.670] [1] Received chunk 1
+[2025-12-25 16:10:19.676] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:10:19.677] [1] Received chunk 2
+[2025-12-25 16:10:19.690] [1] Processed chunk 2 in 12ms
+[2025-12-25 16:10:19.692] [1] Received chunk 3
+[2025-12-25 16:10:19.702] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:10:20.273] [1] Received chunk 0
+[2025-12-25 16:10:20.280] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:10:20.280] [1] Received chunk 1
+[2025-12-25 16:10:20.294] [1] Processed chunk 1 in 13ms
+[2025-12-25 16:10:20.298] [1] Received chunk 2
+[2025-12-25 16:10:20.305] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:10:20.306] [1] Received chunk 3
+[2025-12-25 16:10:20.314] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:10:20.880] [1] Received chunk 0
+[2025-12-25 16:10:20.942] [1] Processed chunk 0 in 31ms
+[2025-12-25 16:10:20.947] [1] Received chunk 1
+[2025-12-25 16:10:20.953] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:10:20.954] [1] Received chunk 2
+[2025-12-25 16:10:20.969] [1] Processed chunk 2 in 15ms
+[2025-12-25 16:10:20.970] [1] Received chunk 3
+[2025-12-25 16:10:20.976] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:10:21.561] [1] Received chunk 0
+[2025-12-25 16:10:21.568] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:10:21.569] [1] Received chunk 1
+[2025-12-25 16:10:21.575] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:10:21.579] [1] Received chunk 2
+[2025-12-25 16:10:21.585] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:10:21.589] [1] Received chunk 3
+[2025-12-25 16:10:21.598] [1] Processed chunk 3 in 8ms
+[2025-12-25 16:10:22.126] [1] Received chunk 0
+[2025-12-25 16:10:22.133] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:10:22.134] [1] Received chunk 1
+[2025-12-25 16:10:22.141] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:10:22.142] [1] Received chunk 2
+[2025-12-25 16:10:22.151] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:10:22.152] [1] Received chunk 3
+[2025-12-25 16:10:22.157] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:10:22.682] [1] Received chunk 0
+[2025-12-25 16:10:22.687] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:10:22.688] [1] Received chunk 1
+[2025-12-25 16:10:22.695] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:10:22.695] [1] Received chunk 2
+[2025-12-25 16:10:22.704] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:10:22.704] [1] Received chunk 3
+[2025-12-25 16:10:22.710] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:10:23.240] [1] Received chunk 0
+[2025-12-25 16:10:23.246] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:10:23.246] [1] Received chunk 1
+[2025-12-25 16:10:23.253] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:10:23.253] [1] Received chunk 2
+[2025-12-25 16:10:23.261] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:10:23.261] [1] Received chunk 3
+[2025-12-25 16:10:23.267] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:10:23.794] [1] Received chunk 0
+[2025-12-25 16:10:23.802] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:10:23.802] [1] Received chunk 1
+[2025-12-25 16:10:23.810] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:10:23.810] [1] Received chunk 2
+[2025-12-25 16:10:23.817] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:10:23.817] [1] Received chunk 3
+[2025-12-25 16:10:23.824] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:10:24.358] [1] Received chunk 0
+[2025-12-25 16:10:24.366] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:10:24.367] [1] Received chunk 1
+[2025-12-25 16:10:24.376] [1] Processed chunk 1 in 8ms
+[2025-12-25 16:10:24.379] [1] Received chunk 2
+[2025-12-25 16:10:24.389] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:10:24.389] [1] Received chunk 3
+[2025-12-25 16:10:24.396] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:10:24.936] [1] Received chunk 0
+[2025-12-25 16:10:24.941] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:10:24.941] [1] Received chunk 1
+[2025-12-25 16:10:24.946] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:10:24.947] [1] Received chunk 2
+[2025-12-25 16:10:24.953] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:10:24.954] [1] Received chunk 3
+[2025-12-25 16:10:24.960] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:10:25.484] [1] Received chunk 0
+[2025-12-25 16:10:25.491] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:10:25.491] [1] Received chunk 1
+[2025-12-25 16:10:25.496] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:10:25.496] [1] Received chunk 2
+[2025-12-25 16:10:25.504] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:10:25.504] [1] Received chunk 3
+[2025-12-25 16:10:25.510] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:10:26.35] [1] Received chunk 0
+[2025-12-25 16:10:26.40] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:10:26.42] [1] Received chunk 1
+[2025-12-25 16:10:26.49] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:10:26.49] [1] Received chunk 2
+[2025-12-25 16:10:26.56] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:10:26.56] [1] Received chunk 3
+[2025-12-25 16:10:26.63] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:10:26.591] [1] Received chunk 0
+[2025-12-25 16:10:26.597] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:10:26.597] [1] Received chunk 1
+[2025-12-25 16:10:26.603] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:10:26.603] [1] Received chunk 2
+[2025-12-25 16:10:26.612] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:10:26.612] [1] Received chunk 3
+[2025-12-25 16:10:26.617] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:10:27.146] [1] Received chunk 0
+[2025-12-25 16:10:27.151] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:10:27.152] [1] Received chunk 1
+[2025-12-25 16:10:27.157] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:10:27.157] [1] Received chunk 2
+[2025-12-25 16:10:27.164] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:10:27.165] [1] Received chunk 3
+[2025-12-25 16:10:27.169] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:10:27.694] [1] Received chunk 0
+[2025-12-25 16:10:27.700] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:10:27.700] [1] Received chunk 1
+[2025-12-25 16:10:27.705] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:10:27.706] [1] Received chunk 2
+[2025-12-25 16:10:27.713] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:10:27.714] [1] Received chunk 3
+[2025-12-25 16:10:27.719] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:11:33.499] [1] Received chunk 0
+[2025-12-25 16:11:33.506] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:11:33.506] [1] Received chunk 1
+[2025-12-25 16:11:33.514] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:11:33.517] [1] Received chunk 2
+[2025-12-25 16:11:33.524] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:11:33.525] [1] Received chunk 3
+[2025-12-25 16:11:33.531] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:11:34.72] [1] Received chunk 0
+[2025-12-25 16:11:34.79] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:11:34.80] [1] Received chunk 1
+[2025-12-25 16:11:34.87] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:11:34.87] [1] Received chunk 2
+[2025-12-25 16:11:34.95] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:11:34.95] [1] Received chunk 3
+[2025-12-25 16:11:34.102] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:11:34.642] [1] Received chunk 0
+[2025-12-25 16:11:34.648] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:11:34.649] [1] Received chunk 1
+[2025-12-25 16:11:34.654] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:11:34.655] [1] Received chunk 2
+[2025-12-25 16:11:34.662] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:11:34.662] [1] Received chunk 3
+[2025-12-25 16:11:34.671] [1] Processed chunk 3 in 8ms
+[2025-12-25 16:11:35.199] [1] Received chunk 0
+[2025-12-25 16:11:35.204] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:11:35.205] [1] Received chunk 1
+[2025-12-25 16:11:35.211] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:11:35.211] [1] Received chunk 2
+[2025-12-25 16:11:35.218] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:11:35.218] [1] Received chunk 3
+[2025-12-25 16:11:35.226] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:11:35.764] [1] Received chunk 0
+[2025-12-25 16:11:35.769] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:11:35.770] [1] Received chunk 1
+[2025-12-25 16:11:35.775] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:11:35.777] [1] Received chunk 2
+[2025-12-25 16:11:35.786] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:11:35.786] [1] Received chunk 3
+[2025-12-25 16:11:35.792] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:11:36.322] [1] Received chunk 0
+[2025-12-25 16:11:36.327] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:11:36.327] [1] Received chunk 1
+[2025-12-25 16:11:36.333] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:11:36.334] [1] Received chunk 2
+[2025-12-25 16:11:36.341] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:11:36.341] [1] Received chunk 3
+[2025-12-25 16:11:36.348] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:11:36.872] [1] Received chunk 0
+[2025-12-25 16:11:36.877] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:11:36.878] [1] Received chunk 1
+[2025-12-25 16:11:36.882] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:11:36.883] [1] Received chunk 2
+[2025-12-25 16:11:36.889] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:11:36.890] [1] Received chunk 3
+[2025-12-25 16:11:36.896] [1] Processed chunk 3 in 6ms
+
+=== Server 1 Started: 2025-12-25 16:14:29.201 ===
+[2025-12-25 16:15:11.662] [1] Received chunk 0
+[2025-12-25 16:15:11.684] [1] Processed chunk 0 in 20ms
+[2025-12-25 16:15:11.684] [1] Received chunk 1
+[2025-12-25 16:15:11.698] [1] Processed chunk 1 in 13ms
+[2025-12-25 16:15:11.700] [1] Received chunk 2
+[2025-12-25 16:15:11.721] [1] Processed chunk 2 in 19ms
+[2025-12-25 16:15:11.721] [1] Received chunk 3
+[2025-12-25 16:15:11.734] [1] Processed chunk 3 in 12ms
+[2025-12-25 16:15:12.271] [1] Received chunk 0
+[2025-12-25 16:15:12.278] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:15:12.279] [1] Received chunk 1
+[2025-12-25 16:15:12.292] [1] Processed chunk 1 in 13ms
+[2025-12-25 16:15:12.292] [1] Received chunk 2
+[2025-12-25 16:15:12.313] [1] Processed chunk 2 in 20ms
+[2025-12-25 16:15:12.314] [1] Received chunk 3
+[2025-12-25 16:15:12.335] [1] Processed chunk 3 in 19ms
+[2025-12-25 16:15:12.880] [1] Received chunk 0
+[2025-12-25 16:15:12.893] [1] Processed chunk 0 in 13ms
+[2025-12-25 16:15:12.901] [1] Received chunk 1
+[2025-12-25 16:15:12.913] [1] Processed chunk 1 in 8ms
+[2025-12-25 16:15:12.915] [1] Received chunk 2
+[2025-12-25 16:15:12.931] [1] Processed chunk 2 in 14ms
+[2025-12-25 16:15:12.931] [1] Received chunk 3
+[2025-12-25 16:15:12.945] [1] Processed chunk 3 in 9ms
+[2025-12-25 16:15:13.490] [1] Received chunk 0
+[2025-12-25 16:15:13.504] [1] Processed chunk 0 in 13ms
+[2025-12-25 16:15:13.505] [1] Received chunk 1
+[2025-12-25 16:15:13.521] [1] Processed chunk 1 in 12ms
+[2025-12-25 16:15:13.523] [1] Received chunk 2
+[2025-12-25 16:15:13.543] [1] Processed chunk 2 in 19ms
+[2025-12-25 16:15:13.544] [1] Received chunk 3
+[2025-12-25 16:15:13.560] [1] Processed chunk 3 in 16ms
+[2025-12-25 16:15:14.124] [1] Received chunk 0
+[2025-12-25 16:15:14.130] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:15:14.135] [1] Received chunk 1
+[2025-12-25 16:15:14.141] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:15:14.142] [1] Received chunk 2
+[2025-12-25 16:15:14.172] [1] Processed chunk 2 in 20ms
+[2025-12-25 16:15:14.174] [1] Received chunk 3
+[2025-12-25 16:15:14.184] [1] Processed chunk 3 in 9ms
+[2025-12-25 16:15:14.721] [1] Received chunk 0
+[2025-12-25 16:15:14.728] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:15:14.731] [1] Received chunk 1
+[2025-12-25 16:15:14.742] [1] Processed chunk 1 in 9ms
+[2025-12-25 16:15:14.742] [1] Received chunk 2
+[2025-12-25 16:15:14.754] [1] Processed chunk 2 in 11ms
+[2025-12-25 16:15:14.754] [1] Received chunk 3
+[2025-12-25 16:15:14.765] [1] Processed chunk 3 in 10ms
+[2025-12-25 16:15:15.313] [1] Received chunk 0
+[2025-12-25 16:15:15.319] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:15:15.319] [1] Received chunk 1
+[2025-12-25 16:15:15.325] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:15:15.326] [1] Received chunk 2
+[2025-12-25 16:15:15.332] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:15:15.332] [1] Received chunk 3
+[2025-12-25 16:15:15.338] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:15:15.870] [1] Received chunk 0
+[2025-12-25 16:15:15.876] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:15:15.876] [1] Received chunk 1
+[2025-12-25 16:15:15.881] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:15:15.882] [1] Received chunk 2
+[2025-12-25 16:15:15.888] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:15:15.889] [1] Received chunk 3
+[2025-12-25 16:15:15.895] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:15:16.429] [1] Received chunk 0
+[2025-12-25 16:15:16.435] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:15:16.435] [1] Received chunk 1
+[2025-12-25 16:15:16.440] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:15:16.441] [1] Received chunk 2
+[2025-12-25 16:15:16.449] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:15:16.450] [1] Received chunk 3
+[2025-12-25 16:15:16.456] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:15:16.990] [1] Received chunk 0
+[2025-12-25 16:15:16.996] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:15:16.996] [1] Received chunk 1
+[2025-12-25 16:15:17.1] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:15:17.1] [1] Received chunk 2
+[2025-12-25 16:15:17.8] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:15:17.9] [1] Received chunk 3
+[2025-12-25 16:15:17.15] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:15:17.545] [1] Received chunk 0
+[2025-12-25 16:15:17.551] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:15:17.551] [1] Received chunk 1
+[2025-12-25 16:15:17.556] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:15:17.557] [1] Received chunk 2
+[2025-12-25 16:15:17.564] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:15:17.564] [1] Received chunk 3
+[2025-12-25 16:15:17.571] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:15:18.110] [1] Received chunk 0
+[2025-12-25 16:15:18.110] [1] FAULT INJECTED: SERVER CRASH - Terminating
+[2025-12-25 16:21:29.0] [1] Received chunk 0
+
+=== Server 1 Started: 2025-12-25 16:21:55.207 ===
+[2025-12-25 16:22:03.954] [1] Received chunk 0
+[2025-12-25 16:22:03.964] [1] Processed chunk 0 in 9ms
+[2025-12-25 16:22:03.968] [1] Received chunk 1
+[2025-12-25 16:22:03.978] [1] Processed chunk 1 in 9ms
+[2025-12-25 16:22:03.979] [1] Received chunk 2
+[2025-12-25 16:22:03.991] [1] Processed chunk 2 in 9ms
+[2025-12-25 16:22:03.993] [1] Received chunk 3
+[2025-12-25 16:22:04.3] [1] Processed chunk 3 in 9ms
+[2025-12-25 16:22:04.533] [1] Received chunk 0
+[2025-12-25 16:22:04.538] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:22:04.544] [1] Received chunk 1
+[2025-12-25 16:22:04.552] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:22:04.552] [1] Received chunk 2
+[2025-12-25 16:22:04.566] [1] Processed chunk 2 in 13ms
+[2025-12-25 16:22:04.567] [1] Received chunk 3
+[2025-12-25 16:22:04.575] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:22:05.101] [1] Received chunk 0
+[2025-12-25 16:22:05.113] [1] Processed chunk 0 in 11ms
+[2025-12-25 16:22:05.119] [1] Received chunk 1
+[2025-12-25 16:22:05.126] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:22:05.128] [1] Received chunk 2
+[2025-12-25 16:22:05.157] [1] Processed chunk 2 in 21ms
+[2025-12-25 16:22:05.162] [1] Received chunk 3
+[2025-12-25 16:22:05.183] [1] Processed chunk 3 in 20ms
+[2025-12-25 16:22:05.716] [1] Received chunk 0
+[2025-12-25 16:22:05.728] [1] Processed chunk 0 in 11ms
+[2025-12-25 16:22:05.731] [1] Received chunk 1
+[2025-12-25 16:22:05.746] [1] Processed chunk 1 in 14ms
+[2025-12-25 16:22:05.749] [1] Received chunk 2
+[2025-12-25 16:22:05.770] [1] Processed chunk 2 in 20ms
+[2025-12-25 16:22:05.772] [1] Received chunk 3
+[2025-12-25 16:22:05.781] [1] Processed chunk 3 in 8ms
+[2025-12-25 16:22:06.334] [1] Received chunk 0
+[2025-12-25 16:22:06.346] [1] Processed chunk 0 in 10ms
+[2025-12-25 16:22:06.352] [1] Received chunk 1
+[2025-12-25 16:22:06.367] [1] Processed chunk 1 in 14ms
+[2025-12-25 16:22:06.368] [1] Received chunk 2
+[2025-12-25 16:22:06.384] [1] Processed chunk 2 in 16ms
+[2025-12-25 16:22:06.385] [1] Received chunk 3
+[2025-12-25 16:22:06.400] [1] Processed chunk 3 in 15ms
+[2025-12-25 16:22:06.936] [1] Received chunk 0
+[2025-12-25 16:22:06.950] [1] Processed chunk 0 in 13ms
+[2025-12-25 16:22:06.951] [1] Received chunk 1
+[2025-12-25 16:22:06.963] [1] Processed chunk 1 in 11ms
+[2025-12-25 16:22:06.963] [1] Received chunk 2
+[2025-12-25 16:22:06.977] [1] Processed chunk 2 in 12ms
+[2025-12-25 16:22:06.978] [1] Received chunk 3
+[2025-12-25 16:22:06.992] [1] Processed chunk 3 in 14ms
+[2025-12-25 16:22:07.526] [1] Received chunk 0
+[2025-12-25 16:22:07.536] [1] Processed chunk 0 in 9ms
+[2025-12-25 16:22:07.540] [1] Received chunk 1
+[2025-12-25 16:22:07.548] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:22:07.548] [1] Received chunk 2
+[2025-12-25 16:22:07.562] [1] Processed chunk 2 in 13ms
+[2025-12-25 16:22:07.562] [1] Received chunk 3
+[2025-12-25 16:22:07.577] [1] Processed chunk 3 in 14ms
+[2025-12-25 16:22:08.105] [1] Received chunk 0
+[2025-12-25 16:22:08.112] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:22:08.113] [1] Received chunk 1
+[2025-12-25 16:22:08.118] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:22:08.119] [1] Received chunk 2
+[2025-12-25 16:22:08.125] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:22:08.126] [1] Received chunk 3
+[2025-12-25 16:22:08.132] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:22:08.666] [1] Received chunk 0
+[2025-12-25 16:22:08.671] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:22:08.672] [1] Received chunk 1
+[2025-12-25 16:22:08.677] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:22:08.677] [1] Received chunk 2
+[2025-12-25 16:22:08.684] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:22:08.684] [1] Received chunk 3
+[2025-12-25 16:22:08.691] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:22:09.218] [1] Received chunk 0
+[2025-12-25 16:22:09.224] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:22:09.224] [1] Received chunk 1
+[2025-12-25 16:22:09.231] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:22:09.231] [1] Received chunk 2
+[2025-12-25 16:22:09.238] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:22:09.238] [1] Received chunk 3
+[2025-12-25 16:22:09.244] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:22:09.774] [1] Received chunk 0
+[2025-12-25 16:22:09.782] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:22:09.782] [1] Received chunk 1
+[2025-12-25 16:22:09.788] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:22:09.788] [1] Received chunk 2
+[2025-12-25 16:22:09.798] [1] Processed chunk 2 in 9ms
+[2025-12-25 16:22:09.798] [1] Received chunk 3
+[2025-12-25 16:22:09.804] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:22:10.334] [1] Received chunk 0
+[2025-12-25 16:22:10.340] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:22:10.340] [1] Received chunk 1
+[2025-12-25 16:22:10.346] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:22:10.347] [1] Received chunk 2
+[2025-12-25 16:22:10.356] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:22:10.356] [1] Received chunk 3
+[2025-12-25 16:22:10.361] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:22:10.892] [1] Received chunk 0
+[2025-12-25 16:22:10.899] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:22:10.899] [1] Received chunk 1
+[2025-12-25 16:22:10.905] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:22:10.905] [1] Received chunk 2
+[2025-12-25 16:22:10.912] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:22:10.914] [1] Received chunk 3
+[2025-12-25 16:22:10.921] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:22:11.454] [1] Received chunk 0
+[2025-12-25 16:22:11.459] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:22:11.459] [1] Received chunk 1
+[2025-12-25 16:22:11.466] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:22:11.466] [1] Received chunk 2
+[2025-12-25 16:22:11.472] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:22:11.473] [1] Received chunk 3
+[2025-12-25 16:22:11.479] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:22:12.16] [1] Received chunk 0
+[2025-12-25 16:22:12.21] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:22:12.22] [1] Received chunk 1
+[2025-12-25 16:22:12.27] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:22:12.27] [1] Received chunk 2
+[2025-12-25 16:22:12.34] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:22:12.35] [1] Received chunk 3
+[2025-12-25 16:22:12.41] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:22:12.575] [1] Received chunk 0
+[2025-12-25 16:22:12.575] [1] FAULT INJECTED: Artificial delay: 2000ms
+[2025-12-25 16:22:14.580] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:22:14.581] [1] Received chunk 1
+[2025-12-25 16:22:14.581] [1] FAULT INJECTED: Artificial delay: 2000ms
+[2025-12-25 16:22:16.586] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:22:16.587] [1] Received chunk 2
+[2025-12-25 16:22:16.588] [1] FAULT INJECTED: Artificial delay: 2000ms
+[2025-12-25 16:22:18.594] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:22:48.155] [1] Received chunk 0
+[2025-12-25 16:22:48.156] [1] FAULT INJECTED: Artificial delay: 2000ms
+[2025-12-25 16:22:50.161] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:22:50.161] [1] Received chunk 1
+[2025-12-25 16:22:50.162] [1] FAULT INJECTED: Artificial delay: 2000ms
+[2025-12-25 16:22:52.167] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:22:52.168] [1] Received chunk 2
+[2025-12-25 16:22:52.168] [1] FAULT INJECTED: Artificial delay: 2000ms
+[2025-12-25 16:22:54.174] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:22:54.716] [1] Received chunk 0
+[2025-12-25 16:22:54.716] [1] FAULT INJECTED: Artificial delay: 2000ms
+[2025-12-25 16:22:56.721] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:22:56.722] [1] Received chunk 1
+[2025-12-25 16:22:56.723] [1] FAULT INJECTED: Artificial delay: 2000ms
+[2025-12-25 16:22:58.729] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:22:58.729] [1] Received chunk 2
+[2025-12-25 16:22:58.730] [1] FAULT INJECTED: Artificial delay: 2000ms
+[2025-12-25 16:23:00.736] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:23:00.752] [1] Received chunk 0
+[2025-12-25 16:23:00.752] [1] FAULT INJECTED: Artificial delay: 2000ms
+[2025-12-25 16:23:02.758] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:23:02.759] [1] Received chunk 1
+[2025-12-25 16:23:02.759] [1] FAULT INJECTED: Artificial delay: 2000ms
+[2025-12-25 16:23:04.764] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:23:04.765] [1] Received chunk 2
+[2025-12-25 16:23:04.765] [1] FAULT INJECTED: Artificial delay: 2000ms
+[2025-12-25 16:23:06.771] [1] Processed chunk 2 in 5ms
+
+=== Server 1 Started: 2025-12-25 16:27:11.251 ===
+[2025-12-25 16:30:50.513] [1] Received chunk 0
+[2025-12-25 16:30:50.533] [1] Processed chunk 0 in 19ms
+[2025-12-25 16:30:50.544] [1] Received chunk 1
+[2025-12-25 16:30:50.555] [1] Processed chunk 1 in 10ms
+[2025-12-25 16:30:50.561] [1] Received chunk 2
+[2025-12-25 16:30:50.582] [1] Processed chunk 2 in 18ms
+[2025-12-25 16:30:50.583] [1] Received chunk 3
+[2025-12-25 16:30:50.603] [1] Processed chunk 3 in 19ms
+[2025-12-25 16:30:51.141] [1] Received chunk 0
+[2025-12-25 16:30:51.147] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:30:51.153] [1] Received chunk 1
+[2025-12-25 16:30:51.162] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:30:51.162] [1] Received chunk 2
+[2025-12-25 16:30:51.171] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:30:51.171] [1] Received chunk 3
+[2025-12-25 16:30:51.179] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:30:51.712] [1] Received chunk 0
+[2025-12-25 16:30:51.717] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:30:51.720] [1] Received chunk 1
+[2025-12-25 16:30:51.732] [1] Processed chunk 1 in 11ms
+[2025-12-25 16:30:51.733] [1] Received chunk 2
+[2025-12-25 16:30:51.746] [1] Processed chunk 2 in 13ms
+[2025-12-25 16:30:51.747] [1] Received chunk 3
+[2025-12-25 16:30:51.755] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:30:52.291] [1] Received chunk 0
+[2025-12-25 16:30:52.305] [1] Processed chunk 0 in 13ms
+[2025-12-25 16:30:52.309] [1] Received chunk 1
+[2025-12-25 16:30:52.317] [1] Processed chunk 1 in 8ms
+[2025-12-25 16:30:52.322] [1] Received chunk 2
+[2025-12-25 16:30:52.331] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:30:52.334] [1] Received chunk 3
+[2025-12-25 16:30:52.343] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:30:52.879] [1] Received chunk 0
+[2025-12-25 16:30:52.891] [1] Processed chunk 0 in 11ms
+[2025-12-25 16:30:52.893] [1] Received chunk 1
+[2025-12-25 16:30:52.916] [1] Processed chunk 1 in 20ms
+[2025-12-25 16:30:52.917] [1] Received chunk 2
+[2025-12-25 16:30:52.931] [1] Processed chunk 2 in 9ms
+[2025-12-25 16:30:52.935] [1] Received chunk 3
+[2025-12-25 16:30:52.944] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:30:53.470] [1] Received chunk 0
+[2025-12-25 16:30:53.481] [1] Processed chunk 0 in 10ms
+[2025-12-25 16:30:53.481] [1] Received chunk 1
+[2025-12-25 16:30:53.498] [1] Processed chunk 1 in 16ms
+[2025-12-25 16:30:53.499] [1] Received chunk 2
+[2025-12-25 16:30:53.514] [1] Processed chunk 2 in 15ms
+[2025-12-25 16:30:53.515] [1] Received chunk 3
+[2025-12-25 16:30:53.525] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:30:54.59] [1] Received chunk 0
+[2025-12-25 16:30:54.69] [1] Processed chunk 0 in 9ms
+[2025-12-25 16:30:54.70] [1] Received chunk 1
+[2025-12-25 16:30:54.77] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:30:54.79] [1] Received chunk 2
+[2025-12-25 16:30:54.86] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:30:54.87] [1] Received chunk 3
+[2025-12-25 16:30:54.97] [1] Processed chunk 3 in 9ms
+[2025-12-25 16:30:54.733] [1] Received chunk 0
+[2025-12-25 16:30:54.739] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:30:54.740] [1] Received chunk 1
+[2025-12-25 16:30:54.747] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:30:54.747] [1] Received chunk 2
+[2025-12-25 16:30:54.759] [1] Processed chunk 2 in 10ms
+[2025-12-25 16:30:54.762] [1] Received chunk 3
+[2025-12-25 16:30:54.770] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:30:55.347] [1] Received chunk 0
+[2025-12-25 16:30:55.355] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:30:55.356] [1] Received chunk 1
+[2025-12-25 16:30:55.363] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:30:55.364] [1] Received chunk 2
+[2025-12-25 16:30:55.370] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:30:55.371] [1] Received chunk 3
+[2025-12-25 16:30:55.377] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:30:55.911] [1] Received chunk 0
+[2025-12-25 16:30:55.918] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:30:55.918] [1] Received chunk 1
+[2025-12-25 16:30:55.926] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:30:55.926] [1] Received chunk 2
+[2025-12-25 16:30:55.934] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:30:55.936] [1] Received chunk 3
+[2025-12-25 16:30:55.945] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:30:56.480] [1] Received chunk 0
+[2025-12-25 16:30:56.487] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:30:56.490] [1] Received chunk 1
+[2025-12-25 16:30:56.498] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:30:56.499] [1] Received chunk 2
+[2025-12-25 16:30:56.507] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:30:56.507] [1] Received chunk 3
+[2025-12-25 16:30:56.514] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:30:57.53] [1] Received chunk 0
+[2025-12-25 16:30:57.59] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:30:57.60] [1] Received chunk 1
+[2025-12-25 16:30:57.65] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:30:57.66] [1] Received chunk 2
+[2025-12-25 16:30:57.74] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:30:57.75] [1] Received chunk 3
+[2025-12-25 16:30:57.81] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:30:57.618] [1] Received chunk 0
+[2025-12-25 16:30:57.624] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:30:57.624] [1] Received chunk 1
+[2025-12-25 16:30:57.631] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:30:57.632] [1] Received chunk 2
+[2025-12-25 16:30:57.639] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:30:57.640] [1] Received chunk 3
+[2025-12-25 16:30:57.645] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:30:58.176] [1] Received chunk 0
+[2025-12-25 16:30:58.182] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:30:58.183] [1] Received chunk 1
+[2025-12-25 16:30:58.190] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:30:58.190] [1] Received chunk 2
+[2025-12-25 16:30:58.198] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:30:58.198] [1] Received chunk 3
+[2025-12-25 16:30:58.205] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:30:58.738] [1] Received chunk 0
+[2025-12-25 16:30:58.745] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:30:58.746] [1] Received chunk 1
+[2025-12-25 16:30:58.752] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:30:58.753] [1] Received chunk 2
+[2025-12-25 16:30:58.759] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:30:58.760] [1] Received chunk 3
+[2025-12-25 16:30:58.766] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:30:59.298] [1] Received chunk 0
+[2025-12-25 16:30:59.304] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:30:59.304] [1] Received chunk 1
+[2025-12-25 16:30:59.311] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:30:59.312] [1] Received chunk 2
+[2025-12-25 16:30:59.318] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:30:59.319] [1] Received chunk 3
+[2025-12-25 16:30:59.324] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:30:59.882] [1] Received chunk 0
+[2025-12-25 16:30:59.890] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:30:59.893] [1] Received chunk 1
+[2025-12-25 16:30:59.902] [1] Processed chunk 1 in 8ms
+[2025-12-25 16:30:59.913] [1] Received chunk 2
+[2025-12-25 16:30:59.923] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:30:59.925] [1] Received chunk 3
+[2025-12-25 16:30:59.931] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:31:00.470] [1] Received chunk 0
+[2025-12-25 16:31:00.478] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:31:00.479] [1] Received chunk 1
+[2025-12-25 16:31:00.485] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:00.486] [1] Received chunk 2
+[2025-12-25 16:31:00.492] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:00.493] [1] Received chunk 3
+[2025-12-25 16:31:00.499] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:31:01.41] [1] Received chunk 0
+[2025-12-25 16:31:01.47] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:01.47] [1] Received chunk 1
+[2025-12-25 16:31:01.54] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:01.55] [1] Received chunk 2
+[2025-12-25 16:31:01.64] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:31:01.65] [1] Received chunk 3
+[2025-12-25 16:31:01.72] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:31:01.611] [1] Received chunk 0
+[2025-12-25 16:31:01.618] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:01.619] [1] Received chunk 1
+[2025-12-25 16:31:01.625] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:01.626] [1] Received chunk 2
+[2025-12-25 16:31:01.632] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:01.632] [1] Received chunk 3
+[2025-12-25 16:31:01.638] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:31:02.173] [1] Received chunk 0
+[2025-12-25 16:31:02.179] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:02.180] [1] Received chunk 1
+[2025-12-25 16:31:02.187] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:31:02.188] [1] Received chunk 2
+[2025-12-25 16:31:02.194] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:02.194] [1] Received chunk 3
+[2025-12-25 16:31:02.200] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:02.733] [1] Received chunk 0
+[2025-12-25 16:31:02.739] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:02.739] [1] Received chunk 1
+[2025-12-25 16:31:02.744] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:02.745] [1] Received chunk 2
+[2025-12-25 16:31:02.751] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:02.751] [1] Received chunk 3
+[2025-12-25 16:31:02.757] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:03.291] [1] Received chunk 0
+[2025-12-25 16:31:03.297] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:03.297] [1] Received chunk 1
+[2025-12-25 16:31:03.303] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:03.304] [1] Received chunk 2
+[2025-12-25 16:31:03.309] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:03.310] [1] Received chunk 3
+[2025-12-25 16:31:03.316] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:03.850] [1] Received chunk 0
+[2025-12-25 16:31:03.855] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:03.856] [1] Received chunk 1
+[2025-12-25 16:31:03.861] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:03.862] [1] Received chunk 2
+[2025-12-25 16:31:03.867] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:03.868] [1] Received chunk 3
+[2025-12-25 16:31:03.874] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:04.405] [1] Received chunk 0
+[2025-12-25 16:31:04.410] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:04.411] [1] Received chunk 1
+[2025-12-25 16:31:04.417] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:04.418] [1] Received chunk 2
+[2025-12-25 16:31:04.423] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:04.424] [1] Received chunk 3
+[2025-12-25 16:31:04.431] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:31:04.974] [1] Received chunk 0
+[2025-12-25 16:31:04.985] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:31:04.987] [1] Received chunk 1
+[2025-12-25 16:31:04.995] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:31:04.996] [1] Received chunk 2
+[2025-12-25 16:31:05.3] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:05.3] [1] Received chunk 3
+[2025-12-25 16:31:05.11] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:31:05.545] [1] Received chunk 0
+[2025-12-25 16:31:05.553] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:31:05.553] [1] Received chunk 1
+[2025-12-25 16:31:05.562] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:05.565] [1] Received chunk 2
+[2025-12-25 16:31:05.575] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:05.578] [1] Received chunk 3
+[2025-12-25 16:31:05.594] [1] Processed chunk 3 in 13ms
+[2025-12-25 16:31:06.145] [1] Received chunk 0
+[2025-12-25 16:31:06.153] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:31:06.155] [1] Received chunk 1
+[2025-12-25 16:31:06.163] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:31:06.165] [1] Received chunk 2
+[2025-12-25 16:31:06.176] [1] Processed chunk 2 in 9ms
+[2025-12-25 16:31:06.178] [1] Received chunk 3
+[2025-12-25 16:31:06.185] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:31:06.725] [1] Received chunk 0
+[2025-12-25 16:31:06.731] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:06.732] [1] Received chunk 1
+[2025-12-25 16:31:06.740] [1] Processed chunk 1 in 8ms
+[2025-12-25 16:31:06.741] [1] Received chunk 2
+[2025-12-25 16:31:06.749] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:31:06.750] [1] Received chunk 3
+[2025-12-25 16:31:06.756] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:07.499] [1] Received chunk 0
+[2025-12-25 16:31:07.506] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:31:07.519] [1] Received chunk 1
+[2025-12-25 16:31:07.525] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:07.526] [1] Received chunk 2
+[2025-12-25 16:31:07.539] [1] Processed chunk 2 in 12ms
+[2025-12-25 16:31:07.546] [1] Received chunk 3
+[2025-12-25 16:31:07.558] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:31:08.197] [1] Received chunk 0
+[2025-12-25 16:31:08.206] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:31:08.208] [1] Received chunk 1
+[2025-12-25 16:31:08.216] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:31:08.235] [1] Received chunk 2
+[2025-12-25 16:31:08.246] [1] Processed chunk 2 in 9ms
+[2025-12-25 16:31:08.246] [1] Received chunk 3
+[2025-12-25 16:31:08.255] [1] Processed chunk 3 in 8ms
+[2025-12-25 16:31:08.811] [1] Received chunk 0
+[2025-12-25 16:31:08.818] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:08.818] [1] Received chunk 1
+[2025-12-25 16:31:08.826] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:31:08.827] [1] Received chunk 2
+[2025-12-25 16:31:08.838] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:31:08.839] [1] Received chunk 3
+[2025-12-25 16:31:08.850] [1] Processed chunk 3 in 10ms
+[2025-12-25 16:31:09.388] [1] Received chunk 0
+[2025-12-25 16:31:09.397] [1] Processed chunk 0 in 9ms
+[2025-12-25 16:31:09.398] [1] Received chunk 1
+[2025-12-25 16:31:09.406] [1] Processed chunk 1 in 8ms
+[2025-12-25 16:31:09.408] [1] Received chunk 2
+[2025-12-25 16:31:09.416] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:31:09.418] [1] Received chunk 3
+[2025-12-25 16:31:09.423] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:09.964] [1] Received chunk 0
+[2025-12-25 16:31:09.972] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:31:09.975] [1] Received chunk 1
+[2025-12-25 16:31:09.984] [1] Processed chunk 1 in 8ms
+[2025-12-25 16:31:09.985] [1] Received chunk 2
+[2025-12-25 16:31:09.992] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:31:09.994] [1] Received chunk 3
+[2025-12-25 16:31:10.1] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:31:10.551] [1] Received chunk 0
+[2025-12-25 16:31:10.561] [1] Processed chunk 0 in 10ms
+[2025-12-25 16:31:10.562] [1] Received chunk 1
+[2025-12-25 16:31:10.568] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:10.568] [1] Received chunk 2
+[2025-12-25 16:31:10.579] [1] Processed chunk 2 in 11ms
+[2025-12-25 16:31:10.581] [1] Received chunk 3
+[2025-12-25 16:31:10.587] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:11.124] [1] Received chunk 0
+[2025-12-25 16:31:11.130] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:11.131] [1] Received chunk 1
+[2025-12-25 16:31:11.138] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:31:11.139] [1] Received chunk 2
+[2025-12-25 16:31:11.147] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:31:11.147] [1] Received chunk 3
+[2025-12-25 16:31:11.153] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:11.693] [1] Received chunk 0
+[2025-12-25 16:31:11.699] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:11.700] [1] Received chunk 1
+[2025-12-25 16:31:11.705] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:11.706] [1] Received chunk 2
+[2025-12-25 16:31:11.713] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:11.714] [1] Received chunk 3
+[2025-12-25 16:31:11.721] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:31:12.260] [1] Received chunk 0
+[2025-12-25 16:31:12.266] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:12.267] [1] Received chunk 1
+[2025-12-25 16:31:12.272] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:12.273] [1] Received chunk 2
+[2025-12-25 16:31:12.281] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:31:12.282] [1] Received chunk 3
+[2025-12-25 16:31:12.290] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:31:12.835] [1] Received chunk 0
+[2025-12-25 16:31:12.841] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:12.842] [1] Received chunk 1
+[2025-12-25 16:31:12.848] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:12.849] [1] Received chunk 2
+[2025-12-25 16:31:12.856] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:12.856] [1] Received chunk 3
+[2025-12-25 16:31:12.861] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:31:13.394] [1] Received chunk 0
+[2025-12-25 16:31:13.403] [1] Processed chunk 0 in 8ms
+[2025-12-25 16:31:13.404] [1] Received chunk 1
+[2025-12-25 16:31:13.413] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:31:13.414] [1] Received chunk 2
+[2025-12-25 16:31:13.420] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:13.421] [1] Received chunk 3
+[2025-12-25 16:31:13.427] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:13.973] [1] Received chunk 0
+[2025-12-25 16:31:13.981] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:31:13.982] [1] Received chunk 1
+[2025-12-25 16:31:13.989] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:13.990] [1] Received chunk 2
+[2025-12-25 16:31:13.998] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:31:13.999] [1] Received chunk 3
+[2025-12-25 16:31:14.6] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:31:14.534] [1] Received chunk 0
+[2025-12-25 16:31:14.541] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:31:14.541] [1] Received chunk 1
+[2025-12-25 16:31:14.548] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:14.549] [1] Received chunk 2
+[2025-12-25 16:31:14.557] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:31:14.557] [1] Received chunk 3
+[2025-12-25 16:31:14.563] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:15.105] [1] Received chunk 0
+[2025-12-25 16:31:15.112] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:31:15.112] [1] Received chunk 1
+[2025-12-25 16:31:15.119] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:15.119] [1] Received chunk 2
+[2025-12-25 16:31:15.128] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:31:15.128] [1] Received chunk 3
+[2025-12-25 16:31:15.135] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:15.666] [1] Received chunk 0
+[2025-12-25 16:31:15.671] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:15.672] [1] Received chunk 1
+[2025-12-25 16:31:15.679] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:15.680] [1] Received chunk 2
+[2025-12-25 16:31:15.687] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:15.687] [1] Received chunk 3
+[2025-12-25 16:31:15.694] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:31:16.231] [1] Received chunk 0
+[2025-12-25 16:31:16.236] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:16.237] [1] Received chunk 1
+[2025-12-25 16:31:16.242] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:16.243] [1] Received chunk 2
+[2025-12-25 16:31:16.251] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:31:16.251] [1] Received chunk 3
+[2025-12-25 16:31:16.258] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:16.849] [1] Received chunk 0
+[2025-12-25 16:31:16.854] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:16.854] [1] Received chunk 1
+[2025-12-25 16:31:16.860] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:16.861] [1] Received chunk 2
+[2025-12-25 16:31:16.867] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:16.868] [1] Received chunk 3
+[2025-12-25 16:31:16.873] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:31:17.408] [1] Received chunk 0
+[2025-12-25 16:31:17.413] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:17.414] [1] Received chunk 1
+[2025-12-25 16:31:17.421] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:17.421] [1] Received chunk 2
+[2025-12-25 16:31:17.427] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:17.428] [1] Received chunk 3
+[2025-12-25 16:31:17.434] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:17.963] [1] Received chunk 0
+[2025-12-25 16:31:17.969] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:17.969] [1] Received chunk 1
+[2025-12-25 16:31:17.974] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:17.975] [1] Received chunk 2
+[2025-12-25 16:31:17.980] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:17.981] [1] Received chunk 3
+[2025-12-25 16:31:17.987] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:18.519] [1] Received chunk 0
+[2025-12-25 16:31:18.524] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:18.525] [1] Received chunk 1
+[2025-12-25 16:31:18.531] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:18.532] [1] Received chunk 2
+[2025-12-25 16:31:18.539] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:31:18.540] [1] Received chunk 3
+[2025-12-25 16:31:18.545] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:19.76] [1] Received chunk 0
+[2025-12-25 16:31:19.81] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:19.81] [1] Received chunk 1
+[2025-12-25 16:31:19.86] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:19.87] [1] Received chunk 2
+[2025-12-25 16:31:19.92] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:19.93] [1] Received chunk 3
+[2025-12-25 16:31:19.99] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:31:19.630] [1] Received chunk 0
+[2025-12-25 16:31:19.636] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:19.636] [1] Received chunk 1
+[2025-12-25 16:31:19.641] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:31:19.642] [1] Received chunk 2
+[2025-12-25 16:31:19.778] [1] Processed chunk 2 in 4ms
+[2025-12-25 16:31:19.779] [1] Received chunk 3
+[2025-12-25 16:31:19.784] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:31:20.319] [1] Received chunk 0
+[2025-12-25 16:31:20.325] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:31:20.326] [1] Received chunk 1
+[2025-12-25 16:31:20.331] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:20.332] [1] Received chunk 2
+[2025-12-25 16:31:20.340] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:20.340] [1] Received chunk 3
+[2025-12-25 16:31:20.346] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:20.878] [1] Received chunk 0
+[2025-12-25 16:31:20.884] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:20.885] [1] Received chunk 1
+[2025-12-25 16:31:20.891] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:20.891] [1] Received chunk 2
+[2025-12-25 16:31:20.901] [1] Processed chunk 2 in 9ms
+[2025-12-25 16:31:20.902] [1] Received chunk 3
+[2025-12-25 16:31:20.907] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:21.443] [1] Received chunk 0
+[2025-12-25 16:31:21.450] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:31:21.451] [1] Received chunk 1
+[2025-12-25 16:31:21.457] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:21.458] [1] Received chunk 2
+[2025-12-25 16:31:21.465] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:21.466] [1] Received chunk 3
+[2025-12-25 16:31:21.472] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:31:21.999] [1] Received chunk 0
+[2025-12-25 16:31:22.5] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:31:22.6] [1] Received chunk 1
+[2025-12-25 16:31:22.14] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:31:22.14] [1] Received chunk 2
+[2025-12-25 16:31:22.19] [1] Processed chunk 2 in 4ms
+[2025-12-25 16:31:22.20] [1] Received chunk 3
+[2025-12-25 16:31:22.27] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:31:22.558] [1] Received chunk 0
+[2025-12-25 16:31:22.564] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:22.564] [1] Received chunk 1
+[2025-12-25 16:31:22.569] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:31:22.570] [1] Received chunk 2
+[2025-12-25 16:31:22.576] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:22.577] [1] Received chunk 3
+[2025-12-25 16:31:22.582] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:23.117] [1] Received chunk 0
+[2025-12-25 16:31:23.123] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:23.123] [1] Received chunk 1
+[2025-12-25 16:31:23.129] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:23.129] [1] Received chunk 2
+[2025-12-25 16:31:23.135] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:23.135] [1] Received chunk 3
+[2025-12-25 16:31:23.141] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:23.674] [1] Received chunk 0
+[2025-12-25 16:31:23.679] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:23.680] [1] Received chunk 1
+[2025-12-25 16:31:23.685] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:31:23.685] [1] Received chunk 2
+[2025-12-25 16:31:23.693] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:31:23.694] [1] Received chunk 3
+[2025-12-25 16:31:23.699] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:24.231] [1] Received chunk 0
+[2025-12-25 16:31:24.236] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:24.237] [1] Received chunk 1
+[2025-12-25 16:31:24.242] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:24.243] [1] Received chunk 2
+[2025-12-25 16:31:24.249] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:24.249] [1] Received chunk 3
+[2025-12-25 16:31:24.255] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:24.788] [1] Received chunk 0
+[2025-12-25 16:31:24.793] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:24.793] [1] Received chunk 1
+[2025-12-25 16:31:24.801] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:31:24.802] [1] Received chunk 2
+[2025-12-25 16:31:24.808] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:24.808] [1] Received chunk 3
+[2025-12-25 16:31:24.814] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:25.347] [1] Received chunk 0
+[2025-12-25 16:31:25.353] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:25.354] [1] Received chunk 1
+[2025-12-25 16:31:25.359] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:25.360] [1] Received chunk 2
+[2025-12-25 16:31:25.366] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:25.367] [1] Received chunk 3
+[2025-12-25 16:31:25.373] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:25.907] [1] Received chunk 0
+[2025-12-25 16:31:25.913] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:25.913] [1] Received chunk 1
+[2025-12-25 16:31:25.918] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:25.919] [1] Received chunk 2
+[2025-12-25 16:31:25.926] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:25.926] [1] Received chunk 3
+[2025-12-25 16:31:25.932] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:31:26.469] [1] Received chunk 0
+[2025-12-25 16:31:26.475] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:26.475] [1] Received chunk 1
+[2025-12-25 16:31:26.483] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:26.483] [1] Received chunk 2
+[2025-12-25 16:31:26.490] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:26.491] [1] Received chunk 3
+[2025-12-25 16:31:26.497] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:31:27.35] [1] Received chunk 0
+[2025-12-25 16:31:27.43] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:31:27.43] [1] Received chunk 1
+[2025-12-25 16:31:27.50] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:27.51] [1] Received chunk 2
+[2025-12-25 16:31:27.57] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:27.58] [1] Received chunk 3
+[2025-12-25 16:31:27.65] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:31:27.597] [1] Received chunk 0
+[2025-12-25 16:31:27.605] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:31:27.607] [1] Received chunk 1
+[2025-12-25 16:31:27.615] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:27.615] [1] Received chunk 2
+[2025-12-25 16:31:27.623] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:31:27.624] [1] Received chunk 3
+[2025-12-25 16:31:27.629] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:28.178] [1] Received chunk 0
+[2025-12-25 16:31:28.184] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:28.185] [1] Received chunk 1
+[2025-12-25 16:31:28.192] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:31:28.193] [1] Received chunk 2
+[2025-12-25 16:31:28.202] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:31:28.203] [1] Received chunk 3
+[2025-12-25 16:31:28.208] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:28.745] [1] Received chunk 0
+[2025-12-25 16:31:28.751] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:31:28.752] [1] Received chunk 1
+[2025-12-25 16:31:28.757] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:28.758] [1] Received chunk 2
+[2025-12-25 16:31:28.765] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:28.765] [1] Received chunk 3
+[2025-12-25 16:31:28.771] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:29.307] [1] Received chunk 0
+[2025-12-25 16:31:29.313] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:29.313] [1] Received chunk 1
+[2025-12-25 16:31:29.320] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:29.321] [1] Received chunk 2
+[2025-12-25 16:31:29.328] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:29.329] [1] Received chunk 3
+[2025-12-25 16:31:29.337] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:31:29.880] [1] Received chunk 0
+[2025-12-25 16:31:29.886] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:29.886] [1] Received chunk 1
+[2025-12-25 16:31:29.892] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:29.893] [1] Received chunk 2
+[2025-12-25 16:31:29.899] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:29.900] [1] Received chunk 3
+[2025-12-25 16:31:29.905] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:30.440] [1] Received chunk 0
+[2025-12-25 16:31:30.445] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:30.446] [1] Received chunk 1
+[2025-12-25 16:31:30.451] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:30.452] [1] Received chunk 2
+[2025-12-25 16:31:30.458] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:30.459] [1] Received chunk 3
+[2025-12-25 16:31:30.464] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:31:31.1] [1] Received chunk 0
+[2025-12-25 16:31:31.7] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:31.7] [1] Received chunk 1
+[2025-12-25 16:31:31.14] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:31.15] [1] Received chunk 2
+[2025-12-25 16:31:31.24] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:31:31.25] [1] Received chunk 3
+[2025-12-25 16:31:31.30] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:31.560] [1] Received chunk 0
+[2025-12-25 16:31:31.565] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:31.565] [1] Received chunk 1
+[2025-12-25 16:31:31.571] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:31.572] [1] Received chunk 2
+[2025-12-25 16:31:31.578] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:31.579] [1] Received chunk 3
+[2025-12-25 16:31:31.584] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:31:32.116] [1] Received chunk 0
+[2025-12-25 16:31:32.121] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:32.122] [1] Received chunk 1
+[2025-12-25 16:31:32.128] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:32.132] [1] Received chunk 2
+[2025-12-25 16:31:32.145] [1] Processed chunk 2 in 10ms
+[2025-12-25 16:31:32.145] [1] Received chunk 3
+[2025-12-25 16:31:32.154] [1] Processed chunk 3 in 8ms
+[2025-12-25 16:31:32.683] [1] Received chunk 0
+[2025-12-25 16:31:32.690] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:31:32.690] [1] Received chunk 1
+[2025-12-25 16:31:32.697] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:32.698] [1] Received chunk 2
+[2025-12-25 16:31:32.705] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:31:32.705] [1] Received chunk 3
+[2025-12-25 16:31:32.711] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:33.236] [1] Received chunk 0
+[2025-12-25 16:31:33.243] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:31:33.244] [1] Received chunk 1
+[2025-12-25 16:31:33.250] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:33.250] [1] Received chunk 2
+[2025-12-25 16:31:33.257] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:33.257] [1] Received chunk 3
+[2025-12-25 16:31:33.263] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:31:33.798] [1] Received chunk 0
+[2025-12-25 16:31:33.804] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:33.805] [1] Received chunk 1
+[2025-12-25 16:31:33.810] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:31:33.811] [1] Received chunk 2
+[2025-12-25 16:31:33.817] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:33.818] [1] Received chunk 3
+[2025-12-25 16:31:33.823] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:31:34.354] [1] Received chunk 0
+[2025-12-25 16:31:34.360] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:31:34.361] [1] Received chunk 1
+[2025-12-25 16:31:34.366] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:34.366] [1] Received chunk 2
+[2025-12-25 16:31:34.373] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:34.374] [1] Received chunk 3
+[2025-12-25 16:31:34.380] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:34.915] [1] Received chunk 0
+[2025-12-25 16:31:34.920] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:34.921] [1] Received chunk 1
+[2025-12-25 16:31:34.926] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:31:34.926] [1] Received chunk 2
+[2025-12-25 16:31:34.933] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:34.934] [1] Received chunk 3
+[2025-12-25 16:31:34.940] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:35.473] [1] Received chunk 0
+[2025-12-25 16:31:35.479] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:35.480] [1] Received chunk 1
+[2025-12-25 16:31:35.485] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:31:35.485] [1] Received chunk 2
+[2025-12-25 16:31:35.491] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:35.492] [1] Received chunk 3
+[2025-12-25 16:31:35.499] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:31:36.31] [1] Received chunk 0
+[2025-12-25 16:31:36.35] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:36.36] [1] Received chunk 1
+[2025-12-25 16:31:36.42] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:36.43] [1] Received chunk 2
+[2025-12-25 16:31:36.49] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:36.49] [1] Received chunk 3
+[2025-12-25 16:31:36.54] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:31:36.590] [1] Received chunk 0
+[2025-12-25 16:31:36.596] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:36.596] [1] Received chunk 1
+[2025-12-25 16:31:36.602] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:36.602] [1] Received chunk 2
+[2025-12-25 16:31:36.611] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:31:36.612] [1] Received chunk 3
+[2025-12-25 16:31:36.617] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:31:37.153] [1] Received chunk 0
+[2025-12-25 16:31:37.159] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:37.159] [1] Received chunk 1
+[2025-12-25 16:31:37.165] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:37.166] [1] Received chunk 2
+[2025-12-25 16:31:37.171] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:37.172] [1] Received chunk 3
+[2025-12-25 16:31:37.178] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:37.717] [1] Received chunk 0
+[2025-12-25 16:31:37.722] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:37.723] [1] Received chunk 1
+[2025-12-25 16:31:37.728] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:37.729] [1] Received chunk 2
+[2025-12-25 16:31:37.734] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:37.736] [1] Received chunk 3
+[2025-12-25 16:31:37.741] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:31:38.276] [1] Received chunk 0
+[2025-12-25 16:31:38.281] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:38.281] [1] Received chunk 1
+[2025-12-25 16:31:38.288] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:38.289] [1] Received chunk 2
+[2025-12-25 16:31:38.295] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:38.296] [1] Received chunk 3
+[2025-12-25 16:31:38.302] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:38.838] [1] Received chunk 0
+[2025-12-25 16:31:38.844] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:38.844] [1] Received chunk 1
+[2025-12-25 16:31:38.850] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:38.851] [1] Received chunk 2
+[2025-12-25 16:31:38.858] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:38.858] [1] Received chunk 3
+[2025-12-25 16:31:38.864] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:39.397] [1] Received chunk 0
+[2025-12-25 16:31:39.402] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:39.402] [1] Received chunk 1
+[2025-12-25 16:31:39.407] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:39.408] [1] Received chunk 2
+[2025-12-25 16:31:39.415] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:39.416] [1] Received chunk 3
+[2025-12-25 16:31:39.421] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:39.955] [1] Received chunk 0
+[2025-12-25 16:31:39.961] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:39.962] [1] Received chunk 1
+[2025-12-25 16:31:39.967] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:31:39.967] [1] Received chunk 2
+[2025-12-25 16:31:39.975] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:31:39.976] [1] Received chunk 3
+[2025-12-25 16:31:39.982] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:40.513] [1] Received chunk 0
+[2025-12-25 16:31:40.519] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:40.519] [1] Received chunk 1
+[2025-12-25 16:31:40.525] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:40.526] [1] Received chunk 2
+[2025-12-25 16:31:40.532] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:40.533] [1] Received chunk 3
+[2025-12-25 16:31:40.538] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:31:41.69] [1] Received chunk 0
+[2025-12-25 16:31:41.75] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:41.75] [1] Received chunk 1
+[2025-12-25 16:31:41.81] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:41.82] [1] Received chunk 2
+[2025-12-25 16:31:41.88] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:41.89] [1] Received chunk 3
+[2025-12-25 16:31:41.94] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:31:41.627] [1] Received chunk 0
+[2025-12-25 16:31:41.632] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:41.633] [1] Received chunk 1
+[2025-12-25 16:31:41.639] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:41.639] [1] Received chunk 2
+[2025-12-25 16:31:41.646] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:41.646] [1] Received chunk 3
+[2025-12-25 16:31:41.652] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:42.185] [1] Received chunk 0
+[2025-12-25 16:31:42.190] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:42.191] [1] Received chunk 1
+[2025-12-25 16:31:42.197] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:42.197] [1] Received chunk 2
+[2025-12-25 16:31:42.204] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:42.204] [1] Received chunk 3
+[2025-12-25 16:31:42.210] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:42.743] [1] Received chunk 0
+[2025-12-25 16:31:42.749] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:42.750] [1] Received chunk 1
+[2025-12-25 16:31:42.756] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:42.757] [1] Received chunk 2
+[2025-12-25 16:31:42.765] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:31:42.766] [1] Received chunk 3
+[2025-12-25 16:31:42.772] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:43.311] [1] Received chunk 0
+[2025-12-25 16:31:43.316] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:43.317] [1] Received chunk 1
+[2025-12-25 16:31:43.322] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:31:43.322] [1] Received chunk 2
+[2025-12-25 16:31:43.328] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:43.329] [1] Received chunk 3
+[2025-12-25 16:31:43.334] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:31:43.871] [1] Received chunk 0
+[2025-12-25 16:31:43.877] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:43.877] [1] Received chunk 1
+[2025-12-25 16:31:43.883] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:43.883] [1] Received chunk 2
+[2025-12-25 16:31:43.889] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:43.889] [1] Received chunk 3
+[2025-12-25 16:31:43.895] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:44.440] [1] Received chunk 0
+[2025-12-25 16:31:44.445] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:44.446] [1] Received chunk 1
+[2025-12-25 16:31:44.451] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:44.452] [1] Received chunk 2
+[2025-12-25 16:31:44.459] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:44.460] [1] Received chunk 3
+[2025-12-25 16:31:44.465] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:45.10] [1] Received chunk 0
+[2025-12-25 16:31:45.15] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:45.16] [1] Received chunk 1
+[2025-12-25 16:31:45.21] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:45.22] [1] Received chunk 2
+[2025-12-25 16:31:45.28] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:45.29] [1] Received chunk 3
+[2025-12-25 16:31:45.35] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:45.573] [1] Received chunk 0
+[2025-12-25 16:31:45.578] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:45.579] [1] Received chunk 1
+[2025-12-25 16:31:45.585] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:45.586] [1] Received chunk 2
+[2025-12-25 16:31:45.592] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:45.592] [1] Received chunk 3
+[2025-12-25 16:31:45.599] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:31:46.145] [1] Received chunk 0
+[2025-12-25 16:31:46.152] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:31:46.153] [1] Received chunk 1
+[2025-12-25 16:31:46.160] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:31:46.161] [1] Received chunk 2
+[2025-12-25 16:31:46.167] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:46.167] [1] Received chunk 3
+[2025-12-25 16:31:46.176] [1] Processed chunk 3 in 8ms
+[2025-12-25 16:31:46.709] [1] Received chunk 0
+[2025-12-25 16:31:46.716] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:31:46.716] [1] Received chunk 1
+[2025-12-25 16:31:46.725] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:31:46.725] [1] Received chunk 2
+[2025-12-25 16:31:46.732] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:46.733] [1] Received chunk 3
+[2025-12-25 16:31:46.740] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:31:47.287] [1] Received chunk 0
+[2025-12-25 16:31:47.294] [1] Processed chunk 0 in 7ms
+[2025-12-25 16:31:47.295] [1] Received chunk 1
+[2025-12-25 16:31:47.303] [1] Processed chunk 1 in 7ms
+[2025-12-25 16:31:47.303] [1] Received chunk 2
+[2025-12-25 16:31:47.310] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:47.310] [1] Received chunk 3
+[2025-12-25 16:31:47.318] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:31:47.862] [1] Received chunk 0
+[2025-12-25 16:31:47.867] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:47.867] [1] Received chunk 1
+[2025-12-25 16:31:47.873] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:47.874] [1] Received chunk 2
+[2025-12-25 16:31:47.880] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:47.881] [1] Received chunk 3
+[2025-12-25 16:31:47.887] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:48.421] [1] Received chunk 0
+[2025-12-25 16:31:48.427] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:48.428] [1] Received chunk 1
+[2025-12-25 16:31:48.437] [1] Processed chunk 1 in 8ms
+[2025-12-25 16:31:48.440] [1] Received chunk 2
+[2025-12-25 16:31:48.448] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:31:48.449] [1] Received chunk 3
+[2025-12-25 16:31:48.457] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:31:48.995] [1] Received chunk 0
+[2025-12-25 16:31:49.0] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:49.1] [1] Received chunk 1
+[2025-12-25 16:31:49.8] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:49.9] [1] Received chunk 2
+[2025-12-25 16:31:49.16] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:49.16] [1] Received chunk 3
+[2025-12-25 16:31:49.23] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:31:49.558] [1] Received chunk 0
+[2025-12-25 16:31:49.563] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:49.564] [1] Received chunk 1
+[2025-12-25 16:31:49.569] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:49.570] [1] Received chunk 2
+[2025-12-25 16:31:49.576] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:49.577] [1] Received chunk 3
+[2025-12-25 16:31:49.582] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:50.118] [1] Received chunk 0
+[2025-12-25 16:31:50.124] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:50.124] [1] Received chunk 1
+[2025-12-25 16:31:50.130] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:50.130] [1] Received chunk 2
+[2025-12-25 16:31:50.139] [1] Processed chunk 2 in 8ms
+[2025-12-25 16:31:50.140] [1] Received chunk 3
+[2025-12-25 16:31:50.146] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:50.683] [1] Received chunk 0
+[2025-12-25 16:31:50.689] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:50.689] [1] Received chunk 1
+[2025-12-25 16:31:50.695] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:50.697] [1] Received chunk 2
+[2025-12-25 16:31:50.704] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:50.704] [1] Received chunk 3
+[2025-12-25 16:31:50.711] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:31:51.242] [1] Received chunk 0
+[2025-12-25 16:31:51.247] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:51.248] [1] Received chunk 1
+[2025-12-25 16:31:51.255] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:51.256] [1] Received chunk 2
+[2025-12-25 16:31:51.262] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:51.263] [1] Received chunk 3
+[2025-12-25 16:31:51.270] [1] Processed chunk 3 in 7ms
+[2025-12-25 16:31:51.803] [1] Received chunk 0
+[2025-12-25 16:31:51.808] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:51.808] [1] Received chunk 1
+[2025-12-25 16:31:51.815] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:51.815] [1] Received chunk 2
+[2025-12-25 16:31:51.821] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:51.822] [1] Received chunk 3
+[2025-12-25 16:31:51.828] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:52.363] [1] Received chunk 0
+[2025-12-25 16:31:52.368] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:52.368] [1] Received chunk 1
+[2025-12-25 16:31:52.374] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:52.375] [1] Received chunk 2
+[2025-12-25 16:31:52.381] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:52.381] [1] Received chunk 3
+[2025-12-25 16:31:52.387] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:52.925] [1] Received chunk 0
+[2025-12-25 16:31:52.930] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:52.930] [1] Received chunk 1
+[2025-12-25 16:31:52.936] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:52.937] [1] Received chunk 2
+[2025-12-25 16:31:52.943] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:52.944] [1] Received chunk 3
+[2025-12-25 16:31:52.949] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:53.487] [1] Received chunk 0
+[2025-12-25 16:31:53.493] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:53.494] [1] Received chunk 1
+[2025-12-25 16:31:53.499] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:31:53.500] [1] Received chunk 2
+[2025-12-25 16:31:53.505] [1] Processed chunk 2 in 4ms
+[2025-12-25 16:31:53.505] [1] Received chunk 3
+[2025-12-25 16:31:53.513] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:31:54.49] [1] Received chunk 0
+[2025-12-25 16:31:54.54] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:54.54] [1] Received chunk 1
+[2025-12-25 16:31:54.60] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:54.60] [1] Received chunk 2
+[2025-12-25 16:31:54.68] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:31:54.69] [1] Received chunk 3
+[2025-12-25 16:31:54.74] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:31:54.610] [1] Received chunk 0
+[2025-12-25 16:31:54.615] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:54.616] [1] Received chunk 1
+[2025-12-25 16:31:54.621] [1] Processed chunk 1 in 4ms
+[2025-12-25 16:31:54.623] [1] Received chunk 2
+[2025-12-25 16:31:54.629] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:54.630] [1] Received chunk 3
+[2025-12-25 16:31:54.637] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:55.166] [1] Received chunk 0
+[2025-12-25 16:31:55.171] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:55.172] [1] Received chunk 1
+[2025-12-25 16:31:55.178] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:55.179] [1] Received chunk 2
+[2025-12-25 16:31:55.185] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:55.186] [1] Received chunk 3
+[2025-12-25 16:31:55.191] [1] Processed chunk 3 in 4ms
+[2025-12-25 16:31:55.732] [1] Received chunk 0
+[2025-12-25 16:31:55.737] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:55.738] [1] Received chunk 1
+[2025-12-25 16:31:55.743] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:55.744] [1] Received chunk 2
+[2025-12-25 16:31:55.751] [1] Processed chunk 2 in 6ms
+[2025-12-25 16:31:55.751] [1] Received chunk 3
+[2025-12-25 16:31:55.758] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:31:56.292] [1] Received chunk 0
+[2025-12-25 16:31:56.297] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:56.297] [1] Received chunk 1
+[2025-12-25 16:31:56.302] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:56.303] [1] Received chunk 2
+[2025-12-25 16:31:56.309] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:56.310] [1] Received chunk 3
+[2025-12-25 16:31:56.315] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:56.849] [1] Received chunk 0
+[2025-12-25 16:31:56.854] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:56.854] [1] Received chunk 1
+[2025-12-25 16:31:56.861] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:56.861] [1] Received chunk 2
+[2025-12-25 16:31:56.867] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:56.868] [1] Received chunk 3
+[2025-12-25 16:31:56.873] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:57.406] [1] Received chunk 0
+[2025-12-25 16:31:57.411] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:57.412] [1] Received chunk 1
+[2025-12-25 16:31:57.418] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:31:57.419] [1] Received chunk 2
+[2025-12-25 16:31:57.425] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:57.425] [1] Received chunk 3
+[2025-12-25 16:31:57.431] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:57.961] [1] Received chunk 0
+[2025-12-25 16:31:57.967] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:57.967] [1] Received chunk 1
+[2025-12-25 16:31:57.972] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:57.973] [1] Received chunk 2
+[2025-12-25 16:31:57.978] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:57.979] [1] Received chunk 3
+[2025-12-25 16:31:57.985] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:58.518] [1] Received chunk 0
+[2025-12-25 16:31:58.523] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:58.524] [1] Received chunk 1
+[2025-12-25 16:31:58.530] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:58.530] [1] Received chunk 2
+[2025-12-25 16:31:58.538] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:31:58.539] [1] Received chunk 3
+[2025-12-25 16:31:58.544] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:59.81] [1] Received chunk 0
+[2025-12-25 16:31:59.86] [1] Processed chunk 0 in 4ms
+[2025-12-25 16:31:59.86] [1] Received chunk 1
+[2025-12-25 16:31:59.92] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:59.92] [1] Received chunk 2
+[2025-12-25 16:31:59.99] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:59.99] [1] Received chunk 3
+[2025-12-25 16:31:59.105] [1] Processed chunk 3 in 5ms
+[2025-12-25 16:31:59.636] [1] Received chunk 0
+[2025-12-25 16:31:59.642] [1] Processed chunk 0 in 5ms
+[2025-12-25 16:31:59.642] [1] Received chunk 1
+[2025-12-25 16:31:59.648] [1] Processed chunk 1 in 5ms
+[2025-12-25 16:31:59.648] [1] Received chunk 2
+[2025-12-25 16:31:59.654] [1] Processed chunk 2 in 5ms
+[2025-12-25 16:31:59.655] [1] Received chunk 3
+[2025-12-25 16:31:59.662] [1] Processed chunk 3 in 6ms
+[2025-12-25 16:32:00.187] [1] Received chunk 0
+[2025-12-25 16:32:00.194] [1] Processed chunk 0 in 6ms
+[2025-12-25 16:32:00.195] [1] Received chunk 1
+[2025-12-25 16:32:00.201] [1] Processed chunk 1 in 6ms
+[2025-12-25 16:32:00.202] [1] Received chunk 2
+[2025-12-25 16:32:00.210] [1] Processed chunk 2 in 7ms
+[2025-12-25 16:32:00.210] [1] Received chunk 3
+[2025-12-25 16:32:00.217] [1] Processed chunk 3 in 6ms
