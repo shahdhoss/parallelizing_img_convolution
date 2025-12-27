@@ -80,19 +80,13 @@ export OMP_NUM_THREADS=8
 
 ### Build
 ```bash
-mpicxx -O3 -fopenmp -o hybrid_convolution distributed/main.cpp
+
 ```
 
 ### Run
 ```bash
-export OMP_NUM_THREADS=4
-mpiexec -n 4 ./hybrid_convolution input.png output_hybrid.png
+
 ```
 
-This configuration runs 4 MPI processes, each using 4 OpenMP threads.
 
 ---
-
-## Contact
-
-[Add contact information here]
