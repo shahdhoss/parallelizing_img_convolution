@@ -76,16 +76,20 @@ export OMP_NUM_THREADS=8
 
 ### Description
 
-
+Transforming the present image convolution parallel computation system into a fault tolerant distributed system that continues operating during failures 
 
 ### Build
+Note that both a server and a client have to be built and run in this section
 ```bash
-
+g++ convolution_server.cpp imageConvolution.pb.cc imageConvolution.grpc.pb.cc  -o server `pkg-config --cflags --libs grpc++ protobuf opencv4` -fopenmp
+ g++ convolution_client.cpp imageConvolution.pb.cc imageConvolution.grpc.pb.cc -o client  `pkg-config --cflags --libs grpc++ protobuf opencv4`
 ```
 
 ### Run
+Note that the server has to be run in a different terminal firstly before running the client
 ```bash
-
+./server
+./client
 ```
 
 
