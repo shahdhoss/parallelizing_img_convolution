@@ -375,7 +375,11 @@ int main(int argc, char** argv) {
     // Configure replica addresses
     vector<string> server_addresses = {
         "localhost:50051",  // Replica 1
-        "localhost:50052   // 60 seconds by default
+        "localhost:50052"   // Replica 2
+    };
+    
+    string image_path = "../../../data/img/0.jpg";
+    int duration = 60;     // 60 seconds by default
     int delay_ms = 500;    // 500ms delay = ~2 req/sec
     
     if (argc > 1) {
@@ -404,11 +408,7 @@ int main(int argc, char** argv) {
     vector<vector<int>> kernel = {{0, 1, 0}, {-1, 5, -1}, {0, -1, 0}};
     
     // Run load generator with configurable rate
-    LoadGenerator generator(client, image_path, kernel, duration, delay_ms
-    vector<vector<int>> kernel = {{0, 1, 0}, {-1, 5, -1}, {0, -1, 0}};
-    
-    // Run load generator
-    LoadGenerator generator(client, image_path, kernel, duration);
+    LoadGenerator generator(client, image_path, kernel, duration, delay_ms);
     generator.run();
     
     return 0;
